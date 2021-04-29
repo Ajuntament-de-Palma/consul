@@ -576,14 +576,6 @@ body > header,
     }
   }
 
-  .has-submenu {
-
-    &.is-active a {
-      color: #fff;
-      font-weight: bold;
-    }
-  }
-
   .menu {
 
     &.is-dropdown-submenu {
@@ -592,6 +584,11 @@ body > header,
       margin-top: rem-calc(-12);
       padding: 0;
       z-index: 9;
+    }
+
+    .has-submenu.is-active {
+      font-weight: bold;
+      text-decoration: underline;
     }
 
     .is-submenu-item {
@@ -767,14 +764,6 @@ body > header,
     margin-bottom: 0;
     margin-right: 0;
     width: 100%;
-  }
-}
-
-.top-bar-right {
-
-  .is-active {
-    font-weight: bold;
-    text-decoration: underline;
   }
 }
 
