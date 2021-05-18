@@ -25,6 +25,5 @@ class SMSApi
   def stubbed_response
     {:create_message_response=>{:create_message_result=>{:response_code=>"0", :response_message=>"Operation Success", :id=>"af139a3c-b639-423d-a2e8-8459e3a6ca4c"}}}
   end
-
 end
 
