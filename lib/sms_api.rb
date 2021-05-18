@@ -1,57 +1,30 @@
-require "open-uri"
+require 'open-uri'
 class SMSApi
-  attr_accessor :client
+  attr_accessor :from_email, :to_email, :sender
 
   def initialize
-    @client = Savon.client(wsdl: url)
-  end
-
-  def url
-    return "" unless end_point_available?
-
-    open(Rails.application.secrets.sms_end_point).base_uri.to_s
-  end
-
-  def authorization
-    Base64.encode64("#{Rails.application.secrets.sms_username}:#{Rails.application.secrets.sms_password}")
+    @from_email = Rails.application.secrets.sms_from_email
+    @to_email = Rails.application.secrets.sms_to_email
+    @sender = Rails.application.secrets.sms_sender
   end
 
   def sms_deliver(phone, code)
     return stubbed_response unless end_point_available?
 
-    response = client.call(:enviar_sms_simples, message: request(phone, code))
-    success?(response)
-  end
+    subject = "CUENTA mserra@imi.palma.es PARA #{phone}  REMITENTE #{sender}"
+    body = "Clave para verificarte en Tu Fas Palma: #{code}. Ajuntament de Palma"
+    ActionMailer::Base.mail(from: from_email, to: to_email, subject: subject, body: body).deliver
 
-  def request(phone, code)
-    { autorizacion:  authorization,
-      destinatarios: { destinatario: phone },
-      texto_mensaje: "Clave para verificarte: #{code}. Gobierno Abierto",
-      solicita_notificacion: "All" }
-  end
-
-  def success?(response)
-    response.body[:respuesta_sms][:respuesta_servicio_externo][:texto_respuesta] == "Success"
+    true
   end
 
   def end_point_available?
-    Rails.env.staging? || Rails.env.preproduction? || Rails.env.production?
+    Rails.env.staging? || Rails.env.production? || Rails.env.development?
   end
 
   def stubbed_response
-    {
-      respuesta_sms: {
-        identificador_mensaje: "1234567",
-        fecha_respuesta: "Thu, 20 Aug 2015 16:28:05 +0200",
-        respuesta_pasarela: {
-          codigo_pasarela: "0000",
-          descripcion_pasarela: "Operación ejecutada correctamente."
-        },
-        respuesta_servicio_externo: {
-          codigo_respuesta: "1000",
-          texto_respuesta: "Success"
-        }
-      }
-    }
+    {:create_message_response=>{:create_message_result=>{:response_code=>"0", :response_message=>"Operation Success", :id=>"af139a3c-b639-423d-a2e8-8459e3a6ca4c"}}}
   end
+
 end
+
