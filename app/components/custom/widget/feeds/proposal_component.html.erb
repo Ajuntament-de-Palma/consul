@@ -1,0 +1,8 @@
+<div class="proposal">
+  <div class="feed-description small-12 medium-6 column">
+    <strong><%= link_to proposal.title, url_for(proposal) %></strong><br>
+    <p><%= proposal.summary %></p>
+    <%= render SDG::TagListComponent.new(proposal, limit: 5) %>
+  </div>
+
+</div>

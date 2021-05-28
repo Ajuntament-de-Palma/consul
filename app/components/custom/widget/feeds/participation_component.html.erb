@@ -1,0 +1,15 @@
+
+<div class=" feed row margin-bottom feeds-list feeds-participation">
+    <% feeds.each do |feed| %>
+      <% if feed_proposals?(feed) %>
+      <div class="orange">
+        <%= render Widget::Feeds::FeedComponent.new(feed) %>
+        </div>
+        <% end %>
+        <% if feed_debates?(feed) %>
+      <div class="pink">
+        <%= render Widget::Feeds::FeedComponent.new(feed) %>
+        </div>
+        <% end %>
+    <% end %>
+  </div>
