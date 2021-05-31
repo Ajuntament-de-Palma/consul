@@ -13,13 +13,16 @@
 
       <h1 class="top-bar-title">
         <%= link_to root_path, accesskey: "0" do %>
-          <%= image_tag(image_path_for("logo_header.png"), class: "float-left", alt: setting["org_name"]) %>
+          <%= image_tag(image_path_for("logo_header.svg"), width: 100,  class: "float-left", alt: setting["org_name"]) %>
         <% end %>
       </h1>
 
       <div id="responsive-menu">
         <div class="top-bar-right">
           <ul class="row-menu menu" data-responsive-menu="medium-dropdown">
+            <li>
+              <%= image_tag(image_path_for("logo-ayuntamiento.svg"), width: 200,  class: "float-left", alt: setting["org_name"]) %>
+            </li>
             <%= render "shared/admin_login_items" %>
             <%= render "layouts/notification_item" %>
             <%= render "devise/menu/login_items" %>

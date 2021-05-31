@@ -1,0 +1,51 @@
+<section>
+
+<div class="flex-row">
+  <div class="step text-center">
+    <%= image_tag(image_path_for("logo-propones.svg")) %>
+    <div class="propones">
+    <strong>
+    <%= t("layouts.steps.propose.title") %>
+    </strong>
+    </div>
+    <div class="description">
+    <span>
+      <%= t("layouts.steps.propose.description") %>
+    </span>
+    </div>
+  </div>
+
+  <%= image_tag(image_path_for("divider-large.svg"), width: 5) %>
+
+  <div class="step text-center">
+    <%= image_tag(image_path_for("logo-decides.svg")) %>
+    <div class="decides">
+    <strong>
+    <%= t("layouts.steps.decide.title") %>
+    </strong>
+    </div>
+    <div class="description">
+    <span>
+    <%= t("layouts.steps.decide.description") %>
+    </span>
+    </div>
+  </div>
+
+  <%= image_tag(image_path_for("divider-large.svg"), width: 5) %>
+
+  <div class="step text-center">
+    <%= image_tag(image_path_for("logo-sehace.svg")) %>
+    <div class="se-hace">
+      <strong>
+      <%= t("layouts.steps.todo.title") %>
+    </strong>
+    </div>
+    <div class="description">
+      <span>
+        <%= t("layouts.steps.todo.description") %>
+      </span>
+    </div>
+  </div>
+</div>
+
+</section>
