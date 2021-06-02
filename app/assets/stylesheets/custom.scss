@@ -73,7 +73,7 @@
 .jumbo {
   height: 450px;
   background-color: $brand;
-  background-image: url(./custom/home-image.png);
+  background-image: image-url("home-image.png");
   background-size: 110% auto;
   background-repeat: no-repeat;
   background-position: center bottom;
