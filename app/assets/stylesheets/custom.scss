@@ -349,7 +349,7 @@
   .flex-row {
     display: flex;
     flex-direction: row;
-    margin: 70px auto;
+    margin: 0 auto;
     @include breakpoint(small down) {
       flex-direction: column;
     }
