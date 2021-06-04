@@ -455,3 +455,13 @@ header {
     color: $white !important;
   }
 }
+
+.auth-image {
+  background: $brand;
+  h1 {
+    width: 100%;
+    a > img {
+      width: 100%;
+    }
+  }
+}
