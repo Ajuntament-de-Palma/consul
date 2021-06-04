@@ -31,7 +31,9 @@ module Verification
   end
 
   def residence_verified?
-    return true
+    return true if skip_verification?
+
+    residence_verified_at.present?
   end
 
   def sms_verified?
