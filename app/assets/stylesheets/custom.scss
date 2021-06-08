@@ -307,6 +307,9 @@
       background-color: $soft-orange;
       border-top: 2px solid $orange;
       border-bottom: 2px solid $orange;
+      .feed-proposals {
+        width: 70%;
+      }
     }
     .pink {
       height: 500px;
@@ -314,6 +317,9 @@
       background-color: $soft-pink;
       border-top: 2px solid $pink;
       border-bottom: 2px solid $pink;
+      .feed-debates {
+        width: 70%;
+      }
     }
   }
   .feeds {
@@ -339,8 +345,11 @@
     line-height: rem-calc(15);
     color: $blue;
   }
-  .cards-container {
-    margin-top: 28px;
+  .row {
+    width: 100%;
+    .cards-container {
+      margin-top: 28px;
+    }
   }
 }
 
