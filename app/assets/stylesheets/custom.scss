@@ -84,6 +84,25 @@
   }
 }
 
+// Help
+.help {
+  .menu-pages {
+    a {
+      background-color: $brand;
+      color: $white;
+      &:hover {
+        color: $brand;
+      }
+    }
+    li::after {
+      content: none !important;
+    }
+  }
+}
+.hollow {
+  color: $black;
+}
+
 // Forms
 .locale::after {
   content: none !important;
