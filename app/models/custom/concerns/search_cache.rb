@@ -1,3 +1,5 @@
+require_dependency Rails.root.join('app', 'models', 'concerns', 'search_cache').to_s
+
 module SearchCache
   extend ActiveSupport::Concern
 
