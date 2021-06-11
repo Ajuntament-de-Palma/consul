@@ -2,15 +2,6 @@ require_dependency Rails.root.join('app', 'models', 'concerns', 'search_cache').
 
 module SearchCache
   extend ActiveSupport::Concern
-
-  included do
-    after_save :calculate_tsvector
-  end
-
-  def calculate_tsvector
-    self.class.where(id: id).update_all("tsv = (#{searchable_values_sql})")
-  end
-
   private
 
     def searchable_values_sql
