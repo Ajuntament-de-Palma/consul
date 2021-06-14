@@ -1,0 +1,161 @@
+es:
+  admin:
+    print: "Imprimir"
+    clear: "Limpiar datos"
+    proposals:
+      index:
+        title: "Propuestas ciudadanas ocultas"
+    menu:
+      hidden_proposals: Propuestas ciudadanas ocultas
+      site_customization:
+        forms: Formularios
+      organizations: Asociaciones
+    banners:
+      banner:
+        style: Color del fondo
+        uploaded_image: Subir imagen
+        text_align: Alineación del texto
+        text_color: Color del texto
+        uploaded_image_help: <p style="font-size:15px"><i>Las medidas para poder añadir una imagen tienen que ser de 870px x 150px</i></p>
+        help_text: <h3>Ayuda</h3>
+          Los campos de título, descripción y enlace son opcionales.<br>
+          Para crear un banner de un único color, basta con seleccionar uno en el campo "Color del fondo"<br>
+          Si lo que se quiere es un banner con una imagen fija, basta con subir una con las medidas que correspondan en el apartado "Subir Imagen".<br>
+          En caso de que un banner tenga un color y una imagen seleccionados, se superpondrá la imagen y, de este modo, dependiendo de la imagen, no se mostraría el color.
+          En caso de que los campos de título y descripción estén presentes, estos se superpondrán a la imagen o el color.
+        valid_aligns:
+          left: Izquierda
+          center: Centro
+          right: Derecha
+    site_customization:
+      content_blocks:
+        form:
+          content_blocks_information: Información sobre los bloques de texto
+          content_block_about: Puedes crear bloques de enlaces en formato HTML que se incrustarán en la cabecera o el pie de tu Consul.
+          content_block_top_links_html: "Los <strong>links de la cabecera</strong> son bloques de enlaces que tienen que crearse con este formato [ver primer ejemplo], siendo el contenido que se encuentra entre comillas al apartado 'href' la url de una página externa o una del propio Consul a la cual se quiera enlazar, y el apartado donde pone 'Name' el nombre el cual se quiera que aparezca:"
+          content_block_processes_link: Los enlaces del tipo <strong>"links de procesos" (enlaces del apartado de Procesos Normativos)</strong> siguen una estructura parecida a los bloques de la cabecera, con la diferencia que estos colgarán del apartado de Procesos Normativos. Para crearlos es suficiente con seguir el ejemplo siguiente, sustituyendo el contenido de 'href' por la dirección a la cual se quiera enlazar y el 'Name' por el nombre que quiera que aparezca.
+          content_block_top_links_html_extra: "Para insertar un elemento de tipo desplegable a la cabecera, se tiene que utilizar la siguiente estructura (únicamente para los <strong>links de subnavegación</strong>). Igual que en el ejemplo previo, sustituir el texto comprendido entre las comillas del 'href' por la dirección a la cual se desea apuntar y el 'Name' por el nombre que se desee:"
+          content_block_footer_html: "Los <strong>enlaces del pie</strong> pueden tener cualquier formato de HTML personalizado."
+      pages:
+        form:
+          social_media_widgets_header: Información sobre redes sociales
+          social_media_widgets_info: "Para insertar los elementos de las redes sociales, se tiene que utilizar la siguiente estructura de código HTML: "
+          social_media_widgets_howto: "Añadir la siguiente estructura de código al apartado superior (en modo 'código fuente'), después de todo el contenido de la página"
+        forms:
+          form_info_tab: "Detalles"
+          form_inputs_tab: "Campos del formulario"
+        update:
+          error_dependent_records: "No se ha podido eliminar porque el registro tiene información asociada"
+      forms:
+        new:
+          title: Formulario
+          button_add_question: Añadir pregunta
+          button_add_answer: Añadir respuesta
+          form_options: Opciones del Formulario
+          submit_button: Guarda los cambios
+        index:
+          create: Nuevo Formulario
+          title: Formularios
+          answers: Respuestas
+          page_id: Página
+          show: Ver
+          delete: Eliminar
+        edit:
+          title: Formulario
+        destroy:
+          notice: Formulario eliminado correctamente
+        create:
+          notice: Formulario creado correctamente
+          error: "Se han producido algunos errores al crear el formulario"
+        answers:
+          user: Usuario
+          question: Pregunta
+          answer: Respuesta
+          export: Exportar
+          types:
+            string: Respuesta corta
+            text: Respuesta larga
+            radio: Selección única
+            checkbox: Selección múltiple
+            select: Desplegable
+            button: Botón
+            buttons: Botones
+            accordion: Despleglable (acordeón)
+        errors:
+          available_answers: "Se deben incluir las posibles respuestas"
+          input_type: "El nuevo tipo de campo especificado no es compatible con el anterior (debido a que hay información asociada)"
+      form:
+        destroy:
+          notice: "Formulario eliminado correctamente"
+          error: "No se ha podido eliminar el formulario porque tiene respuestas asociadas"
+    budgets:
+      index:
+        table_export_budget: Exportar
+        export_budget: Exportar presupuesto
+      form:
+        table_ambit: Ámbito de la partida
+    budget_investments:
+      forms:
+        edit:
+          button_add_geozone: Añadir barrio
+          button_add_district: Añadir distrito
+      edit:
+        execution_status_1: "Estudio y proyecto"
+        execution_status_2: "En licitación pública"
+        execution_status_3: "Adjudicado"
+        execution_status_4: "En ejecución"
+        execution_status_5: "Finalizado"
+      index:
+        total_supports: "Número total de apoyos: "
+        total_supporters: "Número de usuarios que han dado apoyo: "
+        win: "Aprobar"
+        winner: "Ganador"
+        table_final_votes: "Votos finales"
+        table_winner: "Ganador"
+        errors:
+          price-error: "Para seleccionar la propuesta primero asigne un precio"
+    hidden_users:
+      show:
+        name: "Nombre de usuario:"
+        phone_number: "Teléfono:"
+        document_number: "Documento:"
+    legislation:
+      processes:
+        index:
+          title: Procesos normativos
+        form:
+          debate_phase: Aportaciones y propuestas
+          proposals_phase: Debates abiertos
+        new:
+          title: Crear nuevo proceso normativo
+        subnav:
+          questions: Aportaciones y propuestas
+          proposals: Debates abiertos
+      proposals:
+        index:
+          title: Debates abiertos
+        form:
+          header_information_description: Proporciona información sobre el recorrido de los debates. Este texto se mostrará como una alerta en el encabezado de la sección de debates abiertos dentro de este proceso. Usa Markdown para formatear el texto.
+          header_information_placeholder: Añade información para el encabezado de los debates abiertos
+          custom_categories_description: Categorías que el usuario puede seleccionar al crear un debate abierto.
+      questions:
+        create:
+          notice: 'Aportación creada correctamente. <a href="%{link}"> Haz click para verla</a>'
+        index:
+          title: Aportaciones asociadas a este proceso
+          create: Crear aportación
+        new:
+          title: Crear nueva aportación
+          submit_button: Crear aportación 
+    organizations:
+      index:
+        hidden_count_html:
+          one: Hay además <strong>una asociación</strong> sin usuario o con el usuario bloqueado.
+          other: Hay <strong>%{count} asociaciones</strong> sin usuario o con el usuario bloqueado.
+        no_organizations: No hay asociaciones.
+        title: Asociaciones
+      search:
+        title: Buscar asociaciones
+        no_results: No se han encontrado asociaciones.
+    newsletters:
+      locale: Idioma

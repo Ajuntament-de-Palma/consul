@@ -14,7 +14,9 @@
                 <%= link_to t("budgets.index.see_results"), budget_results_path(budget), class: "button" %>
               <% end %>
 
-              <%= link_to t("budgets.index.milestones"), budget_executions_path(budget), class: "button" %>
+              <%= link_to t("budgets.results.execution_status"),
+                                          budget_execution_status_path(budget.id),
+                                          class: "button" %>
             </div>
           </div>
         </div>

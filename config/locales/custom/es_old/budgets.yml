@@ -1,0 +1,6 @@
+es:
+  budgets:
+    index:
+      documentation: Documentación
+    results:
+      execution_status: Estado de ejecución

@@ -1,0 +1,12 @@
+---
+es:
+  valuation:
+    budget_investments:
+      edit:
+        price_explanation_html: "Observaciones <small>(opcional, dato público)</small>"
+        feasible_explanation_html: Observaciones <small>(en caso que lo sea, dato público)</small>
+    spending_proposals:
+      edit:
+        price_explanation_html: "Observaciones <small>(opcional, dato público)</small>"
+        feasible_explanation_html: Observaciones <small>(en caso que lo sea, dato público)</small>
+        

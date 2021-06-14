@@ -1,0 +1,15 @@
+es:
+  mailers:
+    budget_investment_selected:
+      selected_html: "Desde el Ayuntamiento agradecemos que hayas participado con tu idea en los <strong>Presupuestos Participativos</strong>. Te informamos de que tu proyecto <strong>'%{title}'</strong> ha sido seleccionado y pasa a la fase de votación final."
+    budget_investment_unselected:
+      unselected_html: "Desde el Ayuntamiento agradecemos que hayas participado con tu idea en los <strong>Presupuestos Participativos</strong>. Lamentamos informarte de que tu proyecto <strong>'%{title}'</strong> no ha sido seleccionado para la fase de votación final."
+      participate_html: "Puedes continuar participando en la votación final votando proyectos para toda la ciudad y el distrito que elijas"
+    unfeasible_spending_proposal:
+      reconsider_html: "Si consideras que el proyecto rechazado cumple los requisitos para mantenerlo como proyecto de gasto, podrás comunicarlo, en el plazo de 48 horas, al correo pressupostparticipatiu@palma.cat, indicando necesariamente para su tramitación el código %{code} como asunto del correo, correspondiente a tu proyecto."
+    budget_investment_unfeasible:
+      reconsider_html: "Si consideras que el proyecto rechazado cumple los requisitos para mantenerlo como proyecto de gasto, podrás comunicarlo, en el plazo de 48 horas, al correo pressupostparticipatiu@palma.cat, indicando necesariamente para su tramitación el código %{code} como asunto del correo, correspondiente a tu proyecto."
+    email_verification:
+      instructions_html: Para terminar de verificar tu cuenta de usuario en el Portal de Tu Fas Palma, necesitamos que pulses %{verification_link}.
+    verification_assistance:
+      subject: "Asistencia para el proceso de verificación de Tu Fas Palma"

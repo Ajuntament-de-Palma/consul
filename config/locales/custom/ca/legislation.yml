@@ -1,0 +1,153 @@
+ca:
+  legislation:
+    annotations:
+      comments:
+        see_all: Veure tots
+        see_complete: Veure complet
+        comments_count:
+          one: "%{count} comentari"
+          other: "%{count} comentaris"
+        replies_count:
+          one: "%{count} resposta"
+          other: "%{count} respostes"
+        cancel: Cancelar
+        publish_comment: Publicar Comentari
+      form:
+        phase_not_open: Aquesta fase del procés encara no està oberta
+        login_to_comment: Necessites %{signin} o %{signup} per comentar.
+        signin: iniciar sessió
+        signup: registrar-te
+      index:
+        title: Comentaris
+        see_in_context: Veure en context
+        comments_about: Comentaris sobre
+        comments_count:
+          one: "%{count} comentari"
+          other: "%{count} comentaris"
+      show:
+        title: Comentari
+      version_chooser:
+        seeing_version: Comentari per la versió
+        see_text: Veure esborrany del text
+    draft_versions:
+      changes:
+        title: Canvis
+        seeing_changelog_version: Resum de canvis de la revisió
+        see_text: Veure esborrany del text
+      show:
+        loading_comments: Carregant comentaris
+        seeing_version: Estàs veient la revisió
+        select_draft_version: Seleccionar esborrany
+        select_version_submit: veure
+        updated_at: actualitzada el %{date}
+        see_changes: veure resumn dels canvis
+        see_comments: Veure tots els comentaris
+        text_toc: Índex
+        text_body: Text
+        text_comments: Comentaris
+    processes:
+      comments:
+        create:
+          notice: "La vostra aportació s’ha enviat correctament, gràcies per participar"
+      header:
+        additional_info: Informació addicional
+        description: En què consisteix
+        more_info: Més informació i context
+        colabore: "Ens podeu enviar les vostres aportacions, reflexions i propostes responent a les preguntes plantejades. També, si així ho considerau, les podeu compartir de forma pública a l’apartat de Debats oberts."
+      proposals:
+        start_proposal: "Crea un debat obert"
+        empty_proposals: No hi ha propostes
+        new:
+          more_info: Com funcionen els debats oberts?
+          recommendations_title: "Recomanacions per a crear un debat obert"
+          recommendation_one: "No escriguis el títol del debat o frases senceres en majúscules. A Internet això es considera cridar. I a ningú li agrada que li cridin."
+          recommendation_two: "Qualsevol debat o comentari que impliqui una acció il·legal serà eliminat, també els que tinguin la intenció de sabotejar els espais de proposta, tota la resta està permesa."
+          recommendation_three: "Gaudeix d'aquest espai, de les veus que l'omplen, també és teu."
+        form:
+          proposal_title: Títol del debat obert
+          proposal_summary: Resum del debat obert
+          proposal_text: Text desenvolupat del debat obert
+          tags_instructions: Etiqueta aquest debat obert. Pots triar entre les categories proposades o introduir les que desitgis
+          submit_button: Enviar
+      debate:
+        empty_questions: No hi ha preguntes
+        participate: Realitza les teves aportacions al debat previ participant en els següents temes.
+      index:
+        filter: "Filtre"
+        filters:
+          open: Processos actius
+          past: Acabats
+          documentation: Pla Normatiu Municipal
+        no_open_processes: No hi ha processos actius
+        no_next_processes: No hi ha processos planejats
+        no_past_processes: No hi ha processos acabats
+        section_header:
+          click_here: "Per accedir fes click aquí"
+          icon_alt: Icona de Processos normatius
+          title: Processos normatius
+          help: Ajuda sobre processos normatius
+          info_2018_text: "Pla Normatiu de l’Ajuntament de Palma 2018"
+          info_2018_url: "/BOIB%20Anunci%20acord%20d'aprovacio%20del%20Pla%20Normatiu%20Aj.%20Pama.pdf"
+          info_pla_normatiu_text: "Modificació del Pla Normatiu 2018"
+          info_pla_normatiu_url: "/Acord%20modificacio%20num%201%20Pla%20Normatiu.pdf"
+          info_2020_text: "Pla Normatiu de l’Ajuntament de Palma 2020"
+          info_2020_url: "/Pla%20Normatiu%20Municipal%202020.pdf"
+          update_2020_1_text: "Moficiació núm. 1 Pla Normatiu municipal 2020"
+          update_2020_1_url: "/Modificaci%C3%B3%20num%20%201%20Pla%20Normatiu%20municipal%202020.pdf"
+        section_footer:
+          title: Ajuda sobre processos normatius
+          description: Participa als debats i processos previs a l'aprovació d'una norma o d'una actuació municipal. La teva opinió serà tinguda en compte per l'Ajuntament.
+          help_text_1: "En els processos participatius, l'Ajuntament ofereix a la ciutadania l'oportunitat de participar en l'elaboració i modificació de normativa que afecta a la ciutat i de donar la seva opinió sobre certes actuacions que té previst dur a terme."
+          help_text_2: "Les persones registrades en %{org} poden participar amb aportacions en la consulta pública de noves ordenances, reglaments i directrius, entre uns altres. Els seus comentaris són analitzats per l'àrea corresponent i tinguts en compte de cara a la redacció final de les normes."
+          help_text_3: "L'Ajuntament també obre processos per rebre aportacions i opinions sobre actuacions municipals."
+      phase_not_open:
+        not_open: Aquesta fase del procés encara no està oberta
+      phase_empty:
+          empty: Encara no hi ha res publicat
+      process:
+        see_latest_comments: Veure últimes aportacions
+        see_latest_comments_title: Aportar en aquest procés
+      shared:
+        key_dates: Dates clau
+        debate_dates: Aportacions i propostes
+        draft_publication_date: Publicació esborrany
+        allegations_dates: Al·legacions
+        result_publication_date: Publicació resultats
+        proposals_dates: Debats oberts
+    questions:
+      comments:
+        anonymous_user: "Usuari anònim"
+        comment_button: Enviar
+        comments_title: Respostes obertes
+        comments_closed: Fase tancada
+        form:
+          leave_comment: Deixa la teva resposta
+      question:
+        comments:
+          zero: Sense comentaris
+          one: "%{count} comentari"
+          other: "%{count} comentaris"
+        debate: Debat
+      show:
+        answer_question: Enviar resposta
+        next_question: Següent pregunta
+        first_question: Primera pregunta
+        share: Compartir
+        title: Procés normatiu
+      participation:
+        phase_not_open: Aquesta fase no està oberta
+        organizations: Les associacions no poden participar en el debat
+        signin: iniciar sessió
+        signup: registrar-te
+        unauthenticated: Necessites %{signin} o %{signup} per participar en el debat.
+        verified_only: Només els usuaris verificats poden participar en el debat, %{verify_account}.
+        verify_account: Verificar el teu compte
+        debate_phase_not_open: La fase previa de debat ja ha finalitzat i en aquest moment no s’acepten més respostes
+    shared:
+      share: Compartir
+      share_comment: Comentari sobre la %{version_name} de l’esborrany del procés %{process_name}
+    proposals:
+      form:
+        tags_label: "Categories"
+      not_verified: "Per votar propostes %{verify_account}."
+      closed: "Aquest procés s'ha tancat i ja no pot recollir vots."

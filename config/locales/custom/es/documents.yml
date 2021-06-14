@@ -1,0 +1,4 @@
+es:
+  documents:
+    form:
+      note: 'Puedes subir hasta un máximo de %{max_documents_allowed} documentos en formato %{accepted_content_types}, y de hasta %{max_file_size} MB por archivo.'

@@ -1,0 +1,90 @@
+es:
+  activerecord:
+    models:
+      proposal:
+        one: Iniciativa ciudadana
+        other: Iniciativas ciudadanas
+      budget/investment:
+        one: "Propuesta de inversión"
+        other: "Propuestas de inversión"
+      organization:
+        one: "Asociación"
+        other: "Asociaciones"
+      site_customization/page/form:
+        one: Formulario
+        other: Formularios
+      site_customization/page/form/answer:
+        one: "Respuesta del usuario"
+        other: "Respuestas de los usuarios"
+      site_customization/page/form/input:
+        one: Pregunta
+        other: Preguntas
+      site_customization/page/form/available_answer:
+        one: Respuesta
+        other: Respuestas
+      site_customization/page/form/available_answers:
+        one: Respuesta
+        other: Respuestas
+    attributes:
+      budget/investment:
+        execution_status: "Estado de ejecución (porcentaje)"
+        document: "Archivo adjunto"
+        geozone_id: "Barrio"
+        district_id: "Distrito"
+        delete_document: "Eliminar documento"
+        organization_name: "Persona o asociación que presenta la propuesta."
+        geozones: "Barrios"
+        districts: "Distritos"
+      newsletter:
+        locale: "Idioma"
+      poll/question:
+        valid_answers: "Posibles respuestas"
+      spending_proposal:
+        document: "Archivo adjunto"
+      site_customization/content_block:
+        VALID_BLOCKS:
+          top_links: Enlaces de la cabecera
+          subnavigation_links: Enlaces de subnavegación de la cabecera
+          home: "Contenido página principal"
+          footer: Pie
+          debates_sidebar: Barra debates
+          documentation_text: Texto página documentación
+          budget_text: Documentación Presupuestos Participativos
+      site_customization/page:
+        content_sidebar: "Contenido lateral"
+        email: "Correo electrónico"
+        hide_title: "Ocultar título"
+      site_customization/page/form:
+        title: Título
+        description: Descripción
+        page_id: Página
+        page: Página
+        inputs: Preguntas
+        active: Activo
+        only_verified_users: Solo usuarios verificados
+        only_registered_users: Solo usuarios registrados
+        init_time: Inicio de publicación
+        end_time: Final de publicación
+      site_customization/page/form/answer:
+        user: "Usuario"
+      site_customization/page/form/input:
+        label: Título
+        input_type: Tipo de respuestas
+        avaliable_answers: Respuestas disponibles
+        form_id: Formulario
+        form: Formulario
+        other_answer: "¿Puede añadir otra respuesta? (solo para casos con múltiples respuestas)"
+      site_customization/page/form/available_answer:
+        answer: Respuesta
+      site_customization/page/form/available_answers:
+        answer: Respuesta
+      legislation/process:
+        summary: Resumen
+      organization:
+        name: "Nombre de la asociación"
+    errors:
+      models:
+        budget/ballot/line:
+          attributes:
+            investment: No puedes votar esta propuesta
+            money: Fondos insuficientes

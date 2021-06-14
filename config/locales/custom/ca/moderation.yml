@@ -1,0 +1,86 @@
+ca:
+  moderation:
+    header:
+      title: Moderació
+    comments:
+      index:
+        with_ignored_flag: "Pendents revisats"
+        without_flag: "Sense revisar"
+        without_flag_and_ignored_flag: "Revisats"
+        block_authors: Bloqueja autors
+        confirm: N'estàs segur?
+        filter: Filtra
+        filters:
+          all: Tots els públics
+          pending_flag_review: Pendents
+          with_ignored_flag: Marcats com a revisats
+        headers:
+          comment: Comentari
+          moderate: Modera
+        hide_comments: Amaga comentaris
+        ignore_flags: Marca com a revisats
+        order: Ordre
+        orders:
+          flags: Més denunciats
+          newest: Més nous
+        title: Comentaris
+    dashboard:
+      index:
+        title: Moderació
+    debates:
+      index:
+        with_ignored_flag: "Pendents revisats"
+        without_flag: "Sense revisar"
+        without_flag_and_ignored_flag: "Revisats"
+        block_authors: Bloqueja autors
+        confirm: N'estàs segur?
+        filter: Filtra
+        filters:
+          all: Tots els públics
+          pending_flag_review: Pendents
+          with_ignored_flag: Marcats com a revisats
+        headers:
+          debate: Debat
+          moderate: Modera
+        hide_debates: Amaga debats
+        ignore_flags: Marca com a revisats
+        order: Ordre
+        orders:
+          created_at: Més nous
+          flags: Més denunciats
+        title: Debats
+    menu:
+      flagged_comments: Comentaris
+      flagged_debates: Debats
+      proposals: Propostes
+      users: Bloqueja usuaris
+    proposals:
+      index:
+        with_ignored_flag: "Pendents revisats"
+        without_flag: "Sense revisar"
+        without_flag_and_ignored_flag: "Revisats"
+        block_authors: Bloqueja autors
+        confirm: N'estàs segur?
+        filter: Filtre
+        filters:
+          all: Totes
+          pending_flag_review: Pendents de revisió
+          with_ignored_flag: Marcades com a revisades
+        headers:
+          moderate: Modera
+          proposal: Proposta
+        hide_proposals: Amaga propostes
+        ignore_flags: Marca com a revisades
+        order: Ordenar per
+        orders:
+          created_at: Més recents
+          flags: Més denunciades
+        title: Propostes
+    users:
+      index:
+        hidden: Bloquejat
+        hide: Bloqueja
+        search: Cerca
+        search_placeholder: correu electrònic o nom d'usuari
+        title: Bloqueja usuaris
+      notice_hide: Usuari bloquejat. S'han ocultat tots els seus debats i comentaris.

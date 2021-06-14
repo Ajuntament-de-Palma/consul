@@ -1,0 +1,23 @@
+es:
+  management:
+    document_verifications:
+      link: Tu Fas Palma
+      in_census_has_following_permissions: 'Este usuario puede participar en el Portal de Tu Fas Palma con las siguientes posibilidades:'
+    print:
+      proposals_info: Haz tu propuesta en https://tufas.palma.cat
+      spending_proposals_info: Participa en https://tufas.palma.cat
+      budget_investments_info: Participa en https://tufas.palma.cat
+      not_in_census_info: 'Las personas no empadronadas pueden participar en el Portal de Tu Fas Palma con las siguientes posibilidades:'
+    users:
+      phone_number_optional_label: "Número de mòbil (recomendado pero opcional)"
+      create_user_success_html_phone_number: Se ha enviado la contraseña por SMS al número de teléfono %{phone_number}.
+    menu:
+      create_proposal: Crear propuesta ciudadana
+      support_proposals: Dar apoyo a propuestas ciudadanas
+    account:
+      show:
+        title: Cuenta de usuario
+        new_password: "La contraseña del usuario es:"
+        new_password_sms: "Se ha enviado un SMS con la contraseña de la cuenta al usuario"
+        generate_new_password: "Generar una nueva contraseña"
+        send_new_password_sms: "Enviar una nueva contraseña por SMS"

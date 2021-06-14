@@ -1,0 +1,9 @@
+es:
+  settings:
+    google_analytics: "ID Google Analytics"
+    proposal_notification_minimum_interval_in_days: "Intervalo mínimo de notificación de las propuestas en días"
+    direct_message_max_per_day: "Número máximo de mensajes directos permitidos"
+    feature:
+      proposals: Propuestas
+      legislation: Procesos normativos
+      public_stats: "Publicar estadísticas de la web"

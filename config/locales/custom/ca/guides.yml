@@ -1,0 +1,18 @@
+ca: 
+  guides: 
+    title: "Tens una idea per a %{org}?" 
+    subtitle: "Tria què vols crear" 
+    budget_investment: 
+      title: "Una proposta d'inversió" 
+      feature_1_html: "Són idees de com gastar part del <strong>pressupost municipal</strong>" 
+      feature_2_html: "les propostes d'inversió es plantegen <strong>entre gener i març</strong>" 
+      feature_3_html: "Si rep suports, és viable i és competència municipal, passa a votació" 
+      feature_4_html: "Si la ciutadania aprova els projectes, es fan realitat" 
+      new_button: Vull crear una proposta d'inversió
+    proposal: 
+      title: "Una proposta ciutadana" 
+      feature_1_html: "Són idees sobre qualsevol acció que pugui realitzar l'Ajuntament" 
+      feature_2_html: "Necessiten <strong>%{votes} suports</strong> en %{org} per passar a votació" 
+      feature_3_html: "S'activen a qualsevol moment; tens <strong>un any</strong> per reunir els suports" 
+      feature_4_html: "D'aprovar-se la votació, l'Ajuntament assumeix la proposta" 
+      new_button: Vull crear una proposta

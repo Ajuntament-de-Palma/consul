@@ -1,0 +1,20 @@
+es:
+  moderation:
+    comments:
+      index:
+        with_ignored_flag: "Pendientes revisados"
+        without_flag: "Sin revisar"
+        without_flag_and_ignored_flag: "Revisados"
+    debates:
+      index:
+        with_ignored_flag: "Pendientes revisados"
+        without_flag: "Sin revisar"
+        without_flag_and_ignored_flag: "Revisados"
+    proposals:
+      index:
+        title: Iniciativas ciudadanas
+        with_ignored_flag: "Pendientes revisados"
+        without_flag: "Sin revisar"
+        without_flag_and_ignored_flag: "Revisados"
+    menu:
+      proposals: Iniciativas ciudadanas

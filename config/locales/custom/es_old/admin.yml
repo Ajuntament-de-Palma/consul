@@ -1,0 +1,9 @@
+es:
+  admin:
+    budget_investments:
+      edit:
+        execution_status_1: "Estudio y proyecto"
+        execution_status_2: "En licitación pública"
+        execution_status_3: "Adjudicado"
+        execution_status_4: "En ejecución"
+        execution_status_5: "Finalizado"

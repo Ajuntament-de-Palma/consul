@@ -1,0 +1,24 @@
+ca:
+  documents:
+    title: "Documents"
+    max_documents_allowed_reached_html: "Has arribat al nombre màxim de documents permesos! <strong>Has d'eliminar un abans de poder pujar un altre.</strong>"
+    form:
+      title: Documents
+      title_placeholder: Afegeix un títol descriptiu per al document
+      attachment_label: Selecciona un document
+      delete_button: Eliminar document
+      cancel_button: Cancelar
+      note: 'Pots pujar fins a un màxim de %{max_documents_allowed} documents en format %{accepted_content_types}, i fins a %{max_file_size} MB per arxiu.'
+      add_new_document: Afegir nou document
+    actions:
+      destroy:
+        notice: El document s'ha eliminat correctament.
+        alert: El document no s'ha pogut eliminar.
+        confirm: 'Està segur que desitja eliminar el document? Aquesta acció no es pot desfer!'
+    buttons:
+      download_document: Descarregar arxiu
+      destroy_document: Eliminar
+    errors:
+      messages:
+        in_between: "hi ha d'estar entre %{min} i %{max}"
+        wrong_content_type: "El tipus de contingut %{content_type} de l'arxiu no coincideix amb cap dels tipus de contingut acceptats %{accepted_content_types}"

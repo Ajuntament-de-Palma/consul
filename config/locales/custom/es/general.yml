@@ -1,4 +1,34 @@
 es:
+  countdown:
+    text: "La votación de presupuestos participativos finaliza en:"
+    days: "días "
+    hours: "h "
+    minutes: "min"
+    seconds: "s"
+  comments:
+    delete_comment: "Elimina tu comentario"
+    deleted_comment_body: "Este comentario ha sido eliminado por el autor."
+    delete_confirmation: "¿Estás seguro que deseas borrar tu comentario? Esta acción no se puede deshacer."
+    comment_deleted_successfully: "Tu comentario se ha eliminado correctamente."
+  account:
+    show:
+      organization_name_label: Nombre de la asociación
+      newsletter_locale: Idioma en el que quieres recibir las newsletter
+      newsletter_locale_ca: Catalán
+      newsletter_locale_es: Castellano
+  votes:
+    organizations: Las asociaciones no pueden votar
+    spending_proposals:
+      organization: Las asociaciones no pueden votar.
+    budget_investments:
+      organization: Las asociaciones no pueden votar.
+      user_already_voted: "Ya has apoyado esta propuesta"
+  errors:
+    budget/ballot/line:
+      money: "Revisa los datos introducidos"
+      investment: "Revisa los datos introducidos"
+    messages:
+      territorial_scope: Només es pot especificar el districte o el barrio
   layouts:
     steps:
       propose:
@@ -16,7 +46,6 @@ es:
       consul: aplicación CONSUL
       consul_url: https://github.com/consul/consul
       contact_us: Para asistencia técnica entra en %{help}
-      copyright: CONSUL, %{year}
       description: Este portal usa la %{consul} que es %{open_source}.
       help: Asistencia técnica
       help_url: https://enreda.coop
@@ -25,3 +54,38 @@ es:
       participation_text: Decide cómo debe ser la ciudad que quieres.
       participation_title: Participación
       privacy: Política de privacidad
+      copyright: Tu Fas Palma, %{year}
+      contact: Contáctanos
+      contact_text: "Teléfono: <a href='tel:+34971225900'>971 22 59 00</a> <br> Correo: \n <a href='mailto:tufaspalma@palma.cat'>tufaspalma@palma.cat</a>"
+      open_data_url: "https://www.palma.cat/portal/PALMA/contenedor1.jsp?seccion=s_fdes_d4_v1.jsp&codbusqueda=1728&layout=&codAdirecto=1037&codMenuPN=1812&codMenu=1574&language=es"
+    header:
+      logo: Tu Fas Palma
+      collaborative_legislation: Procesos normativos
+      root: "Inicio"
+      root_title: "Volver a la página principal"
+  form:
+    confirm_action: "¿Estás seguro?"
+    other: "Otros/as"
+  recaptcha:
+    errors:
+      verification_failed: "No se ha podido realizar correctamente la verificación"
+      recaptcha_unreachable: "No se ha podido realizar correctamente la verificación"
+  proposals:
+    index:
+      section_header:
+        icon_alt: Icono de iniciativas ciudadanas
+        title: Iniciativas ciudadanas
+        help: Ayuda sobre las iniciativas ciudadanas
+      section_footer:
+        title: Ayuda sobre las iniciativas ciudadanas
+        help_text_2: "Para crear una propuesta hay que registrarse en %{org}. Las propuestas que consigan el apoyo de la gente en la web, pasan a votación. Para apoyar propuestas es necesario tener una cuenta verificada."
+  polls:
+    index:
+      section_footer:
+        help_text_1: ""
+        help_text_2: "Para participar en la próxima votación tienes que registrarte en %{org} y verificar tu cuenta. Pueden votar todas las personas empadronadas en la ciudad mayores de 16 años."
+      no_polls: "No hay votaciones abiertas. Si lo que desea es votar las propuestas de presupuestos participativos, tiene que acceder al apartado de 'Presupuestos Participativos'"
+  locale: Castellano
+  debates:
+    show:
+      login_to_comment_questions: Necesitas %{signin} o %{signup} para hacer aportaciones.

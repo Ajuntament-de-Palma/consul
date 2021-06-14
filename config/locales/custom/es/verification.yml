@@ -1,0 +1,9 @@
+es:
+  verification:
+    residence:
+      new:
+        assistance: "No se ha podido verificar vuestra información con el padrón, confirmad que vuestros datos de empadronamiento (nombre, apellidos, DNI y domicilio) son correctos. Si nos comunicáis esta incidencia al correo <a href='mailto:tufaspalma@palma.es'>tufaspalma@palma.es</a> intentaremos ayudaros."
+        document_type:
+          census_palma: "Código padrón Palma"
+        form_errors: " - No se ha podido verificar tu residencia"
+        form_errors_document_number_taken: "Este número de documento ya se ha registrado previamente con otro usuario."

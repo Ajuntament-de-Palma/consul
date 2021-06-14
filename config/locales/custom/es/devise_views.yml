@@ -1,0 +1,24 @@
+es:
+  devise_views:
+    mailer:
+      confirmation_instructions:
+        title: Te damos la bienvenida al Portal de Tu Fas Palma
+    organizations:
+      registrations:
+        new:
+          organization_name_label: Nombre de la asociación
+          title: Registrarse como asociación / colectivo
+        success:
+          title: Registro de asociación / colectivo
+    users:
+      registrations:
+        new:
+          organization_signup: '¿Representas a una asociación / colectivo? %{signup_link}'
+          assistance: "Si tiene alguna dificultad en el proceso de registro, nos la puede comunicar al correo <a href='mailto:tufaspalma@palma.cat'>tufaspalma@palma.cat</a> para que podamos ayudarle."
+          help_info: ¿Tienes problemas para acceder? Consulta la siguiente información
+          terms: Al registrarte aceptas las %{terms} y la %{privacy}
+          terms_link: condiciones de uso
+          privacy_link: política de privacidad
+          terms_title: Al registrarte aceptas condiciones de uso
+        edit:
+          edit: Editar cuenta

@@ -1,0 +1,66 @@
+ca:
+  settings:
+    proposal_notification_minimum_interval_in_days: "Interval mínim de notificació de les propostes en dies"
+    direct_message_max_per_day: "Nombre màxim de missatges directes permesos"
+    comments_body_max_length: Longitud màxima dels comentaris
+    official_level_1_name: Càrrecs públics de nivell 1
+    official_level_2_name: Càrrecs públics de nivell 2
+    official_level_3_name: Càrrecs públics de nivell 3
+    official_level_4_name: Càrrecs públics de nivell 4
+    official_level_5_name: Càrrecs públics de nivell 5
+    max_ratio_anon_votes_on_debates: Percentatge màxim de vots anònims per debat
+    max_votes_for_proposal_edit: Nombre de vots amb què una proposta deixa de poder-se editar
+    max_votes_for_debate_edit: Nombre de vots amb què un debat deixa de poder-se editar
+    proposal_code_prefix: Prefix per als codis de propostes
+    votes_for_proposal_success: Nombre de vots necessaris per aprovar una proposta
+    months_to_archive_proposals: "Mesos per arxivar les Propostes"
+    email_domain_for_officials: Domini de correu electrònic per a càrrecs públics
+    per_page_code_head: "Codi a incloure a cada pàgina (<head>)"
+    per_page_code_body: "Codi a incloure a cada pàgina (<body>)"
+    twitter_handle: "Usuari de Twitter"
+    twitter_hashtag: "Hashtag para Twitter"
+    facebook_handle: "Identificador de Facebook"
+    youtube_handle: "Usuari de Youtube"
+    telegram_handle: "Usuari de Telegram"
+    instagram_handle: "Usuari de Instagram"
+    blog_url: "URL del blog"
+    transparency_url: "URL de transparència"
+    opendata_url: "URL de open data"
+    url: "URL general de la web"
+    org_name: "Nom de l'organització"
+    place_name: "Nom del lloc"
+    google_analytics: "ID Google Analytics"
+    feature:
+      budgets: Pressupostos participatius
+      twitter_login: Registre amb Twitter
+      facebook_login: Registre amb Facebook
+      google_login: Registre amb Google
+      proposals: Propostes
+      debates: Debats
+      polls: Votacions
+      signature_sheets: Fulles de signatures
+      spending_proposals: Propostes d'inversió
+      spending_proposal_features:
+        voting_allowed: Votacions sobre propostes d'inversió
+      legislation: Legislació
+      user:
+        recommendations: Recomanacions
+        skip_verification: Ometre verificació d'usuaris
+      community: Comunitat en propostes i projectes d'inversió
+      map: Geolocalització de propostes i projectes d'inversió
+      allow_images: Permetre pujar i mostrar imatges
+      allow_attached_documents: Permetre la creació de documents adjunts
+      guides: Guies per crear projectes d'inversió o propostes
+      public_stats: Éstadístiques públiques
+    related_content_score_threshold: Llindar de puntuació de contingut relacionat
+    map_latitude: Latitud
+    map_longitude: Longitud
+    map_zoom: Zoom
+    mailer_from_name: Nom email remitent
+    mailer_from_address: Adreça email remitent
+    meta_title: "Títol web (SEO)"
+    meta_description: "Descripció de la web (SEO)"
+    meta_keywords: "Paraules clau (SEO)"
+    verification_offices_url: URL oficines verificació
+    min_age_to_participate: Edat mínima per participar
+    proposal_improvement_path: Enllaç a informació per millorar propostes

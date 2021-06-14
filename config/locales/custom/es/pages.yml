@@ -1,0 +1,340 @@
+es:
+  pages:
+    budgets:
+      results:
+        2016_budget_title: "Presupuestos participativos 2016"
+        2016_budget_url: /documentacion-2016
+      execution:
+        2016_budget_url: /ejecucion-presupuesto-2016
+    forms:
+      submit: "Responde"
+      select_title: "Selecciona una opción"
+      data_saved: "Los datos del formulario se han guardado correctamente."
+      data_not_saved: "No se han podido guardar los datos, revisa los campos del formulario"
+      unregistered_user: "Necesitas estar registrado para poder participar."
+      user_not_verified: "Necesitas estar verificado para poder participar."
+      not_visible_yet: "Acción disponible a partir del día "
+      not_visible_anymore: "Acción finalizada desde el día "
+    census_terms_title: "Términos de acceso al Padrón"
+    documentation: "Documentación"
+    help:
+      proposals:
+        feature_2_html: "Las propuestas que consigan <strong>el apoyo del de la gente</strong> (personas mayores de 16 años empadronadas) pasan a votación."
+        feature_html: "Para crear una propuesta hay que registrarse en %{org}. Las propuestas que consiguen el apoyo en la web de la gente con derecho a voto (personas mayores de 16 años empadronadas) pasan a votación. Para apoyar propuestas es necesario verificar tu cuenta."
+      other:
+        title: "Otra información de interés"
+      polls:
+        description: "La sección de %{link} se activa cada vez que una propuesta alcanza los apoyos necesarios y pasa a votación o cuando el Ayuntamiento propone un tema para que la gente decida sobre él."
+    titles:
+      documentation: Documentación
+    new_privacy:
+      title: "Actualización de la política de privacidad"
+      header: |-
+        <p>Hemos actualizado nuestra política de privacidad de acuerdo con el establecido en el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en cuanto al tratamiento de datos personales</p>
+        <p>Por favor, léelas y acéptalas en caso de estar de acuerdo. Hasta que no la aceptes, no podrás seguir utilizando la plataforma Tu Fas Palma</p>
+        <p>Por el contrario, si no estás de acuerdo, puedes proceder a dar de baja tu cuenta en esta plataforma.</p>
+        <p><b>[ IMPORTANTE: ] Si no aceptas la nueva política de privacidad o, por el contrario, decides borrar tu cuenta, ésta será eliminada automáticamente día <u>30/09/2018</u>.</b></p>
+      accept_button: "ACEPTO"
+      accept_confirmation: "Aceptando, se entiende que has leído y estás conforme con la nueva política de privacidad."
+      accepted_privacy: "Muchas gracias por aceptar la política de privacidad."
+      delete_button: "BORRAR MI CUENTA"
+      delete_confirmation: "¿Estás seguro que deseas borrar completamente tu cuenta? Todos tus datos se borrarán."
+    documentation_content_budget: |-
+      <a href="/Bases_Presupuestos_Participativos_2018_2019.pdf" target="_blank">Bases</a><br>
+      <a href="/presentacion_presupuesto_2018.pdf">Presentación de presupuestos</a><br>
+      <a href="/Presentacion_Propuestas_2018.pdf" target="_blank">Hoja de presentación de propuestas</a><br>
+      <a href="/budgets/3/all_investments">Ver todas las propuestas</a><br>
+      <a href="/dictamen_de_validacio.pdf">Dictamen de validación de la Comisión Técnica</a><br>
+      <a href="/fase_de_recogida_de_apoyos.pdf">Fase de recogida de apoyos</a><br>
+      <a href="/apoyo_a_las_propuestas.pdf" target="_blank">Hoja de recogida de apoyos</a><br>
+      <a href="/Propostes_que_han_superat_la_fase_de_recollida_de_suports.pdf" target="_blank">Propuestas que han superado la fase de recogida de apoyos</a><br>
+      <a href="/Propostes_que_passen_a_la_votació_final.pdf" target="_blank">Propuestas que pasan a la votación final</a><br>
+      <a href="/Informe_escrutinio_Palma_2018.pdf" target="_blank">Acta de escrutinio de resultados 2018</a>
+    documentation_content_table: |-
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Documentación</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://tufas.palma.cat/Bases de Pres. Part. 2017-2018.pdf" target="_blank">Bases</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://tufas.palma.cat/Propostes Presentades.pdf" target="_blank">Propuestas presentadas</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://tufas.palma.cat/Informe proposta de la Comissió Tècnica.pdf" target="_blank">Informe de la Comisión Técnica</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://tufas.palma.cat/formulari de suport a les propostes.pdf" target="_blank">Hoja de recogida de apoyos</a></td>
+          </tr>
+          <tr>
+            <td><a href="https://tufas.palma.cat/Resultats fase de suports.pdf" target="_blank">Resultados fase de apoyos</a></td>
+          </tr>
+          <tr>
+            <td><li><a href="https://tufas.palma.cat/SISTEMA_DE_PONDERACIO_DE_LA_VOTACIO_FINAL.pdf" target="_blank">Sistema de Ponderación</a></li></td>
+          </tr>
+          <tr>
+            <td><li><a href="https://tufas.palma.cat/RESULTATS_FASE_VOTACIONS.pdf" target="_blank">Resultados fase de votaciones</a></li></td>
+          </tr>
+          <tr>
+            <td><li><a href="https://tufas.palma.cat/informe_escrutinio_palma.pdf" target="_blank">Informe escrutinio</a></li></td>
+          </tr>
+        </tbody>
+      </table>
+    privacy_content: |-
+      <h2>AVISO DE PROTECCIÓN DE DATOS</h2>
+      <ol>
+        <li>La navegación por la información disponible en el Portal Tu Fas Palma es anónima.</li>
+        <li>Para utilizar los servicios contenidos en el Portal Tu Fas Palma, la persona usuaria se tiene que dar de alta y proporcionar previamente los datos de carácter personal según la información específica que consta a cada tipo de alta.</li>
+        <li>Los datos aportados serán incorporadas y tratadas por parte del Ayuntamiento de Palma de acuerdo con la descripción del fichero siguiente:
+          <ul>
+            <li><strong>Nombre del fichero/tratamiento:</strong> Procesos participativos</li>
+            <li><strong>Finalidad del fichero/tratamiento:</strong> Gestionar los procesos participativos para el control de la habilitación de las personas que participan y el recuento meramente numérico y estadístico de los resultados derivados de los procesos de participación o ciudadanía.</li>
+            <li><strong>Órgano responsable:</strong> Área de Participación Ciudadana y Coordinación Territorial.</li>
+            <li><strong>Plazo de Conservación:</strong> Los datos personales proporcionados se conservarán mientras se desarrolle el proceso participativo del Ayuntamiento de Palma y siempre que no se solicite su supresión, su conservación lo será a los meros efectos de archivo al amparo del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo sobre protección de datos de carácter personal y demás disposiciones de aplicación.</li>
+            <li><strong>Destinatarios:</strong> Los destinatarios de los datos serán los diferentes departamentos municipales del Ayuntamiento de Palma implicados en los expedientes correspondientes, y no se prevé la comunicación de los datos a otras Instituciones. No se prevé ninguna transferencia internacional.</li>
+          </ul>
+        </li>
+        <li>Derechos: Los interesados tendrán los siguientes derechos:
+          <ul>
+            <li>A acceder a sus datos personales y obtener información sobre si sus datos están siendo tratados, su finalidad, el origen (si no se han facilitado por el interesado), el plazo previsto de conservación, si se han comunicado o se van a comunicar a un tercero y se van elaborar perfiles u otras decisiones automatizadas sobre los mismos.</li>
+            <li>El derecho de acceso alcanza a la posibilidad de obtener copia de la información obtenida, con el abono, si estuviera previsto en la pertinente ordenanza fiscal, de la tasa correspondiente.</li>
+            <li>A solicitar la rectificación de los datos personales que le conciernan, o a que se completen o se actualicen aquellos que puedan haber sufrido cualquier modificación, mediante una declaración adicional.</li>
+            <li>A solicitar la supresión de sus datos cuando ya no fuesen necesarios para los fines para los que fueron recogidos, se oponga al tratamiento, entienda que han sido tratados ilícitamente o deban suprimirse en cumplimiento de una obligación legal. Cuando por la naturaleza del procedimiento se hubiesen hecho públicos, se adoptarán las medidas técnicas necesarias y razonables para hacer efectiva la ejecución de este derecho.</li>
+            <li>A solicitar la limitación de su tratamiento cuando se impugne su exactitud hasta que se rectifiquen los datos; en caso de tratamiento ilícito pero el interesado se oponga a la supresión y opte por ejercer su derecho a limitar su tratamiento; cuando no sean necesarios para los fines del tratamiento pero el interesado los necesite para el ejercicio o la defensa de reclamaciones; y en caso de oponerse al tratamiento por motivos particulares, mientras se verifica si los intereses del responsable deben prevalecer sobre los del interesado.
+            En estos casos los datos sólo podrán ser objeto de tratamiento, con excepción de su conservación, con el consentimiento del interesado o para la formulación, el ejercicio o la defensa de reclamaciones o con miras a la protección de los derechos de otra persona o por razones de interés público justificadas.</li>
+            <li>A oponerse por razones de interés particular al tratamiento de sus datos, salvo que el responsable del tratamiento considere que existen motivos legítimos que prevalezcan sobre los particulares, o para la formulación, ejercicio o defensa de reclamaciones.</li>
+            <li>A presentar una reclamación ante Agencia Española de Protección de Datos (AEPD), sin perjuicio de cualquier otro recurso en vía administrativa o judicial, si considera que el tratamiento de sus datos personales infringe el RGPD.</li>
+          </ul>
+        </li>
+        <li>Como principio general, este sitio web no comparte ni revela información obtenida, excepto cuando haya sido autorizado a hacerlo por parte del usuario; cuando la autoridad judicial, el Ministerio Fiscal o la Policía Judicial se lo requiera</li>
+        <li>Para ejercitar sus derechos podrá enviar un email a la siguiente dirección: tufaspalma@palma.cat.</li>
+      </ol>
+    conditions_content: |-
+      <h2>AVISO LEGAL SOBRE LAS CONDICIONES DE USO, PRIVACIDAD Y PROTECCIÓN DE DATOS PERSONALES DEL PORTAL DE PARTICIPACIÓN CIUDADANA TU FAS PALMA DEL AYUNTAMIENTO DE PALMA</h2>
+      <p><b>1. Ámbito de aplicación de las condiciones de uso</b></p>
+      <p>La participación (entendiéndola como activa, más allá de la lectura de este contenido) en el Portal de Participación Ciudadana Tu fas Palma, del Ayuntamiento de Palma, se regula por las presentes condiciones de uso, que vinculan a todas las personas que participan. Por ello, cualquier persona que quiera participar debe registrarse, para lo cual se solicitará la aceptación de estas condiciones de uso.</p>
+      <p>El Ayuntamiento de Palma se reserva la facultad de modificar estas condiciones, la última versión de las cuales se publicará en esta web.</p>
+
+      <p><b>2. Objetivo de la iniciativa</b></p>
+      <p>A través del Portal de Participación Ciudadana Tu fas Palma, el Ayuntamiento quiere fomentar la participación de la ciudadanía en la gestión del municipio, implicándose en la generación de ideas y propuestas nuevas y viables, con el objeto de mejorar la calidad de vida de todas las personas. Es una apuesta decidida por una gestión más próxima a los ciudadanos que permitirá recibir las propuestas, crear canales directos de comunicación con el Gobierno municipal y contribuir a tomar las decisiones más acertadas para el interés general.</p>
+
+      <p><b>3. Cuestiones generales sobre la participación en el Portal Tu fas Palma del Ayuntamiento de Palma</b></p>
+      <p>Puede participar cualquier persona física a partir de los 16 años, empadronada en Palma y que se haya registrado previamente en el Portal de Participación Ciudadana. Mediante la aceptación de estas condiciones de uso se declara tener 16 años o más. Los mayores de edad que tienen a su cargo los menores son los plenos responsables de la actuación que tengan estos el Portal de Participación Ciudadana. No hay limitación en cuanto al número de debates, comentarios o propuestas que pueden presentar los participantes.</p>
+
+      <p><b>4. Obligaciones de los usuarios del Portal de Participación Ciudadana </b></p>
+      <p>Dado que el Ayuntamiento de Palma es un punto de encuentro con el objetivo de debatir, compartir y valorar propuestas relacionadas con la mejora del municipio, los usuarios están obligados a hacer un uso diligente y de acuerdo con este objetivo.</p>
+      <p>El Ayuntamiento no es responsable del uso incorrecto del Portal de Participación Ciudadana por parte de los usuarios o de los contenidos que se localizan, y es cada usuario el responsable de hacer un uso correcto, así como de la legalidad de los contenidos y de las opiniones que haya compartido.</p>
+      <p>El Ayuntamiento de Palma se reserva, no obstante, el derecho a limitar el acceso al Portal de Participación Ciudadana del Ayuntamiento de Palma a determinados documentos, opiniones, informaciones o comentarios que los usuarios quieran incorporar, y puede instalar filtros a tal efecto. Todo ello, únicamente con el fin de preservar el objetivo fundamental del Portal de Participación Ciudadana.</p>
+      <p>De acuerdo con la normativa legal vigente, queda prohibida la utilización del Portal de Participación Ciudadana del Ayuntamiento de Palma con fines diferentes a los de debatir, compartir y valorar propuestas, y específicamente:</p>
+      <ul>
+        <li>Cualquier contenido que pueda ser considerado como vulneración en cualquier forma de los derechos fundamentales al honor, la imagen y la intimidad personal y familiar de terceros, o contra la dignidad de las personas.</li>
+        <li>Cualquier imagen o fotografía de terceros, o datos personales de un tercero sin haber obtenido el consentimiento de sus titulares.</li>
+        <li>Cualquier contenido que vulnere el secreto en las comunicaciones, infrinja derechos de propiedad industrial e intelectual o las normas reguladoras de la protección ó de datos de car á cter personal.</li>
+        <li>Reproducir o compartir contenidos, informaciones o imágenes que hayan sido puestas a disposición ó por parte de otros usuarios, sin la autorización expresa de estos, como también utilizarlos con fines de publicidad.</li>
+      </ul>
+      <p>La realización de cualquiera de los anteriores comportamientos permitirá al Ayuntamiento de Palma suspender temporalmente la actividad de un participante, desactivar su cuenta o borrar su contenido, sin perjuicio de otras responsabilidades que puedan ser reclamadas.</p>
+      <p>En caso de que el contenido que haya introducido los usuarios incorpore un enlace a otro sitio web, el Ayuntamiento de Palma no es responsable de los daños o perjuicios derivados del acceso al enlace o a sus contenidos.</p>
+      <p>En caso de litigio de cualquier clase o por cualquier motivo entre los participantes en el sitio web y/o un tercero, el Ayuntamiento de Palma queda exento de cualquier responsabilidad por reclamaciones, demandas o daños de cualquier naturaleza relacionados con el litigio o derivados de éste.</p>
+
+      <p><b>5. Uso del Portal de Participación Ciudadana</b></p>
+      <p>Los participantes pueden acceder y navegar por el Portal de Participación Ciudadana libremente y de forma anónima. Sólo cuando quieran realizar alguna acción que implique la creación, el apoyo, el comentario de una propuesta o la participación en un debate, se les pedirá que introduzcan sus credenciales, para la obtención de las cuales es necesario registrarse previamente.</p>
+      <p>El registro que permite participar comentando en cualquiera de las secciones, creando debates o propuestas, se realiza introduciendo los siguientes datos:</p>
+      <ul>
+        <li>Nombre de usuario</li>
+        <li>Dirección electrónica </li>
+        <li>Aceptación de las condiciones de uso del Portal de Participación Ciudadana</li>
+      </ul>
+      <p>Para participar apoyando propuestas, se requerirá al usuario que verifique su cuenta, que tiene 16 años o más y que está empadronado en Palma. Para hacerlo, se le guiará a través de una serie de pasos.</p>
+
+      <p><b>6. Condiciones para el tratamiento de los contenidos que proporcionen los usuarios</b></p>
+      <p>Las presentes condiciones regulan los términos aplicables al contenido enviado por los usuarios de esta plataforma mediante el formulario correspondiente (en adelante, el contenido). Estas condiciones se aplican tanto al contenido inicialmente enviado al Portal de Participación Ciudadana como cualquier otro que se envíe con posterioridad o se manifieste en el Ayuntamiento de Palma. Se especifica lo siguiente:</p>
+      <ul>
+        <li>A. No confidencialidad. Todo el contenido que envía el usuario en el Ayuntamiento de Palma debe ser susceptible de ser conocido por parte del público en general. Por lo tanto, el Ayuntamiento de Palma trata este contenido como información no confidencial. Se exceptúan los procesos de votación, cuya confidencialidad queda garantizada.<br><br></li>
+        <li>B. Procedimiento. En el caso de que el Ayuntamiento de Palma esté interesado en el contenido facilitado por el usuario, se pondrá en contacto con el para solicitarle información adicional. Esta información tendrá, así mismo, carácter de no confidencial, sin perjuicio de que, en caso de que las partes consideren la necesidad de intercambiarse información de carácter confidencial, se firme el correspondiente acuerdo de confidencialidad.<br><br>El Ayuntamiento de Palma se reserva el derecho de no contactar con los usuarios que le hayan enviado el contenido. En el supuesto de que el Ayuntamiento de Palma, discrecionalmente, decida contactar con determinados usuarios, estos conocen y aceptan que, haciéndolo, el Ayuntamiento de Palma no adquiere ningún compromiso.<br><br></li>
+        <li>C. Publicidad o difusión de los contenidos presentados. Los participantes en el Portal de Participación Ciudadana del Ayuntamiento de Palma declaran conocer y aceptar que la información aportada puede ser publicada en la web.</li>
+      </ul>
+    faq_content: |-
+      <ul class="menu vertical margin-top"> 
+        <li><a href="#1"><strong>¿Qué son los Presupuestos participativos?</strong></a></li> 
+        <li><a href="#2"><strong>¿Qué cantidad destina el Ayuntamiento a los Presupuestos participativos y cómo se reparten en la ciudad?</strong></a></li> 
+        <li><a href="#3"><strong>¿Como se lleva a cabo el proceso de los Presupuestos participativos?</strong></a></li> 
+        <li><a href="#4"><strong>¿En que consiste la presentación de proyectos?</strong></a></li> 
+        <li><a href="#5"><strong>¿En que consiste el apoyo de proyectos?</strong></a></li> 
+        <li><a href="#6"><strong>¿En que consiste el informe, reformulación y valoración de proyectos?</strong></a></li> 
+        <li><a href="#7"><strong>¿En que consiste la votación final de proyectos?</strong></a></li> 
+        <li><a href="#8"><strong>¿Cuál es el resultado final después de la votación de los Presupuestos participativos?</strong></a></li> 
+        <li><a href="#9"><strong>¿Cuáles son los requisitos para  votar proyectos?</strong></a></li> 
+        <li><a href="#10"><strong>¿Qué se puede proponer?</strong></a></li> 
+        <li><a href="#11"><strong>¿En que se diferencia un proyecto para toda la ciudad de un proyecto para un distrito? </strong></a></li> 
+        <li><a href="#12"><strong>Mi proyecto, ¿Puede ser considerado inviable?</strong></a></li> 
+        <li><a href="#13"><strong>¿Puedo acudir a mi Junta de Distrito o al  Consejo de Barrio a presentar y debatir propuestas?</strong></a></li> 
+        <li><a href="#14"><strong>¿Pueden participar asociaciones, fundaciones y ONG? ¿Y empresas?</strong></a></li> 
+        <li><a href="#15"><strong>¿En base a qué criterios se considera que una propuesta es vàlida?</strong></a></li> 
+        <li><a href="#16"><strong>¿Pueden plantearse proyectos que estén más de un año a hacerse realidad?</strong></a></li> 
+        <li><a href="#17"><strong>¿Qué diferencia la fase de apoyos de la votación final?</strong></a></li> 
+        <li><a href="#18"><strong>¿Cómo se analizan los proyectos durante la fase de evaluación? Qué proyectos pasan a la fase de votación final?</strong></a></li> 
+        <li><a href="#19"><strong>¿Cómo se asegura que cada persona voto una única vez?</strong></a></li> 
+        <li><a href="#20"><strong>¿Puede ocurrir que un proyecto seleccionado en la votación final no llegue a ser realizado?</strong></a></li> 
+      </ul> 
+      </div> 
+ 
+      <div class="text small-12 medium-9 column"> 
+        <h1 class="clear">Preguntas frecuentes sobre los Presupuestos participativos</h1> 
+        <h2>Explicación detallada</h2> 
+ 
+        <h2 id="1">¿Qué son los Presupuestos participativos?</h2> 
+        <p>Los Presupuestos participativos son unos procesos democráticos en los cuales la ciudadanía decide de manera directa a que se destina una parte del Presupuesto municipal. Los ciudadanos proponen proyectos de gasto, que son preseleccionados en una fase de apoyos ciudadanos; se evalúan y finalmente se realiza a una votación final. A partir del 1 de enero del año siguiente, o con carácter plurianual, en su caso, el Ayuntamiento lleva a cabo los proyectos seleccionados en la votación final.</p> 
+ 
+        <h2 id="2">¿Qué cantidad destina el Ayuntamiento a los Presupuestos participativos y cómo se reparten en la ciudad?</h2> 
+        <p>Los Presupuestos participativos que se deciden el 2018 que se empezarán a ejecutar el 2019 y posteriores, en su caso, importan <b>1.500.000,00 €</b>.</p> 
+        <p>De esta cantidad, se reservan 600.000,00 € para las propuestas de ámbito territorial del conjunto de la ciudad.</p> 
+        <p>La cuantía restante, de 900.000,00 €, se distribuye entre los 5 distritos de la ciudad, de forma proporcional y ponderada, en función de los siguientes criterios:</p> 
+        <ul> 
+          <li>Necesidades de cariz social, partiendo de un informe previo del área de Bienestar y Derechos Sociales, con una ponderación del 30%</li> 
+          <li>Población, con una ponderación del 30%</li> 
+          <li>Territorio, con una ponderación del 25%</li> 
+          <li>Equipamientos públicos, con una ponderación del 15% (casals de barri, bibliotecas municipales, equipamientos deportivos municipales, escoletas municipales, CEIP, IES y centros de salud)</li> 
+        </ul> 
+ 
+        <p>Se reservan:</p> 
+        <ul> 
+          <li>61.576,52 € para actuaciones en el distrito de Centre</li> 
+          <li>198.081,95 € para actuaciones en el distrito de Ponent</li> 
+          <li>187.550,84 € para actuaciones en el distrito de Nord</li> 
+          <li>247.608,38 € para actuaciones en el distrito de Llevant</li> 
+          <li>205.182,31 € para actuaciones en el distrito de Platja de Palma i Pla de Sant Jordi</li> 
+        </ul> 
+ 
+        <h2 id="3">¿Como se lleva a cabo el proceso de los Presupuestos participativos?</h2> 
+        <p>Las fases del proceso son las siguientes:</p> 
+        <ul> 
+          <li><b>Presentación de propuestas:</b> del 16 de marzo al 8 de abril</li> 
+          <li><b>Recogida de apoyos a las propuestas</b> del 3 al 31 de mayo</li> 
+          <li><b>Informe, reformulación y valoración de proyectos:</b> del 13 de junio al 15 de julio</li> 
+          <li><b>Votación final:</b> del 16 julio a  l 16 de septiembre</li> 
+          <li><b>Escrutinio de resultados:</b> 20 de septiembre</li> 
+        </ul> 
+         
+        <h2 id="4">¿En que consiste la presentación de proyectos?</h2> 
+        <p>En la fase de presentación de proyectos (del 16 de marzo al 8 de abril), cualquier persona  puede presentar proyectos de gasto, tanto para toda la ciudad como para algún distrito o barrio.</p> 
+         
+        <h2 id="5">¿En que consiste el apoyo de proyectos?</h2> 
+        <p>En la fase de recogida de apoyos a los proyectos (del 3 al 31 de mayo), cualquier persona empadronada en Palma, mayor de 16 años, puede apoyar a los proyectos presentados.</p> 
+        <p>La recogida de apoyos se hace mediante la pantalla de recogida de apoyos del portal Tufaspalma. El sistema verifica el cumplimiento de los requisitos para poder participar en esta fase y devuelve un código de verificación, vía SMS, que permite otorgar los apoyos a las propuestas.</p> 
+        <p>En esta fase, también se pueden recoger apoyos mediante hojas de recogida. Estas hojas se pueden descargar desde el mismo portal en formato pdf. Cada hoja reflejará el nombre y código o número de la propuesta; el DNI, el nombre, los apellidos y la firma de las personas que le apoyan.</p> 
+        <p>Las hojas de firma se pueden presentar en cualquier Oficina de Atención a la Ciudadanía, mediante una instancia normalizada en la qué figuren los datos de quien la presenta y la petición que los apoyos se incorporen al proceso de Presupuestos Participativos.</p> 
+        <p>Se comprobará que las personas que firman cumplen los requisitos, que no han participado previamente por vía telemática. Los apoyos se incorporaran a los recogidos en el portal Tufaspalma.</p> 
+        <p>En esta fase sólo se puede participar por vía telemática o mediante las hojas de firma. La participación de una misma persona por vía telemática implica la desestimación de los apoyos que pueda haber presentado en las hojas de firma.</p> 
+        <p>Los proyectos que obtengan más apoyos pasan a la fase de votación final, después de su evaluación más detallada y con una propuesta de presupuesto inicial.</p> 
+         
+        <h2 id="6">¿En que consiste el informe, reformulación y valoración de proyectos?</h2> 
+        <p>En la fase de informe, reformulación y valoración de proyectos (del 13 de junio al 15 de julio), los servicios municipales competentes del Ayuntamiento, con audiencia de los proponentes, evalúan los proyectos con más apoyos, en coordinación con la Regidoria de Participació Ciutadana i Coordinació Territorial.</p> 
+        <p>La evaluación confirma que los proyectos son válidos, viables y legales (se asegura que son competencia del Ayuntamiento y realizables) y pueden incluirse en el Presupuesto municipal. Así mismo, se realiza un presupuesto estimativo del coste económico de cada proyecto.</p> 
+ 
+        <h2 id="7">¿En que consiste la votación final de proyectos?</h2> 
+        <p>En la fase de votación final (del 16 de julio al 16 de septiembre), todas las personas empadronadas en Palma mayores de 16 años pueden votar todas los propuestas. Se puede votar aunque no se haya participado en las fases anteriores.</p> 
+        <p>La votación se hace mediante la pantalla de votación final de las propuestas del portal Tufaspalma. Para  votar, se tienen que introducir los datos de usuario. El sistema verifica que se cumplen los requisitos para poder participar en esta fase y los comprueba con los datos del Padrón. A continuación, se facilita un código personal seguro de verificación de la cuenta, que se comunica a través de un SMS al teléfono móvil y, con su introducción en el portal, se permite realizar la votación.</p> 
+        <p>Se pueden votar todas las propuestas, se pueden modificar los votos en cualquier momento del plazo de votación.</p> 
+         
+        <h2 id="8">¿Cuál es el resultado final después de la votación de los Presupuestos participativos?</h2> 
+        <p>El resultado final del proceso se obtiene, una vez finalizada la votación, con todos los proyectos ordenados por número de votos para la ciudad y para cada distrito. A cada lista se van seleccionando las propuestas desde la más votada hasta la menos votada, teniendo en cuenta que cada propuesta incluida no puede superar el presupuesto restando destinado a esta lista. Si una propuesta supera este límite, se ignora y se pasa a la siguiente.</p> 
+        <p>La selección final propone para su integración en el proyecto inicial del Presupuesto general del Ayuntamiento de Palma que apruebe la Junta de Gobierno. En caso de que la actuación se pueda realizar íntegramente dentro del ejercicio siguiente se imputará al mismo, en caso de que no sea posible, se tramitará como un expediente de gasto plurianual.</p> 
+        <p>La Regidoria de Participació Ciutadana i Coordinació Territorial coordina todo el proceso, y es la garante de su neutralidad y efectividad. Finalizado este, a partir de las evaluaciones de sus resultados, se promueven las modificaciones necesarias en el proceso del año siguiente.</p> 
+         
+        <h2 id="9">¿Cuáles son los requisitos para  votar proyectos?</h2> 
+        <p>Las personas que participen a las votaciones tienen que estar empadronadas en Palma, y tener  16 años como mínimo. En caso de proponer o votar a través de la web Tufaspalma, es necesario que el usuario verifique su cuenta (el botón de verificación está en el apartado "Mi cuenta") con la información del padrón y la introducción de un código que se recibe en el teléfono móvil a través de SMS (no se utiliza el número de teléfono para otra finalidad).</p> 
+         
+        <h2 id="10">¿Qué se puede proponer?</h2> 
+        <p><b>Se pueden presentar propuestas</b> de:</p> 
+        <ul> 
+          <li>Inversiones en infraestructuras y obras, tanto si son de nueva planta como de reforma, de adquisición de corderos o de patrimonio municipal</li> 
+          <li>Actuaciones específicas y/o programas de actuación sectorial, con finalidades sociales o culturales</li> 
+        </ul> 
+         
+        <p>Las propuestas se clasifican en función de su ámbito territorial, en 6 apartados:</p> 
+        <ul> 
+          <li>Propuestas que afecten al conjunto de la ciudad o a más de un distrito <i>(Se establece un límite de 300.000,00 € a las valoraciones económicas de las propuestas de ámbito de la ciudad.)</i></li> 
+          <li>Distrito Centre</li> 
+          <li>Distrito Ponent</li> 
+          <li>Distrito Nord</li> 
+          <li>Distrito Llevant</li> 
+          <li>Distrito Pla de Sant Jordi i Platja de Palma</li> 
+          <li><i>Se establece un límite de 100.000,00 € a las valoraciones económicas de las propuestas de ámbito de los distritos.</i></li> 
+        </ul>
+
+        <p>Cuando la valoración económica de una propuesta sea superior a los límites establecidos se podrá considerar la posibilidad de presentarla y ejecutarla por fases.</p>
+
+        <p>Cuando una propuesta presentada al ámbito de distrito tenga una valoración económica superior a los 100.000,00 € se podrá tramitar como si fuera una propuesta de ciudad.</p> 
+
+        <p><b>No se poden presentar propuestas</b> relativas a: </p>
+        <ul>
+          <li>Actuaciones reguladas por ordenanzas municipales o de otra normativa legal</li>
+          <li>Actuaciones que sean obligaciones legales del Ayuntamiento</li>
+          <li>Actuaciones que contradigan el ordenamiento o los planes municipales aprobados</li>
+          <li>Actuaciones que impliquen contribuciones especiales</li>
+          <li>Actividades o gastos que impliquen una subvención o contratación directas, puesto que los procedimientos de subvención y de contratación públicas se rigen por su normativa legal propia</li>
+          <li>Actuaciones que afecten el capítulo de gastos del personal municipal</li>
+          <li>Actuaciones puntuales de mantenimiento o que afecten el funcionamiento interno de los servicios municipales, puesto que las vías para canalizar estas peticiones son las demandas municipales de  servicio (DMS)</li>
+        </ul>
+ 
+        <p>Además del cumplimiento de los requisitos anteriores, quedaran excluidas las propuestas con alguna de las siguientes circunstancias:</p> 
+        <ul> 
+          <li>Que incluyan contenido o propaganda de tipo racista, sexista, de LGTFB fobia, xenófobo o de apología del terrorismo, o que atenten contra los derechos humanos o la dignidad de las personas o de los animales.</li> 
+          <li>Que planteen acciones de discriminación o de exclusión social de cualquier tipo.</li> 
+          <li>Que propongan acciones no sostenibles o que comprometan las necesidades y las posibilidades de desarrollo de las generaciones futuras.</li> 
+          <li>Que empleen un lenguaje ofensivo o insultante.</li> 
+          <li>Que tengan un finalidad delictiva o que atenten contra la legislación vigente en materia de derechos fundamentales y libertades públicas.</li>
+          <li>Las de culto o propias de una confesión religiosa.</li> 
+          <li>Que tengan un carácter reiterativo o puedan ser consideradas spam.</li> 
+        </ul> 
+ 
+        <h2>Más preguntas frecuentes</h2> 
+ 
+        <h2 id="11">¿En que se diferencia un proyecto para toda la ciudad de un proyecto para un distrito? </h2> 
+        <p>Las <b>propuestas para toda la ciudad</b> cumplen alguna de las siguientes condiciones:</p> 
+        <ul> 
+          <li><b>No están localizadas en un distrito específico </b></li> 
+          <li><b>Afectan a más de un distrito</b></li> 
+          <li><b>Afectan elementos que se consideran de relevancia para la mayoría de habitantes</b></li> 
+          <li><b>Las propuestas de distrito superior a los 100.000,00 €</b></li> 
+        </ul> 
+        <p>Una propuesta categorizada como  de ciudad o de distrito  puede ser reclasificada por parte de los técnicos del Ayuntamiento durante su evaluación si se considera que se ha clasificado erróneamente.</p> 
+ 
+        <h2 id="12">Mi proyecto, ¿Puede ser considerado inviable?</h2> 
+        <p>Los proyectos pueden declararse inviables durante todo el proceso. Esto puede ocurrir de diferentes maneras en las diferentes fases:</p> 
+        <p>Durante la primera fase de recogida de proyectos, los técnicos del Ayuntamiento  realizan un primer estudio para  detectar las propuestas que son claramente inviables, como las que no son competencia del Ayuntamiento.</p> 
+        <p>Durante la fase de evaluación se lleva a cabo un estudio más detallado de la viabilidad de los proyectos que superen la fase de recogida de apoyos. En este caso se pueden detectar como inviables proyectos que no se hayan detectado a la primera fase. También se pueden detectar varios proyectos viables que, en el caso de ser aprobados, impliquen exactamente la misma actuación por parte del Ayuntamiento. En este caso se invita a los proponentes a unificar las propuestas en una  de conjunta.</p> 
+         
+        <h2 id="13">¿Puedo acudir a mi Junta de Distrito o al  Consejo de Barrio a presentar y debatir propuestas?</h2> 
+        <p>Las juntas de distrito llevarán a cabo encuentros sobre Presupuestos participativos, donde podrás debatir y plantear proyectos.</p> 
+        <p>Las entidades podrán convocar los consells de barri para que todas las personas que  quieran participar presencialmente puedan hacerlo con facilidad. En estos espacios se promueve el diagnóstico, el debate y el diseño colectivo de propuestas entre las entidades y las personas individuales que  están interesadas.</p> 
+ 
+        <h2 id="14">¿Pueden participar asociaciones, fundaciones y ONG? ¿Y empresas?</h2> 
+        <p>Las propuestas tienen que presentarse individualmente, aunque una organización puede estar representada por una persona. Al registrar una propuesta en la web, existe la posibilidad de señalar este caso como propuesta de asociaciones/colectivos.</p> 
+         
+        <h2 id="15">¿En base a qué criterios se considera que una propuesta es vàlida?</h2> 
+        <p>Los técnicos del Ayuntamiento califican una propuesta como válida de acuerdo con las bases de la convocatoria y también en base a que cumple los requisitos, de acuerdo con el punto 6 de las Bases.</p> 
+        <p>¿Cuánto vale? Se intenta estimar el coste de los proyectos planteados. Se excluyen todos los que tengan un coste superior a los importes correspondientes. Recordamos que, según sea una propuesta para toda la ciudad o para un distrito u otro, hay un límite de coste diferente. Las propuestas de distrito que superen el límite del distrito, pero no el de ciudad, se clasificarán como propuestas de ciudad, en lugar de excluirse.</p> 
+        <p>¿Es legal? La propuesta tiene que ser de competencia del Ayuntamiento. No se pueden aceptar propuestas que sean competencia del Consell, de la Comunidad Autónoma o del Estado. También se estudia si existe normativa contraria a la realización de la propuesta, si ya existe un contrato en vigor que cubre el que se propone al proyecto planteado o alguna otra limitación adicional.</p> 
+        <p>¿Es viable? Se estudia si la propuesta es viable técnicamente y si  puede haber algún impedimento para  llevarla a cabo.</p> 
+ 
+        <h2 id="16">¿Pueden plantearse proyectos que estén más de un año a hacerse realidad?</h2> 
+        <p>Sí. Lo único que se exige es que el total del proyecto pueda pagarse con el presupuesto disponible. Es decir, el proyecto se tasa en su precio total, y no en el coste del primer año. Esto no excluye que se pueda aprobar en forma de gasto plurianual.</p> 
+         
+        <h2 id="17">¿Qué diferencia la fase de apoyos de la votación final?</h2> 
+        <p>La fase de apoyos simplemente reduce el número de propuestas que van a la votación final, porque esta sea manejable y porque el Ayuntamiento sea capaz de realizar todas las evaluaciones posibles de las propuestas con más apoyo. La votación final es la decisión sobre el que tiene que llevarse a cabo, con todas las propuestas ya evaluadas.</p> 
+ 
+        <h2 id="18">¿Cómo se analizan los proyectos durante la fase de evaluación? Qué proyectos pasan a la fase de votación final?</h2> 
+        <p>En la fase de evaluación se lleva a cabo un estudio detallado de la viabilidad y el  coste de los proyectos. La complejidad de este estudio, en comparación con el que se realiza en las primeras fases, implica que sólo es posible realizar-lo para una parte de los proyectos presentados. Los proyectos que superan los umbrales de apoyos recibidos, según acuerdo de las juntas de distrito o de la Comisión Permanente del Consejo Social de la Ciudad, pasan a la fase de votación final.</p> 
+        <p>Técnicos del Ayuntamiento realizan los estudios de viabilidad y de coste  de manera independiente y neutral, atendiendo únicamente a criterios de evaluación que se han marcado públicamente en las bases del proceso. Los proponentes pueden solicitar una revisión de los informes en caso de estar en disconformidad.</p> 
+ 
+        <h2 id="19">¿Cómo se asegura que cada persona voto una única vez?</h2> 
+        <p>En la votación a través de la web de Tufaspalma se verifica que la cuenta de usuario corresponde a un único ciudadano o ciudadana. Para lo cual, además de comprobar los datos del Padrón, se facilita un código personal seguro de verificación de la cuenta, que se comunica a través de un SMS al teléfono móvil. De esta forma se asegura que sólo esta persona ha recibido el código de votación.</p> 
+         
+        <h2 id="20">¿Puede ocurrir que un proyecto seleccionado en la votación final no llegue a ser realizado?</h2> 
+        <p>Después de finalizar el proceso de  Presupuestos participativos, los proyectos se incluyen en el Proyecto inicial del Presupuesto general del Ayuntamiento de Palma para que los apruebe el Pleno. Esto implica que los proyectos planteados por la ciudadanía pasan los mismos controles y estudios adicionales que los proyectos del mismo Ayuntamiento. Aunque se haya hecho un estudio previo antes de la votación de los Presupuestos participativos, en este trámite final podrían aparecer estudios adicionales que desvelaran obstáculos no detectados anteriormente. En este caso se invita al proponente a reformular la propuesta para  incluirla en el siguiente proceso de los Presupuestos.</p> 
+      </div>

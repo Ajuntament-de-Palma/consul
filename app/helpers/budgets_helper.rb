@@ -74,11 +74,13 @@ module BudgetsHelper
     investment.group.headings.count > 1
   end
 
+  # CHANGE: execution -> execution_status
   def budget_subnav_items_for(budget)
     {
       results:    t("budgets.results.link"),
       stats:      t("stats.budgets.link"),
-      executions: t("budgets.executions.link")
+      execution_status: t("budgets.results.execution_status")
+      # executions: t("budgets.executions.link")
     }.select { |section, _| can?(:"read_#{section}", budget) }.map do |section, text|
       {
         text: text,

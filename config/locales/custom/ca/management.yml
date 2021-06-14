@@ -1,0 +1,154 @@
+ca:
+  management:
+    account:
+      menu: 
+        reset_password_email: Restablir contrasenya via email
+        reset_password_manually: Restablir contrasenya manualment
+      alert:
+        unverified_user: Únicament es poden editar comptes d'usuaris verificats
+      show:
+        title: Compte d'usuari
+        new_password: "La contrasenya de l'usuari és:"
+        new_password_sms: "S'ha enviat un sms amb la contrasenya del compte a l'usuari."
+        generate_new_password: "Generar una nova contrasenya"
+        send_new_password_sms: "Enviar una nova contrasenya per sms"
+      edit: 
+        title: "Editar compte d'usuari: Restablir contrasenya"
+        back: Enrere 
+        password:
+          password: Contrasenya
+          send_email: Enviar email per restablir la contrasenya
+          reset_email_send: Email enviat correctament.
+          reseted: Contrasenya restablida correctament
+          random: Generar contrasenya aleatòria
+          save: Guardar
+          print: Imprimir contrasenya
+          print_help: Podràs imprimir la contrasenya quan s'hagi guardat.
+    account_info:
+      change_user: Canviar usuari
+      document_number_label: 'Nombre de document:'
+      document_type_label: 'Tipus de document:'
+      email_label: "Adreça electrònica: "
+      identified_label: 'Identificat com a:'
+      username_label: 'Usuari:'
+    check: Comprovar
+    dashboard:
+      index:
+        title: Gestió
+        info: Des d'aquí pots gestionar usuaris a través de les accions llistades en el menú de l'esquerra.
+    document_number: Número de document
+    document_type_label: Tipus de document
+    document_verifications:
+      already_verified: Aquest compte d'usuari ja està verificat.
+      has_no_account_html: Per crear un usuari entri en %{link} i faci clic en l'opció <b>'Registrar-se'</b> en la part superior dreta de la pantalla.
+      link: Tu Fas Palma
+      in_census_has_following_permissions: "Aquest usuari pot participar al Portal de Govern Obert amb les següents possibilitats:"
+      not_in_census: Aquest document no està registrat.
+      not_in_census_info: 'Les persones no empadronades poden participar al Portal de Govern Obert amb les següents possibilitats:'
+      please_check_account_data: Comprovi que les dades anteriors són correctes per verificar el compte completament.
+      title: Gestió d'usuaris
+      under_age: Has de ser major de 16 anys per verificar el teu compte.
+      verify: Verificar usuari
+    email_label: "Adreça electrònica"
+    date_of_birth: Data de naixement
+    email_verifications:
+      already_verified: Aquest compte d'usuari ja està verificat.
+      choose_options: 'Tria una de les opcions següents:'
+      document_found_in_census: Aquest document està en el registre del Padró municipal, però encara no té un compte d'usuari associat.
+      document_mismatch: Aquest email correspon a un usuari que ja té associat el document %{document_number}(%{document_type})
+      email_placeholder: Introdueix l'email de registre
+      email_sent_instructions: Per acabar de verificar aquest compte és necessari que faci clic a l'enllaç que li hem enviat a l'adreça de correu que figura a dalt. Aquest pas és necessari per confirmar que aquest compte d'usuari és seu.
+      if_existing_account: Si la persona ja ha creat un compte d'usuari a la web
+      if_no_existing_account: Si la persona encara no ha creat un compte d'usuari a la web
+      introduce_email: 'Introdueix l''email amb el qual vas crear el compte:'
+      send_email: Enviar email de verificació
+    menu:
+      create_proposal: Crear proposta
+      print_proposals: Imprimir propostes
+      support_proposals: Donar suport a propostes
+      create_spending_proposal: Crear proposta d'inversió
+      print_spending_proposals: Imprimir propts. d'inversió
+      support_spending_proposals: Donar suport a propts. d'inversió
+      create_budget_investment: Crear projectes d'inversió
+      print_budget_investments: Imprimir projectes d'inversió
+      support_budget_investments: Recolzar projectes d'inversió
+      users: Usuaris
+      edit_user_accounts: Editar compte d'usuari
+      user_invites: Invitacions per a usuaris
+    permissions:
+      create_proposals: Crear noves propostes
+      debates: Participar en debats
+      support_proposals: Donar suport a propostes
+      vote_proposals: Participar en les votacions finals
+    print:
+      proposals_info: Fes la teva proposta a https://tufas.palma.cat
+      proposals_note: Les propostes amb més suport seran portades a votació. I si les accepta una majoria, l'Ajuntament les durà a terme.
+      proposals_title: 'Propostes:'
+      spending_proposals_info: Participa a https://tufas.palma.cat
+      spending_proposals_note: Els pressupostos participatius s'invertiran en les propostes d'inversió que hagin rebut més suport.
+      budget_investments_info: Participa a https://tufas.palma.cat
+      budget_investments_note: Els pressupostos participatius s'invertiran en les propostes d'inversió amb més suports.
+      not_in_census_info: 'Les persones no empadronades poden participar al Portal del Tu Fas Palma amb les següents possibilitats:' 
+    print_info: Imprimir aquesta informació
+    proposals:
+      alert:
+        unverified_user: Aquest usuari no està verificat
+      create_proposal: Crear proposta
+      print:
+        print_button: Imprimir
+    budgets:
+      create_new_investment: Crear nou projecte
+      print_investments: Imprimir projectes
+      support_investments: Recolzar projectes
+    budget_investments:
+      alert:
+        unverified_user: Usuari no verificat
+      create: Crear nou projecte
+      filters:
+        heading: Concepte
+        unfeasible: Projectes no factibles
+      print:
+        print_button: Imprimir
+      search_results:
+        one: " conté el terme '%{search_term}'"
+        other: " contenen el terme '%{search_term}'"
+    spending_proposals:
+      alert:
+        unverified_user: Aquest usuari no està verificat
+      create: Crear proposta d'inversió
+      filters:
+        unfeasible: Propostes d'inversió no viables
+        by_geozone: 'Propostes d''inversió amb àmbit: %{geozone}'
+      print:
+        print_button: Imprimir
+      search_results:
+        one: " que conté '%{search_term}'"
+        other: " que contenen '%{search_term}'"
+    sessions:
+      signed_out: Has tancat la sessió correctament.
+      signed_out_managed_user: S'ha tancat correctament la sessió de l'usuari.
+    username_label: Nom d'usuari
+    users:
+      create_user: Crear nou compte d'usuari
+      create_user_info: 'Procedim a crear un usuari amb la informació següent:'
+      create_user_submit: Crear usuari
+      create_user_success_html: Hem enviat un correu electrònic a <b>%{email}</b> per verificar que és seva. El correu enviat conté un link en el qual l'usuari haurà de fer clic. Llavors podrà seleccionar una clau d'accés i entrar a la web de participació.
+      create_user_success_html_phone_number: S'ha enviat la contrasenya del usuari per SMS al nombre de telèfon %{phone_number}.
+      autogenerated_password_html: "S'ha assignat la contrasenya <b>%{password}</b> a aquest usuari. Pot modificar-la des de l'apartat 'El meu compte' de la web."
+      email_optional_label: Email (recomendado pero opcional)
+      erased_notice: Compte d'usuari esborrat.
+      erased_by_manager: 'Esborrada pel manager: %{manager}'
+      erase_account_link: Esborrar compte
+      erase_account_confirm: Segur que vols esborrar a aquest usuari? Aquesta acció no es pot desfer
+      erase_warning: Aquesta acció no es pot desfer. Per favor, asseguri's que vol eliminar aquest compte.
+      erase_submit: Esborrar compte
+      phone_number_optional_label: "Número de mòbil (recomenat, però es opcional)"
+    user_invites:
+      new:
+        label: Emails
+        info: Introdueix els emails separats per ','
+        submit: Enviar invitacions
+        title: Invitacions per a usuaris
+      create:
+        success_html: S'han enviat <strong>%{count} invitacions</strong>.
+        title: Invitacions per a usuaris

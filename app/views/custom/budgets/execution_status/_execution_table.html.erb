@@ -1,0 +1,66 @@
+<div class="<%= results_type == :compatible ? 'success' : 'js-discarded' %>"
+     style="<%= results_type != :compatible ? 'display: none' : '' %>"
+     id="<%= results_type %>-container">
+
+  <h4><%= title %></h4>
+
+  <table id="budget-investments-<%= results_type %>" class="table-for-mobile">
+    <thead>
+      <tr>
+        <th scope="col">
+          <%= t("budgets.results.spending_proposal") %>
+        </th>
+        <th scope="col" class="text-center">
+          <%= t("budgets.results.execution_status") %>
+        </th>
+        <th scope="col" class="text-center">
+          <%= t("budgets.results.execution_percentage") %>
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% amount_available = heading_price %>
+      <% investments.each do |investment| %>
+          <tr id="<%= dom_id(investment) %>"
+              class="budget-investments <%= investment.winner? ? 'success' : 'js-discarded' %>"
+              style="<%= investment.winner? ? '' : 'display: none' %>">
+            <td>
+              <span class="icon-check">
+                <span class="show-for-sr">
+                  <%= t("budgets.results.accepted") %>
+                </span>
+              </span>
+              <%= link_to investment.title, budget_investment_path(@budget, investment) %>
+            </td>
+
+            <td class="text-center">
+              <% case investment.execution_status %>
+              <% when "20" %>
+                <span><%= t('admin.budget_investments.edit.execution_status_1') %></span>
+              <% when "40" %>
+                <span><%= t('admin.budget_investments.edit.execution_status_2') %></span>
+              <% when "50" %>
+                <span><%= t('admin.budget_investments.edit.execution_status_3') %></span>
+              <% when "70" %>
+                <span><%= t('admin.budget_investments.edit.execution_status_4') %></span>
+              <% when "100" %>
+                <span><%= t('admin.budget_investments.edit.execution_status_5') %></span>
+              <% end %>
+            </td>
+            <td style="width: 17%;">
+
+              <div style="width: 100%;  text-align: center; position: relative;">
+                <div style="width: 100%; position: absolute;">
+                  <span><%= investment.execution_status %>%</span>
+                </div>
+                <div style="width: <%= investment.execution_status %>%; background-color: #2dd00b;">
+                  &nbsp;
+                </div>
+              </div>
+            </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
