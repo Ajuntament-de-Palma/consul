@@ -9,17 +9,17 @@ es:
         proposals_dates: Debates abiertos
       proposals:
         start_proposal: "Crea un debate abierto"
-        new: 
-          more_info: ¿Cómo funcionan los debates abiertos? 
-          recommendations_title: "Recomendaciones para crear un debate abierto" 
-          recommendation_one: "No escribas el título del debate o frases enteras en mayúsculas. En Internet esto se considera gritar. Y a nadie le gusta que le griten." 
-          recommendation_two: "Cualquier debate o comentario que implique una acción ilegal será eliminado, también los que tengan la intención de sabotear los espacios de propuesta, todo el resto está permitido." 
-          recommendation_three: "Disfruta de este espacio, de las voces que lo llenan, también es tuyo." 
-        form: 
-          proposal_title: Título del debate abierto 
-          proposal_summary: Resumen del debate abierto 
-          proposal_text: Texto desarrollado del debate abierto 
-          tags_instructions: Etiqueta este debate abierto. Puedes escoger entre las categorias propuestas o introducir las que desees 
+        new:
+          more_info: ¿Cómo funcionan los debates abiertos?
+          recommendations_title: "Recomendaciones para crear un debate abierto"
+          recommendation_one: "No escribas el título del debate o frases enteras en mayúsculas. En Internet esto se considera gritar. Y a nadie le gusta que le griten."
+          recommendation_two: "Cualquier debate o comentario que implique una acción ilegal será eliminado, también los que tengan la intención de sabotear los espacios de propuesta, todo el resto está permitido."
+          recommendation_three: "Disfruta de este espacio, de las voces que lo llenan, también es tuyo."
+        form:
+          proposal_title: Título del debate abierto
+          proposal_summary: Resumen del debate abierto
+          proposal_text: Texto desarrollado del debate abierto
+          tags_instructions: Etiqueta este debate abierto. Puedes escoger entre las categorias propuestas o introducir las que desees
           submit_button: Enviar
       header:
         colabore: "Nos podéis enviar vuestras aportaciones, reflexiones y propuestas respondiendo a las preguntas planteadas. También, si así lo consideráis, las podéis compartir de forma pública en el apartado de Debates abiertos."
@@ -44,6 +44,10 @@ es:
           update_2020_1_url: "/Modificaci%C3%B3n%20n%C3%BAm.%201%20del%20Plan%20normativo%20municipal%202020.pdf"
         section_footer:
           title: Ayuda sobre procesos normativos
+          description: Participa en los debates y procesos previos a la aprobación de una norma o de una actuación municipal. Tu opinión será tenida en cuenta por el Ayuntamiento.
+          help_text_1: En los procesos participativos, el Ayuntamiento ofrece a la ciudadanía la oportunidad de participar en la elaboración y modificación de normativa que afecta a la ciudad y de dar su opinión sobre ciertas actuaciones que tiene previsto llevar a cabo.
+          help_text_2: Las personas registradas en Ajuntament de Palma pueden participar con aportaciones en la consulta pública de nuevas ordenanzas, reglamentos y directrices, entre otros. Sus comentarios son analizados por el área correspondiente y tenidos en cuenta de cara a la redacción final de las normas.
+          help_text_3: El Ayuntamiento también abre procesos para recibir aportaciones y opiniones sobre actuaciones municipales.
     questions:
       comments:
         anonymous_user: "Usuario anónimo"

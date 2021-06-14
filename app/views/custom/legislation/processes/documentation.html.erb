@@ -1,0 +1,44 @@
+<% provide :title do %>
+  <%= t("layouts.header.collaborative_legislation") %> - <%= t("legislation.processes.index.filters.#{@current_filter}") %>
+<% end %>
+
+<%= render "shared/section_header", i18n_namespace: "legislation.processes.index.section_header", image: "legislation_processes" %>
+
+<div class="row">
+  <div id="legislation" class="legislation-list small-12 medium-9 column">
+
+    <%= render 'shared/filter_subnav', i18n_namespace: "legislation.processes.index" %>
+
+        <div class="small-12">
+          <div class="callout secondary">
+            <h4>
+              <%= link_to t("legislation.processes.index.section_header.info_2018_text"), t("legislation.processes.index.section_header.info_2018_url") %>
+            </h4>
+            <hr>
+            <h4>
+              <%= link_to t("legislation.processes.index.section_header.info_pla_normatiu_text"), t("legislation.processes.index.section_header.info_pla_normatiu_url") %>
+            </h4>
+            <hr>
+            <h4>
+              <%= link_to t("legislation.processes.index.section_header.info_2020_text"), t("legislation.processes.index.section_header.info_2020_url") %>
+            </h4>
+            <hr>
+            <h4>
+              <%= link_to t("legislation.processes.index.section_header.update_2020_1_text"), t("legislation.processes.index.section_header.update_2020_1_url") %>
+            </h4>
+          </div>
+
+
+      <div id="section_help" class="margin" data-magellan-target="section_help">
+        <p class="lead">
+          <strong><%= t("legislation.processes.index.section_footer.title") %></strong>
+        </p>
+        <p><%= t("legislation.processes.index.section_footer.description") %></p>
+        <p><%= t("legislation.processes.index.section_footer.help_text_1") %></p>
+        <p><%= t("legislation.processes.index.section_footer.help_text_2",
+                  org: setting['org_name']) %></p>
+        <p><%= t("legislation.processes.index.section_footer.help_text_3") %></p>
+      </div>
+    </div>
+  </div>
+</div>

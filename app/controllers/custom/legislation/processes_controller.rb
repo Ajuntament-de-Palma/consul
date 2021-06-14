@@ -1,18 +1,27 @@
 class Legislation::ProcessesController < Legislation::BaseController
   include RandomSeed
 
-  has_filters %w[open past status_planned], only: :index
+  has_filters %w[open past status_planned documentation], only: :index
   has_filters %w[random winners], only: :proposals
 
   load_and_authorize_resource
 
   before_action :set_random_seed, only: :proposals
 
+  has_filters %w{open past documentation}, only: :index
+
+
   def index
-    @current_filter ||= "open"
-    @processes = ::Legislation::Process.send(@current_filter).published
-                 .not_in_draft.order(start_date: :desc).page(params[:page])
+    if @current_filter == "documentation"
+      render :documentation
+    else
+      @current_filter ||= "open"
+      @processes = ::Legislation::Process.send(@current_filter).published
+      .not_in_draft.order(start_date: :desc).page(params[:page])
+    end
   end
+
+  def documentation() end
 
   def show
     draft_version = @process.draft_versions.published.last
