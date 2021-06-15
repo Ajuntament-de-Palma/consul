@@ -44,16 +44,16 @@ ca:
         phase_5_html: "A partir de l'aprovació dels pressupostos a l'any següent l'Ajuntament comença a dur a terme els projectes guanyadors."
         image_alt: Diferents fases d'un pressupost participatiu
         figcaption_html: 'Fase de "Suports" i fase de "Votació" dels Pressupostos Participatius.'
-      processes: 
-        title: "Processos normatius" 
-        description: "En la secció de %{link} la ciutadania participa en l'elaboració i modificació de la normativa que afecta a la ciutat i pot donar la seva opinió sobre les polítiques municipals en debats previs." 
-        link: "processos normatius" 
-        feature: "Per participar en un procés cal %{sign_up} i consultar la pàgina de %{link} periòdicament per saber què normatives i polítiques s'estan debatent i consultant." 
+      processes:
+        title: "Processos normatius"
+        description: "En la secció de %{link} la ciutadania participa en l'elaboració i modificació de la normativa que afecta a la ciutat i pot donar la seva opinió sobre les polítiques municipals en debats previs."
+        link: "processos normatius"
+        feature: "Per participar en un procés cal %{sign_up} i consultar la pàgina de %{link} periòdicament per saber què normatives i polítiques s'estan debatent i consultant."
         sign_up: "registrar-se en %{org}"
       polls:
         title: Votacions
-        description: "La secció de %{link} s'activa cada vegada que una proposta aconsegueix el nombre mínim de suports i passa a votació o quan l'Ajuntament proposa un tema perquè la gent decideixi sobre ell." 
-        link: "votacions ciutadanes" 
+        description: "La secció de %{link} s'activa cada vegada que una proposta aconsegueix el nombre mínim de suports i passa a votació o quan l'Ajuntament proposa un tema perquè la gent decideixi sobre ell."
+        link: "votacions ciutadanes"
         feature_1: "Per participar en les votacions has de %{link} i verificar el teu compte."
         feature_1_link: registrar-te a %{org_name}
         feature_2: Poden votar totes les persones empadronades a la ciutat majors de 16 anys.
@@ -101,22 +101,22 @@ ca:
     verify:
       code: Codi que has rebut en la teva carta
       email: Adreça electrònica
-      info: 'Per a verificar el teu compte introdueix les dades amb les quals et vares registrar:'
-      info_code: 'Ara introdueix el codi que has rebut en la teva carta:'
+      info: "Per a verificar el teu compte introdueix les dades amb les quals et vares registrar:"
+      info_code: "Ara introdueix el codi que has rebut en la teva carta:"
       password: Contrasenya
       submit: Verificar el meu compte
       title: Verifica el teu compte
     documentation_content_budget: |-
-        <a href="/Bases_Pressuposts_Participatius_2018_2019.pdf" target="_blank">Bases</a><br>
-        <a href="/presentacio_pressupost_2018.pdf">Presentació de pressupostos</a><br>
-        <a href="/Presentacio_Propostes_2018.pdf" target="_blank">Full de presentació de propostes</a><br>
-        <a href="/budgets/3/all_investments">Veure totes les propostes</a><br>
-        <a href="/dictamen_de_validacio.pdf">Dictamen de la Comissió Tècnica</a><br>
-        <a href="/fase_de_recollida_de_suports.pdf">Fase de recollida de suports</a><br>
-        <a href="/suport_a_les_propostes.pdf" target="_blank">Full de recollida de suports</a><br>
-        <a href="/Propostes_que_han_superat_la_fase_de_recollida_de_suports.pdf" target="_blank">Propostes que han superat la fase de recollida de suports</a><br>
-        <a href="/Propostes_que_passen_a_la_votació_final.pdf" target="_blank">Propostes que pasen a la votació final</a><br>
-        <a href="/Informe_escrutinio_Palma_2018.pdf" target="_blank">Acta d'escrutini de resultats 2018</a>
+      <a href="/Bases_Pressuposts_Participatius_2018_2019.pdf" target="_blank">Bases</a><br>
+      <a href="/presentacio_pressupost_2018.pdf">Presentació de pressupostos</a><br>
+      <a href="/Presentacio_Propostes_2018.pdf" target="_blank">Full de presentació de propostes</a><br>
+      <a href="/budgets/3/all_investments">Veure totes les propostes</a><br>
+      <a href="/dictamen_de_validacio.pdf">Dictamen de la Comissió Tècnica</a><br>
+      <a href="/fase_de_recollida_de_suports.pdf">Fase de recollida de suports</a><br>
+      <a href="/suport_a_les_propostes.pdf" target="_blank">Full de recollida de suports</a><br>
+      <a href="/Propostes_que_han_superat_la_fase_de_recollida_de_suports.pdf" target="_blank">Propostes que han superat la fase de recollida de suports</a><br>
+      <a href="/Propostes_que_passen_a_la_votació_final.pdf" target="_blank">Propostes que pasen a la votació final</a><br>
+      <a href="/Informe_escrutinio_Palma_2018.pdf" target="_blank">Acta d'escrutini de resultats 2018</a>
     documentation_content_table: |-
       <table>
         <thead>
@@ -181,161 +181,161 @@ ca:
         <li>Per exercitar els seus drets podrà enviar un email a la següent adreça: tufaspalma@palma.cat.</li>
       </ol>
     conditions_content: |-
-      <h2>AVÍS LEGAL SOBRE LES CONDICIONS D'ÚS, PRIVADESA I PROTECCIÓ DE DADES PERSONALS DEL PORTAL DE PARTICIPACIÓ CIUTADANA TU FAS PALMA DE L'AJUNTAMENT DE PALMA</h2> 
-      <p><b>1. Àmbit d'aplicació de les condicions d'ús</b></p> 
-      <p>La participació (entenent-la com a activa, més enllà de la lectura d’aquest contingut) al Portal de Participació Ciutadana Tu Fas Palma, de l'Ajuntament de Palma, es regula per les presents condicions d'ús, que vinculen totes les persones que hi participen. Per això, qualsevol persona que vulgui participar-hi s’ha de registrar, per a la qual cosa se sol·licitarà l'acceptació d'aquestes condicions d'ús.</p> 
-      <p>L'Ajuntament de Palma es reserva la facultat de modificar aquestes condicions, la darrera versió de les quals es publicarà en aquest web.</p> 
- 
-      <p><b>2. Objectiu de la iniciativa</b></p> 
-      <p>Mitjançant el Portal de Participació Ciutadana Tu Fas Palma, l'Ajuntament vol fomentar la participació de la ciutadania en la gestió del municipi, implicant-la en la generació d'idees i propostes noves i viables, amb l'objecte de millorar la qualitat de vida de totes les persones. És una aposta decidida per una gestió més pròxima als ciutadans que permetrà rebre’n les propostes, crear canals directes de comunicació amb el Govern municipal i contribuir a prendre les decisions més encertades per a l'interès general.</p> 
- 
-      <p><b>3. Qüestions generals sobre la participació al Portal Tu Fas Palma de l'Ajuntament de Palma</b></p> 
-      <p>Hi pot participar qualsevol persona física a partir dels 16 anys, empadronada a Palma i que s'hagi registrat prèviament al Portal de Participació Ciutadana. Mitjançant l'acceptació d'aquestes condicions d'ús es declara tenir 16 anys o més. Els majors d'edat que tenen a càrrec seu els menors són els plens responsables de l'actuació que tinguin aquests al Portal de Participació Ciutadana. No hi ha limitació pel que fa al nombre de debats, comentaris o propostes que hi poden presentar els participants.</p> 
- 
-      <p><b>4. Obligacions dels usuaris del Portal de Participació Ciutadana</b></p> 
-      <p>Atès que l'Ajuntament de Palma és un punt de trobada amb l'objectiu de debatre, compartir i valorar propostes relacionades amb la millora del municipi, els usuaris estan obligats a fer-ne un ús diligent i d'acord amb aquest objectiu.</p> 
-      <p>L'Ajuntament no és responsable de l'ús incorrecte del Portal de Participació Ciutadana per part dels usuaris o dels continguts que s’hi localitzen, i és cada usuari el responsable de fer-ne un ús correcte, com també de la legalitat dels continguts i de les opinions que hi hagi compartit.</p> 
-      <p>L'Ajuntament de Palma es reserva, això no obstant, el dret a limitar l'accés al Portal de Participació Ciutadana de l'Ajuntament de Palma a determinats documents, opinions, informacions o comentaris que els usuaris hi vulguin incorporar, i hi pot instal·lar filtres a aquest efecte. Tot això, únicament amb la finalitat de preservar l'objectiu fonamental del Portal de Participació Ciutadana.</p> 
-      <p>D'acord amb la normativa legal vigent, queda prohibida la utilització del Portal de Participació Ciutadana de l'Ajuntament de Palma amb fins diferents als de debatre, compartir i valorar propostes, i específicament:</p> 
-      <ul> 
-        <li>Compartir-hi qualsevol contingut que pugui ser considerat com a vulneració en qualsevol forma dels drets fonamentals a l'honor, la imatge i la intimitat personal i familiar de tercers, o contra la dignitat de les persones.</li> 
-        <li>Compartir-hi imatges o fotografies que n’exposin de tercers, o dades personals d’altri sense haver obtingut l'oportú consentiment dels seus titulars.</li> 
-        <li>Compartir-hi qualsevol contingut que vulneri el secret en les comunicacions, infringeixi drets de propietat industrial i intel·lectual o les normes reguladores de la protecció de dades de caràcter personal.</li> 
-        <li>Reproduir-hi, distribuir-hi o compartir-hi continguts, informacions o imatges que hagin estat posades a disposició per part d’altres usuaris, sense l'autorització expressa d'aquests, com també utilitzar-los amb fins de publicitat.</li> 
-      </ul> 
-      <p>La realització de qualsevol dels anteriors comportaments permetrà a l'Ajuntament de Palma suspendre temporalment l'activitat d'un participant, desactivar el seu compte o esborrar-ne el contingut, sense perjudici d'altres responsabilitats que puguin ser reclamades.</p> 
-      <p>En cas que el contingut que hi hagin introduït els usuaris incorpori un enllaç a un altre lloc web, l'Ajuntament de Palma no és responsable dels danys o els perjudicis derivats de l'accés a l'enllaç o als seus continguts.</p> 
-      <p>En cas de litigi de qualsevol classe o per qualsevol motiu entre els participants al lloc web i/o un tercer, l'Ajuntament de Palma queda exempt de qualsevol responsabilitat per reclamacions, demandes o danys de qualsevol naturalesa relacionats amb el litigi o derivats d’aquest.</p> 
- 
-      <p><b>5. Ús del Portal de Participació Ciutadana</b></p> 
-      <p>Els participants poden accedir i navegar pel Portal de Participació Ciutadana lliurement i de forma anònima. Només quan vulguin realitzar-hi alguna acció que impliqui la creació, el suport, el comentari d'una proposta o la participació en un debat, se’ls demanarà que introdueixin les seves credencials, per a l'obtenció de les quals és necessari registrar-se prèviament.</p> 
-      <p>El registre que permet participar-hi comentant en qualsevol de les seccions, creant debats o propostes, es realitza introduint les següents dades:</p> 
-      <ul> 
-        <li>Nom d'usuari</li> 
-        <li>Adreça electrònica</li> 
-        <li>Acceptació de les condicions d'ús del Portal de Participació Ciutadana</li> 
-      </ul> 
-      <p>Per a participar-hi donant suport a propostes, es requerirà l'usuari que verifiqui el seu compte, que té 16 anys o més i que està empadronat a Palma. Per a fer-ho, se’l guiarà a través d'una sèrie de passes.</p> 
- 
-      <p><b>6. Condicions per al tractament dels continguts que proporcionin els usuaris</b></p> 
-      <p>Les presents condicions regulen els termes aplicables al contingut enviat pels usuaris d'aquesta plataforma mitjançant el formulari corresponent (d’ara endavant, el contingut). Aquestes condicions s'apliquen tant al contingut inicialment tramès al Portal de Participació Ciutadana com a qualsevol altre que s'enviï amb posterioritat o es manifesti a l'Ajuntament de Palma. Se n’especifica el següent:</p> 
-      <ul> 
-        <li>A. No-confidencialitat. Tot el contingut que tramet l'usuari a l'Ajuntament de Palma ha de ser susceptible de ser conegut per part del públic en general. Per tant, l'Ajuntament de Palma tracta aquest contingut com a informació no confidencial. Se n’exceptuen els processos de votació, la confidencialitat dels quals queda garantida.<br><br></li> 
-        <li>B. Procediment. En el cas que l'Ajuntament de Palma estigui interessat en el contingut tramès per l'usuari, s’hi posarà en contacte per a sol·licitar-li’n informació addicional. Aquesta informació tindrà, així mateix, caràcter de no confidencial, sense perjudici que, en el cas que les parts considerin la necessitat d'intercanviar-se informació de caràcter confidencial, se signi el corresponent acord de confidencialitat.<br><br>L'Ajuntament de Palma es reserva el dret de no contactar amb els usuaris que li hagin tramès el contingut. En el supòsit que l'Ajuntament de Palma, discrecionalment, decideixi contactar amb determinats usuaris, aquests coneixen i accepten que, fent-ho, l'Ajuntament de Palma no adquireix cap compromís.<br><br></li> 
-        <li>C. Publicitat o difusió dels continguts presentats. Els participants al Portal de Participació Ciutadana de l'Ajuntament de Palma declaren conèixer i acceptar que la informació aportada pot ser publicada al web.</li> 
+      <h2>AVÍS LEGAL SOBRE LES CONDICIONS D'ÚS, PRIVADESA I PROTECCIÓ DE DADES PERSONALS DEL PORTAL DE PARTICIPACIÓ CIUTADANA TU FAS PALMA DE L'AJUNTAMENT DE PALMA</h2>
+      <p><b>1. Àmbit d'aplicació de les condicions d'ús</b></p>
+      <p>La participació (entenent-la com a activa, més enllà de la lectura d’aquest contingut) al Portal de Participació Ciutadana Tu Fas Palma, de l'Ajuntament de Palma, es regula per les presents condicions d'ús, que vinculen totes les persones que hi participen. Per això, qualsevol persona que vulgui participar-hi s’ha de registrar, per a la qual cosa se sol·licitarà l'acceptació d'aquestes condicions d'ús.</p>
+      <p>L'Ajuntament de Palma es reserva la facultat de modificar aquestes condicions, la darrera versió de les quals es publicarà en aquest web.</p>
+
+      <p><b>2. Objectiu de la iniciativa</b></p>
+      <p>Mitjançant el Portal de Participació Ciutadana Tu Fas Palma, l'Ajuntament vol fomentar la participació de la ciutadania en la gestió del municipi, implicant-la en la generació d'idees i propostes noves i viables, amb l'objecte de millorar la qualitat de vida de totes les persones. És una aposta decidida per una gestió més pròxima als ciutadans que permetrà rebre’n les propostes, crear canals directes de comunicació amb el Govern municipal i contribuir a prendre les decisions més encertades per a l'interès general.</p>
+
+      <p><b>3. Qüestions generals sobre la participació al Portal Tu Fas Palma de l'Ajuntament de Palma</b></p>
+      <p>Hi pot participar qualsevol persona física a partir dels 16 anys, empadronada a Palma i que s'hagi registrat prèviament al Portal de Participació Ciutadana. Mitjançant l'acceptació d'aquestes condicions d'ús es declara tenir 16 anys o més. Els majors d'edat que tenen a càrrec seu els menors són els plens responsables de l'actuació que tinguin aquests al Portal de Participació Ciutadana. No hi ha limitació pel que fa al nombre de debats, comentaris o propostes que hi poden presentar els participants.</p>
+
+      <p><b>4. Obligacions dels usuaris del Portal de Participació Ciutadana</b></p>
+      <p>Atès que l'Ajuntament de Palma és un punt de trobada amb l'objectiu de debatre, compartir i valorar propostes relacionades amb la millora del municipi, els usuaris estan obligats a fer-ne un ús diligent i d'acord amb aquest objectiu.</p>
+      <p>L'Ajuntament no és responsable de l'ús incorrecte del Portal de Participació Ciutadana per part dels usuaris o dels continguts que s’hi localitzen, i és cada usuari el responsable de fer-ne un ús correcte, com també de la legalitat dels continguts i de les opinions que hi hagi compartit.</p>
+      <p>L'Ajuntament de Palma es reserva, això no obstant, el dret a limitar l'accés al Portal de Participació Ciutadana de l'Ajuntament de Palma a determinats documents, opinions, informacions o comentaris que els usuaris hi vulguin incorporar, i hi pot instal·lar filtres a aquest efecte. Tot això, únicament amb la finalitat de preservar l'objectiu fonamental del Portal de Participació Ciutadana.</p>
+      <p>D'acord amb la normativa legal vigent, queda prohibida la utilització del Portal de Participació Ciutadana de l'Ajuntament de Palma amb fins diferents als de debatre, compartir i valorar propostes, i específicament:</p>
+      <ul>
+        <li>Compartir-hi qualsevol contingut que pugui ser considerat com a vulneració en qualsevol forma dels drets fonamentals a l'honor, la imatge i la intimitat personal i familiar de tercers, o contra la dignitat de les persones.</li>
+        <li>Compartir-hi imatges o fotografies que n’exposin de tercers, o dades personals d’altri sense haver obtingut l'oportú consentiment dels seus titulars.</li>
+        <li>Compartir-hi qualsevol contingut que vulneri el secret en les comunicacions, infringeixi drets de propietat industrial i intel·lectual o les normes reguladores de la protecció de dades de caràcter personal.</li>
+        <li>Reproduir-hi, distribuir-hi o compartir-hi continguts, informacions o imatges que hagin estat posades a disposició per part d’altres usuaris, sense l'autorització expressa d'aquests, com també utilitzar-los amb fins de publicitat.</li>
+      </ul>
+      <p>La realització de qualsevol dels anteriors comportaments permetrà a l'Ajuntament de Palma suspendre temporalment l'activitat d'un participant, desactivar el seu compte o esborrar-ne el contingut, sense perjudici d'altres responsabilitats que puguin ser reclamades.</p>
+      <p>En cas que el contingut que hi hagin introduït els usuaris incorpori un enllaç a un altre lloc web, l'Ajuntament de Palma no és responsable dels danys o els perjudicis derivats de l'accés a l'enllaç o als seus continguts.</p>
+      <p>En cas de litigi de qualsevol classe o per qualsevol motiu entre els participants al lloc web i/o un tercer, l'Ajuntament de Palma queda exempt de qualsevol responsabilitat per reclamacions, demandes o danys de qualsevol naturalesa relacionats amb el litigi o derivats d’aquest.</p>
+
+      <p><b>5. Ús del Portal de Participació Ciutadana</b></p>
+      <p>Els participants poden accedir i navegar pel Portal de Participació Ciutadana lliurement i de forma anònima. Només quan vulguin realitzar-hi alguna acció que impliqui la creació, el suport, el comentari d'una proposta o la participació en un debat, se’ls demanarà que introdueixin les seves credencials, per a l'obtenció de les quals és necessari registrar-se prèviament.</p>
+      <p>El registre que permet participar-hi comentant en qualsevol de les seccions, creant debats o propostes, es realitza introduint les següents dades:</p>
+      <ul>
+        <li>Nom d'usuari</li>
+        <li>Adreça electrònica</li>
+        <li>Acceptació de les condicions d'ús del Portal de Participació Ciutadana</li>
+      </ul>
+      <p>Per a participar-hi donant suport a propostes, es requerirà l'usuari que verifiqui el seu compte, que té 16 anys o més i que està empadronat a Palma. Per a fer-ho, se’l guiarà a través d'una sèrie de passes.</p>
+
+      <p><b>6. Condicions per al tractament dels continguts que proporcionin els usuaris</b></p>
+      <p>Les presents condicions regulen els termes aplicables al contingut enviat pels usuaris d'aquesta plataforma mitjançant el formulari corresponent (d’ara endavant, el contingut). Aquestes condicions s'apliquen tant al contingut inicialment tramès al Portal de Participació Ciutadana com a qualsevol altre que s'enviï amb posterioritat o es manifesti a l'Ajuntament de Palma. Se n’especifica el següent:</p>
+      <ul>
+        <li>A. No-confidencialitat. Tot el contingut que tramet l'usuari a l'Ajuntament de Palma ha de ser susceptible de ser conegut per part del públic en general. Per tant, l'Ajuntament de Palma tracta aquest contingut com a informació no confidencial. Se n’exceptuen els processos de votació, la confidencialitat dels quals queda garantida.<br><br></li>
+        <li>B. Procediment. En el cas que l'Ajuntament de Palma estigui interessat en el contingut tramès per l'usuari, s’hi posarà en contacte per a sol·licitar-li’n informació addicional. Aquesta informació tindrà, així mateix, caràcter de no confidencial, sense perjudici que, en el cas que les parts considerin la necessitat d'intercanviar-se informació de caràcter confidencial, se signi el corresponent acord de confidencialitat.<br><br>L'Ajuntament de Palma es reserva el dret de no contactar amb els usuaris que li hagin tramès el contingut. En el supòsit que l'Ajuntament de Palma, discrecionalment, decideixi contactar amb determinats usuaris, aquests coneixen i accepten que, fent-ho, l'Ajuntament de Palma no adquireix cap compromís.<br><br></li>
+        <li>C. Publicitat o difusió dels continguts presentats. Els participants al Portal de Participació Ciutadana de l'Ajuntament de Palma declaren conèixer i acceptar que la informació aportada pot ser publicada al web.</li>
       </ul>
     faq_content: |-
-      <ul class="menu vertical margin-top"> 
-        <li><a href="#1"><strong>Què són els Pressupostos participatius?</strong></a></li> 
-        <li><a href="#2"><strong>Quina quantitat destina l'Ajuntament als Pressupostos participatius i com es reparteixen a la ciutat?</strong></a></li> 
-        <li><a href="#3"><strong>Quan es du a terme el procés dels Pressupostos participatius?</strong></a></li> 
-        <li><a href="#4"><strong>En què consisteix la presentació de projectes?</strong></a></li> 
-        <li><a href="#5"><strong>En què consisteix el suport de projectes?</strong></a></li> 
-        <li><a href="#6"><strong>En què consisteix l’informe, la reformulació i la valoració de projectes?</strong></a></li> 
-        <li><a href="#7"><strong>En què consisteix la votació final de projectes?</strong></a></li> 
-        <li><a href="#8"><strong>Quin és el resultat final després de la votació dels Pressupostos participatius?</strong></a></li> 
-        <li><a href="#9"><strong>Quins són els requisits per a votar projectes?</strong></a></li> 
-        <li><a href="#10"><strong>Què es pot proposar?</strong></a></li> 
-        <li><a href="#11"><strong>En què es diferencia un projecte per a tota la ciutat d'un projecte per a un districte?</strong></a></li> 
-        <li><a href="#12"><strong>El meu projecte, pot ser considerat inviable?</strong></a></li> 
-        <li><a href="#13"><strong>Puc acudir a la meva Junta de Districte o al Consell de Barri a presentar-hi i debatre-hi propostes?</strong></a></li> 
-        <li><a href="#14"><strong>Hi poden participar associacions, fundacions i ONG? I empreses?</strong></a></li> 
-        <li><a href="#15"><strong>En base a quins criteris es considera que una proposta és vàlida?</strong></a></li> 
-        <li><a href="#16"><strong>Poden plantejar-se projectes que estiguin més d'un any a fer-se realitat?</strong></a></li> 
-        <li><a href="#17"><strong>Què diferencia la fase de suports de la votació final?</strong></a></li> 
-        <li><a href="#18"><strong>Com s'analitzen els projectes durant la fase d'avaluació? Quins projectes passen a la fase de votació final?</strong></a></li> 
-        <li><a href="#19"><strong>Com s'assegura que cada persona voti una única vegada?</strong></a></li> 
-        <li><a href="#20"><strong>Pot ocórrer que un projecte seleccionat a la votació final no arribi a ser realitzat?</strong></a></li> 
-      </ul> 
-      </div> 
- 
-      <div class="text small-12 medium-9 column"> 
-        <h1 class="clear">Preguntes freqüents sobre els Pressupostos participatius</h1> 
-        <h2>Explicació detallada</h2> 
- 
-        <h2 id="1">Què són els Pressupostos participatius?</h2> 
-        <p>Els Pressupostos participatius són uns processos democràtics en els quals la ciutadania decideix de manera directa a què es destina una part del Pressupost municipal. Els ciutadans proposen projectes de despesa, que són preseleccionats en una fase de suport ciutadà; s'avaluen i finalment arriben a una votació final. A partir de l'1 de gener de l'any següent, o amb caràcter pluriennal, si s’escau, l'Ajuntament du a terme els projectes seleccionats a la votació final.</p> 
- 
-        <h2 id="2">Quina quantitat destina l'Ajuntament als Pressupostos participatius i com es reparteixen a la ciutat?</h2> 
-        <p>Els Pressupostos participatius que es decideixen el 2018 es començaran a executar el 2019 i posteriors, si s’escau. Importen <b>1.500.000,00 €</b>.</p> 
-        <p>D’aquesta quantitat, es reserven 600.000 € per a les propostes d’àmbit territorial del conjunt de la ciutat.</p> 
-        <p>La quantia restant, de 900.000 €, es distribueix entre els 5 districtes de la ciutat, de forma proporcional i ponderada, en funció dels següents criteris:</p> 
-        <ul> 
-          <li>Necessitats de caire social, partint d’un informe de l’Àrea de Benestar i Drets Socials, amb una ponderació del 30%</li> 
-          <li>Població, amb una ponderació del 30%</li> 
-          <li>Territori, amb una ponderació del 25%</li> 
-          <li>Equipaments públics, amb una ponderació del 15% (casals de barri, biblioteques municipals, equipaments esportius municipals, escoletes municipals, CEIP, IES i centres de salut)</li> 
-        </ul> 
- 
-        <p>Es reserven:</p> 
-        <ul> 
-          <li>61.576,52 € per a actuacions al Districte Centre</li> 
-          <li>198.081,95 € per a actuacions al Districte Ponent</li> 
-          <li>187.550,84 € per a actuacions al Districte Nord</li> 
-          <li>247.608,38 € per a actuacions al Districte Llevant</li> 
-          <li>205.182,31 € per a actuacions al Districte Platja de Palma i Pla de Sant Jordi</li> 
-        </ul> 
- 
-        <h2 id="3">Quan es du a terme el procés dels Pressupostos participatius?</h2> 
-        <p>Les fases del procés són les següents:</p> 
-        <ul> 
-          <li><b>Presentació de propostes:</b> del 16 de març al 8 d’abril</li> 
-          <li><b>Recollida de suports a les propostes</b> del 3 al 31 de maig</li> 
-          <li><b>Informe, reformulació i valoració de projectes:</b> del 13 de juny al 15 de juliol</li> 
-          <li><b>Votació final:</b> del 16 juliol al 16 de setembre</li> 
-          <li><b>Escrutini dels resultats:</b> 20 de setembre</li> 
-        </ul> 
-         
-        <h2 id="4">En què consisteix la presentació de projectes?</h2> 
-        <p>En la fase de presentació de projectes (de 16 de març a 8 d’abril), qualsevol persona hi pot presentar projectes de despesa, tant per a tota la ciutat com per a algun districte o barri.</p> 
-         
-        <h2 id="5">En què consisteix el suport de projectes?</h2> 
-        <p>En la fase de recollida de suports als projectes (de 3 a 31 de maig), qualsevol persona empadronada a Palma, major de 16 anys, pot donar suport als projectes presentats.</p> 
-        <p>La recollida de suports es fa mitjançant la pantalla de recollida de suports del portal Tufaspalma. El sistema verifica el compliment dels requisits per a poder participar en aquesta fase i retorna un codi de verificació, via SMS, que permet atorgar els suports a les propostes.</p> 
-        <p>En aquesta fase, també es poden recollir suports mitjançant fulls de recollida. Aquests fulls es poden descarregar des del mateix portal en format pdf. Cada full contindrà el títol i el codi o el número de la proposta; el DNI, el nom, els llinatges i la signatura de les persones que li donen suport.</p> 
-        <p>Els fulls de signatura es poden presentar a qualsevol Oficina d’Atenció a la Ciutadania, mitjançant una instància normalitzada en la qual figurin les dades de qui els presenta i la petició que els suports s’incorporin al procés de Pressupostos participatius.</p> 
-        <p>Es comprovarà que les persones que signen compleixen els requisits i que no hi han participat prèviament per via telemàtica. Els suports s’incorporaran als recollits al portal Tufaspalma.</p> 
-        <p>En aquesta fase només es pot participar per via telemàtica o mitjançant els fulls de signatura. La participació d’una mateixa persona per via telemàtica implica la desestimació dels suports que pugui haver presentat en els fulls de signatura.</p> 
-        <p>Els projectes que obtenen més suports passen a la fase de votació final, després de la seva avaluació més detallada i amb una proposta de pressupost inicial.</p> 
-         
-        <h2 id="6">En què consisteix l’informe, la reformulació i la valoració de projectes?</h2> 
-        <p>En la fase d'informe, reformulació i valoració de projectes (de 13 de juny a 15 de juliol), els serveis municipals competents de l'Ajuntament, amb audiència dels proposants, avaluen els projectes amb més suports, en coordinació amb la Regidoria de Participació Ciutadana i Coordinació Territorial.</p> 
-        <p>L'avaluació confirma que els projectes són vàlids, viables i legals (s'assegura que són competència de l'Ajuntament i realitzables) i poden incloure's al Pressupost municipal. Així mateix, es realitza un pressupost estimatiu del cost econòmic de cada projecte.</p> 
- 
-        <h2 id="7">En què consisteix la votació final de projectes?</h2> 
-        <p>En la fase de votació final (de 16 de juliol a 16 de setembre), totes les persones empadronades a Palma majors de 16 anys poden votar totes les propostes. S’hi pot votar encara que no s'hagi participat en les fases anteriors.</p> 
-        <p>La votació es fa mitjançant la pantalla de votació final de les propostes del portal Tufaspalma. Per a votar, s’han d’introduir les dades d’usuari. El sistema verifica que es compleixen els requisits per a poder participar en aquesta fase i els comprova amb les dades del Padró. A continuació, es facilita un codi personal segur de verificació del compte, que es comunica a través d'un SMS al telèfon mòbil i, amb la seva introducció al portal, es permet realitzar la votació.</p> 
-        <p>Es poden votar totes les propostes; es poden modificar els vots en qualsevol moment del termini de votació.</p> 
-         
-        <h2 id="8">Quin és el resultat final després de la votació dels Pressupostos participatius?</h2> 
-        <p>El resultat final del procés s'obté, una vegada finalitzada la votació, amb tots els projectes ordenats per nombre de vots per a la ciutat i per a cada districte. A cada llista es van seleccionant les propostes des de la més votada fins a la menys votada, tenint en compte que cada proposta inclosa no pot superar el pressupost restant destinat a aquesta llista. Si una proposta supera aquest límit, s'ignora i es passa a la següent.</p> 
-        <p>La selecció final es proposa per a la seva integració en el projecte inicial del Pressupost general de l'Ajuntament de Palma que aprovi la Junta de Govern. En cas que l’actuació es pugui realitzar íntegrament dins l’exercici següent, s’hi imputarà i, si no és possible, es tramitarà com un expedient de despesa pluriennal.</p> 
-        <p>La Regidoria de Participació Ciutadana i Coordinació Territorial coordina tot el procés, i és la garant de la seva neutralitat i efectivitat. Finalitzat aquest, a partir de les avaluacions dels seus resultats, es promouen les modificacions necessàries en el procés de l'any següent.</p> 
-         
-        <h2 id="9">Quins són els requisits per a votar projectes?</h2> 
-        <p>Les persones que participin a les votacions han d'estar empadronades a Palma, i  tenir 16 anys com a mínim. En cas de proposar o votar a través del web Tufaspalma, és necessari que l'usuari verifiqui el seu compte (el botó de verificació és a l’apartat "El meu compte") amb la informació del padró i la introducció d'un codi que es rep al mòbil a través d’SMS (no s'utilitza el número de telèfon per a res més).</p> 
-         
-        <h2 id="10">Què es pot proposar?</h2> 
-        <p>Es poden presentar propostes de:</p> 
-        <ul> 
-          <li>Inversions en infraestructures i obres, tant si són de nova planta com de reforma, d’adquisició de béns o de patrimoni municipal</li> 
-          <li>Actuacions específiques i/o programes d’actuació sectorial, amb finalitats socials o culturals</li> 
-        </ul> 
-         
-        <p>Les propostes es classifiquen en funció del seu àmbit territorial, en 6 apartats:</p> 
-        <ul> 
-          <li>Propostes que afecten el conjunt de la ciutat o més d’un districte <i>(S’estableix un límit de 300.000,00 € a les valoracions econòmiques de les propostes a l’àmbit de la ciutat.)</i></li> 
-          <li>Districte Centre</li> 
-          <li>Districte Ponent</li> 
-          <li>Districte Nord</li> 
-          <li>Districte Llevant</li> 
-          <li>Districte Pla de Sant Jordi i Platja de Palma</li> 
-          <li><i>S’estableix un límit de 100.000,00 € a les valoracions econòmiques de les propostes a l’àmbit dels districtes.</i></li> 
+      <ul class="menu vertical margin-top">
+        <li><a href="#1"><strong>Què són els Pressupostos participatius?</strong></a></li>
+        <li><a href="#2"><strong>Quina quantitat destina l'Ajuntament als Pressupostos participatius i com es reparteixen a la ciutat?</strong></a></li>
+        <li><a href="#3"><strong>Quan es du a terme el procés dels Pressupostos participatius?</strong></a></li>
+        <li><a href="#4"><strong>En què consisteix la presentació de projectes?</strong></a></li>
+        <li><a href="#5"><strong>En què consisteix el suport de projectes?</strong></a></li>
+        <li><a href="#6"><strong>En què consisteix l’informe, la reformulació i la valoració de projectes?</strong></a></li>
+        <li><a href="#7"><strong>En què consisteix la votació final de projectes?</strong></a></li>
+        <li><a href="#8"><strong>Quin és el resultat final després de la votació dels Pressupostos participatius?</strong></a></li>
+        <li><a href="#9"><strong>Quins són els requisits per a votar projectes?</strong></a></li>
+        <li><a href="#10"><strong>Què es pot proposar?</strong></a></li>
+        <li><a href="#11"><strong>En què es diferencia un projecte per a tota la ciutat d'un projecte per a un districte?</strong></a></li>
+        <li><a href="#12"><strong>El meu projecte, pot ser considerat inviable?</strong></a></li>
+        <li><a href="#13"><strong>Puc acudir a la meva Junta de Districte o al Consell de Barri a presentar-hi i debatre-hi propostes?</strong></a></li>
+        <li><a href="#14"><strong>Hi poden participar associacions, fundacions i ONG? I empreses?</strong></a></li>
+        <li><a href="#15"><strong>En base a quins criteris es considera que una proposta és vàlida?</strong></a></li>
+        <li><a href="#16"><strong>Poden plantejar-se projectes que estiguin més d'un any a fer-se realitat?</strong></a></li>
+        <li><a href="#17"><strong>Què diferencia la fase de suports de la votació final?</strong></a></li>
+        <li><a href="#18"><strong>Com s'analitzen els projectes durant la fase d'avaluació? Quins projectes passen a la fase de votació final?</strong></a></li>
+        <li><a href="#19"><strong>Com s'assegura que cada persona voti una única vegada?</strong></a></li>
+        <li><a href="#20"><strong>Pot ocórrer que un projecte seleccionat a la votació final no arribi a ser realitzat?</strong></a></li>
+      </ul>
+      </div>
+
+      <div class="text small-12 medium-9 column">
+        <h1 class="clear">Preguntes freqüents sobre els Pressupostos participatius</h1>
+        <h2>Explicació detallada</h2>
+
+        <h2 id="1">Què són els Pressupostos participatius?</h2>
+        <p>Els Pressupostos participatius són uns processos democràtics en els quals la ciutadania decideix de manera directa a què es destina una part del Pressupost municipal. Els ciutadans proposen projectes de despesa, que són preseleccionats en una fase de suport ciutadà; s'avaluen i finalment arriben a una votació final. A partir de l'1 de gener de l'any següent, o amb caràcter pluriennal, si s’escau, l'Ajuntament du a terme els projectes seleccionats a la votació final.</p>
+
+        <h2 id="2">Quina quantitat destina l'Ajuntament als Pressupostos participatius i com es reparteixen a la ciutat?</h2>
+        <p>Els Pressupostos participatius que es decideixen el 2018 es començaran a executar el 2019 i posteriors, si s’escau. Importen <b>1.500.000,00 €</b>.</p>
+        <p>D’aquesta quantitat, es reserven 600.000 € per a les propostes d’àmbit territorial del conjunt de la ciutat.</p>
+        <p>La quantia restant, de 900.000 €, es distribueix entre els 5 districtes de la ciutat, de forma proporcional i ponderada, en funció dels següents criteris:</p>
+        <ul>
+          <li>Necessitats de caire social, partint d’un informe de l’Àrea de Benestar i Drets Socials, amb una ponderació del 30%</li>
+          <li>Població, amb una ponderació del 30%</li>
+          <li>Territori, amb una ponderació del 25%</li>
+          <li>Equipaments públics, amb una ponderació del 15% (casals de barri, biblioteques municipals, equipaments esportius municipals, escoletes municipals, CEIP, IES i centres de salut)</li>
+        </ul>
+
+        <p>Es reserven:</p>
+        <ul>
+          <li>61.576,52 € per a actuacions al Districte Centre</li>
+          <li>198.081,95 € per a actuacions al Districte Ponent</li>
+          <li>187.550,84 € per a actuacions al Districte Nord</li>
+          <li>247.608,38 € per a actuacions al Districte Llevant</li>
+          <li>205.182,31 € per a actuacions al Districte Platja de Palma i Pla de Sant Jordi</li>
+        </ul>
+
+        <h2 id="3">Quan es du a terme el procés dels Pressupostos participatius?</h2>
+        <p>Les fases del procés són les següents:</p>
+        <ul>
+          <li><b>Presentació de propostes:</b> del 16 de març al 8 d’abril</li>
+          <li><b>Recollida de suports a les propostes</b> del 3 al 31 de maig</li>
+          <li><b>Informe, reformulació i valoració de projectes:</b> del 13 de juny al 15 de juliol</li>
+          <li><b>Votació final:</b> del 16 juliol al 16 de setembre</li>
+          <li><b>Escrutini dels resultats:</b> 20 de setembre</li>
+        </ul>
+
+        <h2 id="4">En què consisteix la presentació de projectes?</h2>
+        <p>En la fase de presentació de projectes (de 16 de març a 8 d’abril), qualsevol persona hi pot presentar projectes de despesa, tant per a tota la ciutat com per a algun districte o barri.</p>
+
+        <h2 id="5">En què consisteix el suport de projectes?</h2>
+        <p>En la fase de recollida de suports als projectes (de 3 a 31 de maig), qualsevol persona empadronada a Palma, major de 16 anys, pot donar suport als projectes presentats.</p>
+        <p>La recollida de suports es fa mitjançant la pantalla de recollida de suports del portal Tufaspalma. El sistema verifica el compliment dels requisits per a poder participar en aquesta fase i retorna un codi de verificació, via SMS, que permet atorgar els suports a les propostes.</p>
+        <p>En aquesta fase, també es poden recollir suports mitjançant fulls de recollida. Aquests fulls es poden descarregar des del mateix portal en format pdf. Cada full contindrà el títol i el codi o el número de la proposta; el DNI, el nom, els llinatges i la signatura de les persones que li donen suport.</p>
+        <p>Els fulls de signatura es poden presentar a qualsevol Oficina d’Atenció a la Ciutadania, mitjançant una instància normalitzada en la qual figurin les dades de qui els presenta i la petició que els suports s’incorporin al procés de Pressupostos participatius.</p>
+        <p>Es comprovarà que les persones que signen compleixen els requisits i que no hi han participat prèviament per via telemàtica. Els suports s’incorporaran als recollits al portal Tufaspalma.</p>
+        <p>En aquesta fase només es pot participar per via telemàtica o mitjançant els fulls de signatura. La participació d’una mateixa persona per via telemàtica implica la desestimació dels suports que pugui haver presentat en els fulls de signatura.</p>
+        <p>Els projectes que obtenen més suports passen a la fase de votació final, després de la seva avaluació més detallada i amb una proposta de pressupost inicial.</p>
+
+        <h2 id="6">En què consisteix l’informe, la reformulació i la valoració de projectes?</h2>
+        <p>En la fase d'informe, reformulació i valoració de projectes (de 13 de juny a 15 de juliol), els serveis municipals competents de l'Ajuntament, amb audiència dels proposants, avaluen els projectes amb més suports, en coordinació amb la Regidoria de Participació Ciutadana i Coordinació Territorial.</p>
+        <p>L'avaluació confirma que els projectes són vàlids, viables i legals (s'assegura que són competència de l'Ajuntament i realitzables) i poden incloure's al Pressupost municipal. Així mateix, es realitza un pressupost estimatiu del cost econòmic de cada projecte.</p>
+
+        <h2 id="7">En què consisteix la votació final de projectes?</h2>
+        <p>En la fase de votació final (de 16 de juliol a 16 de setembre), totes les persones empadronades a Palma majors de 16 anys poden votar totes les propostes. S’hi pot votar encara que no s'hagi participat en les fases anteriors.</p>
+        <p>La votació es fa mitjançant la pantalla de votació final de les propostes del portal Tufaspalma. Per a votar, s’han d’introduir les dades d’usuari. El sistema verifica que es compleixen els requisits per a poder participar en aquesta fase i els comprova amb les dades del Padró. A continuació, es facilita un codi personal segur de verificació del compte, que es comunica a través d'un SMS al telèfon mòbil i, amb la seva introducció al portal, es permet realitzar la votació.</p>
+        <p>Es poden votar totes les propostes; es poden modificar els vots en qualsevol moment del termini de votació.</p>
+
+        <h2 id="8">Quin és el resultat final després de la votació dels Pressupostos participatius?</h2>
+        <p>El resultat final del procés s'obté, una vegada finalitzada la votació, amb tots els projectes ordenats per nombre de vots per a la ciutat i per a cada districte. A cada llista es van seleccionant les propostes des de la més votada fins a la menys votada, tenint en compte que cada proposta inclosa no pot superar el pressupost restant destinat a aquesta llista. Si una proposta supera aquest límit, s'ignora i es passa a la següent.</p>
+        <p>La selecció final es proposa per a la seva integració en el projecte inicial del Pressupost general de l'Ajuntament de Palma que aprovi la Junta de Govern. En cas que l’actuació es pugui realitzar íntegrament dins l’exercici següent, s’hi imputarà i, si no és possible, es tramitarà com un expedient de despesa pluriennal.</p>
+        <p>La Regidoria de Participació Ciutadana i Coordinació Territorial coordina tot el procés, i és la garant de la seva neutralitat i efectivitat. Finalitzat aquest, a partir de les avaluacions dels seus resultats, es promouen les modificacions necessàries en el procés de l'any següent.</p>
+
+        <h2 id="9">Quins són els requisits per a votar projectes?</h2>
+        <p>Les persones que participin a les votacions han d'estar empadronades a Palma, i  tenir 16 anys com a mínim. En cas de proposar o votar a través del web Tufaspalma, és necessari que l'usuari verifiqui el seu compte (el botó de verificació és a l’apartat "El meu compte") amb la informació del padró i la introducció d'un codi que es rep al mòbil a través d’SMS (no s'utilitza el número de telèfon per a res més).</p>
+
+        <h2 id="10">Què es pot proposar?</h2>
+        <p>Es poden presentar propostes de:</p>
+        <ul>
+          <li>Inversions en infraestructures i obres, tant si són de nova planta com de reforma, d’adquisició de béns o de patrimoni municipal</li>
+          <li>Actuacions específiques i/o programes d’actuació sectorial, amb finalitats socials o culturals</li>
+        </ul>
+
+        <p>Les propostes es classifiquen en funció del seu àmbit territorial, en 6 apartats:</p>
+        <ul>
+          <li>Propostes que afecten el conjunt de la ciutat o més d’un districte <i>(S’estableix un límit de 300.000,00 € a les valoracions econòmiques de les propostes a l’àmbit de la ciutat.)</i></li>
+          <li>Districte Centre</li>
+          <li>Districte Ponent</li>
+          <li>Districte Nord</li>
+          <li>Districte Llevant</li>
+          <li>Districte Pla de Sant Jordi i Platja de Palma</li>
+          <li><i>S’estableix un límit de 100.000,00 € a les valoracions econòmiques de les propostes a l’àmbit dels districtes.</i></li>
         </ul>
 
         <p>Quan la valoració econòmica d’una proposta sigui superior als límits establerts es podrà considerar la possibilitat de presentar-la i executar-la per fases.</p>
 
-        <p>Quan una proposta presentada a l’àmbit de districte tingui una valoració econòmica superior als 100.000,00 € es podrà tramitar com si fos una proposta de ciutat.</p> 
+        <p>Quan una proposta presentada a l’àmbit de districte tingui una valoració econòmica superior als 100.000,00 € es podrà tramitar com si fos una proposta de ciutat.</p>
 
         <p><b>No es poden presentar propostes</b> relatives a: </p>
         <ul>
@@ -347,63 +347,63 @@ ca:
           <li>Actuacions que afectin el capítol de despeses del personal municipal</li>
           <li>Actuacions puntuals de manteniment o que afectin el funcionament intern dels serveis municipals, ja que les vies per a canalitzar aquestes peticions són les demandes municipals de servei (DMS)</li>
         </ul>
- 
-        <p>A més del compliment dels requisits anteriors, quedaran excloses les propostes amb alguna de les següents circumstàncies:</p> 
-        <ul> 
-          <li>Que incloguin contingut o propaganda de caire racista, sexista, de LGTFBfòbia, xenòfob o d’apologia del terrorisme, o que atemptin contra els drets humans o la dignitat de les persones o dels animals.</li> 
-          <li>Que plantegin accions de discriminació o d’exclusió social de qualsevol tipus.</li> 
-          <li>Que proposin accions no sostenibles o que comprometin les necessitats i les possibilitats de desenvolupament de les generacions futures.</li> 
-          <li>Que emprin un llenguatge ofensiu o insultant.</li> 
-          <li>Que tinguin un finalitat delictiva o que atemptin contra la legislació vigent en matèria de drets fonamentals i llibertats públiques.</li> 
-          <li>Les de culte o pròpies d’una confessió religiosa.</li> 
-          <li>Que tinguin un caràcter reiteratiu o puguin ser considerades correu brossa.</li> 
-        </ul> 
- 
-        <h2>Més preguntes freqüents</h2> 
- 
-        <h2 id="11">En què es diferencia un projecte per a tota la ciutat d'un projecte per a un districte?</h2> 
-        <p>Les <b>propostes per a tota la ciutat</b> compleixen alguna de les següents condicions:</p> 
-        <ul> 
-          <li><b>No estan localitzades en un districte específic </b></li> 
-          <li><b>Afecten més d’un districte </b></li> 
-          <li><b>Afecten elements que es consideren de rellevància per a la majoria d'habitants</b></li> 
-          <li><b>Les propostes de districte superiors als 100.000,00 €</b></li> 
-        </ul> 
-        <p>Una proposta categoritzada com a de ciutat o de districte pot ser reclassificada per part dels tècnics de l'Ajuntament durant la seva avaluació si es considera que s'ha classificat erròniament.</p> 
- 
-        <h2 id="12">El meu projecte, pot ser considerat inviable?</h2> 
-        <p>Els projectes poden declarar-se inviables durant tot el procés. Això pot ocórrer de diferents maneres en les diferents fases:</p> 
-        <p>Durant la primera fase de recollida de projectes, els tècnics de l'Ajuntament en realitzen un primer estudi per a detectar-hi les propostes que són clarament inviables, com les que no són competència de l'Ajuntament.</p> 
-        <p>Durant la fase d'avaluació es du a terme un estudi més detallat de la viabilitat dels projectes que superin la fase de recollida de suports. En aquest cas es poden detectar com a inviables projectes que no s'hi hagin detectat a la primera fase. També s’hi poden detectar diversos projectes viables que, en el cas de ser aprovats, impliquin exactament la mateixa actuació per part de l'Ajuntament. En aquest cas es convida els proposants a unificar les propostes en una de conjunta.</p> 
-         
-        <h2 id="13">Puc acudir a la meva Junta de Districte o al Consell de Barri a presentar-hi i debatre-hi propostes?</h2> 
-        <p>Les juntes de districte duran a terme trobades sobre Pressupostos participatius, on es poden debatre i plantejar projectes.</p> 
-        <p>Les entitats podran convocar els consells de barri perquè totes les persones que hi vulguin participar presencialment puguin fer-ho amb facilitat. En aquests espais es promou el diagnòstic, el debat i el disseny col·lectiu de propostes entre les entitats i les persones individuals que hi estan interessades.</p> 
- 
-        <h2 id="14">Hi poden participar associacions, fundacions i ONG? I empreses?</h2> 
-        <p>Les propostes han de presentar-se individualment, encara que una organització pot estar representada per una persona. En registrar una proposta al web, existeix la possibilitat d'assenyalar aquest cas com a proposta d'associacions/col·lectius.</p> 
-         
-        <h2 id="15">En base a quins criteris es considera que una proposta és vàlida?</h2> 
-        <p>Els tècnics de l’Ajuntament qualifiquen una proposta com a vàlida d’acord amb les bases de la convocatòria i també atenent a que compleix els requisits, d’acord amb el punt 6 de les Bases.</p> 
-        <p>Quant val? S'intenta estimar el cost dels projectes plantejats. S'exclouen tots els que tinguin un cost superior als doblers corresponents. Recordam que, segons sigui una proposta per a tota la ciutat o per a un districte o un altre, hi ha un límit de cost diferent. Les propostes de districte que superin el límit del districte, però no el de ciutat, es classificaran com a propostes de ciutat, en lloc d'excloure's.</p> 
-        <p>És legal? La proposta ha de ser competència de l'Ajuntament. No es poden acceptar propostes que siguin competència del Consell, de la Comunitat Autònoma o de l’Estat. També s'estudia si existeix normativa contrària a dur a terme la proposta, si ja existeix un contracte en vigor que cobreix el que es proposa al projecte plantejat o alguna altra limitació addicional.</p> 
-        <p>És viable? S'estudia si la proposta és viable tècnicament i si hi pot haver algun impediment per a dur-la a terme.</p> 
- 
-        <h2 id="16">Poden plantejar-se projectes que estiguin més d'un any a fer-se realitat?</h2> 
-        <p>Sí. L'única cosa que s'exigeix és que el total del projecte pugui pagar-se amb el pressupost disponible. És a dir, el projecte es taxa en el seu preu total, i no en el cost del primer any. Això no exclou que es pugui aprovar en forma de despesa pluriennal.</p> 
-         
-        <h2 id="17">Què diferencia la fase de suports de la votació final?</h2> 
-        <p>La fase de suports simplement redueix el nombre de propostes que van a la votació final, perquè aquesta sigui manejable i perquè l'Ajuntament sigui capaç de realitzar totes les avaluacions possibles de les propostes amb més suport. La votació final és la decisió sobre el que ha de dur-se a terme, amb totes les propostes ja avaluades.</p> 
- 
-        <h2 id="18">Com s'analitzen els projectes durant la fase d'avaluació? Quins projectes passen a la fase de votació final?</h2> 
-        <p>En la fase d'avaluació es du a terme un estudi detallat de la viabilitat i el cost dels projectes. La complexitat d'aquest estudi, en comparació amb el que es realitza en les primeres fases, implica que només és possible realitzar-lo per a una part dels projectes presentats. Els projectes que superen els llindars de suports rebuts, segons acord de les juntes de districte o de la Comissió Permanent del Consell Social de la Ciutat, passen a la fase de votació final.</p> 
-        <p>Tècnics de l'Ajuntament realitzen els estudis de viabilitat i de cost de manera independent i neutral, atenent únicament els criteris d'avaluació que s'han marcat públicament a les bases del procés. Els proposants poden sol·licitar una revisió dels informes en cas de no estar-hi conforme.</p> 
- 
-        <h2 id="19">Com s'assegura que cada persona voti una única vegada?</h2> 
-        <p>En la votació a través del web de Tufaspalma es verifica que el compte d'usuari correspon a un únic ciutadà o ciutadana. Per a això, a més de comprovar-ne les dades del Padró, es facilita un codi personal segur de verificació del compte, que es comunica a través d'un SMS al telèfon mòbil. D'aquesta forma s’assegura que només aquesta persona ha rebut el codi de votació.</p> 
-         
-        <h2 id="20">Pot ocórrer que un projecte seleccionat a la votació final no arribi a ser realitzat?</h2> 
-        <p>Després de finalitzar el procés de Pressupostos participatius, els projectes s'inclouen al Projecte inicial del Pressupost general de l'Ajuntament de Palma perquè els aprovi el Ple. Això implica que els projectes plantejats per la ciutadania passen els mateixos controls i estudis addicionals que els projectes del mateix Ajuntament. Encara que se n'hagi fet un estudi abans de la votació dels Pressuposts participatius, en aquest tràmit final podrien aparèixer estudis addicionals que hi trobassin obstacles no detectats anteriorment. En aquest cas es convida el proposant a reformular la proposta per a incloure-la en el següent procés dels Pressuposts.</p> 
+
+        <p>A més del compliment dels requisits anteriors, quedaran excloses les propostes amb alguna de les següents circumstàncies:</p>
+        <ul>
+          <li>Que incloguin contingut o propaganda de caire racista, sexista, de LGTFBfòbia, xenòfob o d’apologia del terrorisme, o que atemptin contra els drets humans o la dignitat de les persones o dels animals.</li>
+          <li>Que plantegin accions de discriminació o d’exclusió social de qualsevol tipus.</li>
+          <li>Que proposin accions no sostenibles o que comprometin les necessitats i les possibilitats de desenvolupament de les generacions futures.</li>
+          <li>Que emprin un llenguatge ofensiu o insultant.</li>
+          <li>Que tinguin un finalitat delictiva o que atemptin contra la legislació vigent en matèria de drets fonamentals i llibertats públiques.</li>
+          <li>Les de culte o pròpies d’una confessió religiosa.</li>
+          <li>Que tinguin un caràcter reiteratiu o puguin ser considerades correu brossa.</li>
+        </ul>
+
+        <h2>Més preguntes freqüents</h2>
+
+        <h2 id="11">En què es diferencia un projecte per a tota la ciutat d'un projecte per a un districte?</h2>
+        <p>Les <b>propostes per a tota la ciutat</b> compleixen alguna de les següents condicions:</p>
+        <ul>
+          <li><b>No estan localitzades en un districte específic </b></li>
+          <li><b>Afecten més d’un districte </b></li>
+          <li><b>Afecten elements que es consideren de rellevància per a la majoria d'habitants</b></li>
+          <li><b>Les propostes de districte superiors als 100.000,00 €</b></li>
+        </ul>
+        <p>Una proposta categoritzada com a de ciutat o de districte pot ser reclassificada per part dels tècnics de l'Ajuntament durant la seva avaluació si es considera que s'ha classificat erròniament.</p>
+
+        <h2 id="12">El meu projecte, pot ser considerat inviable?</h2>
+        <p>Els projectes poden declarar-se inviables durant tot el procés. Això pot ocórrer de diferents maneres en les diferents fases:</p>
+        <p>Durant la primera fase de recollida de projectes, els tècnics de l'Ajuntament en realitzen un primer estudi per a detectar-hi les propostes que són clarament inviables, com les que no són competència de l'Ajuntament.</p>
+        <p>Durant la fase d'avaluació es du a terme un estudi més detallat de la viabilitat dels projectes que superin la fase de recollida de suports. En aquest cas es poden detectar com a inviables projectes que no s'hi hagin detectat a la primera fase. També s’hi poden detectar diversos projectes viables que, en el cas de ser aprovats, impliquin exactament la mateixa actuació per part de l'Ajuntament. En aquest cas es convida els proposants a unificar les propostes en una de conjunta.</p>
+
+        <h2 id="13">Puc acudir a la meva Junta de Districte o al Consell de Barri a presentar-hi i debatre-hi propostes?</h2>
+        <p>Les juntes de districte duran a terme trobades sobre Pressupostos participatius, on es poden debatre i plantejar projectes.</p>
+        <p>Les entitats podran convocar els consells de barri perquè totes les persones que hi vulguin participar presencialment puguin fer-ho amb facilitat. En aquests espais es promou el diagnòstic, el debat i el disseny col·lectiu de propostes entre les entitats i les persones individuals que hi estan interessades.</p>
+
+        <h2 id="14">Hi poden participar associacions, fundacions i ONG? I empreses?</h2>
+        <p>Les propostes han de presentar-se individualment, encara que una organització pot estar representada per una persona. En registrar una proposta al web, existeix la possibilitat d'assenyalar aquest cas com a proposta d'associacions/col·lectius.</p>
+
+        <h2 id="15">En base a quins criteris es considera que una proposta és vàlida?</h2>
+        <p>Els tècnics de l’Ajuntament qualifiquen una proposta com a vàlida d’acord amb les bases de la convocatòria i també atenent a que compleix els requisits, d’acord amb el punt 6 de les Bases.</p>
+        <p>Quant val? S'intenta estimar el cost dels projectes plantejats. S'exclouen tots els que tinguin un cost superior als doblers corresponents. Recordam que, segons sigui una proposta per a tota la ciutat o per a un districte o un altre, hi ha un límit de cost diferent. Les propostes de districte que superin el límit del districte, però no el de ciutat, es classificaran com a propostes de ciutat, en lloc d'excloure's.</p>
+        <p>És legal? La proposta ha de ser competència de l'Ajuntament. No es poden acceptar propostes que siguin competència del Consell, de la Comunitat Autònoma o de l’Estat. També s'estudia si existeix normativa contrària a dur a terme la proposta, si ja existeix un contracte en vigor que cobreix el que es proposa al projecte plantejat o alguna altra limitació addicional.</p>
+        <p>És viable? S'estudia si la proposta és viable tècnicament i si hi pot haver algun impediment per a dur-la a terme.</p>
+
+        <h2 id="16">Poden plantejar-se projectes que estiguin més d'un any a fer-se realitat?</h2>
+        <p>Sí. L'única cosa que s'exigeix és que el total del projecte pugui pagar-se amb el pressupost disponible. És a dir, el projecte es taxa en el seu preu total, i no en el cost del primer any. Això no exclou que es pugui aprovar en forma de despesa pluriennal.</p>
+
+        <h2 id="17">Què diferencia la fase de suports de la votació final?</h2>
+        <p>La fase de suports simplement redueix el nombre de propostes que van a la votació final, perquè aquesta sigui manejable i perquè l'Ajuntament sigui capaç de realitzar totes les avaluacions possibles de les propostes amb més suport. La votació final és la decisió sobre el que ha de dur-se a terme, amb totes les propostes ja avaluades.</p>
+
+        <h2 id="18">Com s'analitzen els projectes durant la fase d'avaluació? Quins projectes passen a la fase de votació final?</h2>
+        <p>En la fase d'avaluació es du a terme un estudi detallat de la viabilitat i el cost dels projectes. La complexitat d'aquest estudi, en comparació amb el que es realitza en les primeres fases, implica que només és possible realitzar-lo per a una part dels projectes presentats. Els projectes que superen els llindars de suports rebuts, segons acord de les juntes de districte o de la Comissió Permanent del Consell Social de la Ciutat, passen a la fase de votació final.</p>
+        <p>Tècnics de l'Ajuntament realitzen els estudis de viabilitat i de cost de manera independent i neutral, atenent únicament els criteris d'avaluació que s'han marcat públicament a les bases del procés. Els proposants poden sol·licitar una revisió dels informes en cas de no estar-hi conforme.</p>
+
+        <h2 id="19">Com s'assegura que cada persona voti una única vegada?</h2>
+        <p>En la votació a través del web de Tufaspalma es verifica que el compte d'usuari correspon a un únic ciutadà o ciutadana. Per a això, a més de comprovar-ne les dades del Padró, es facilita un codi personal segur de verificació del compte, que es comunica a través d'un SMS al telèfon mòbil. D'aquesta forma s’assegura que només aquesta persona ha rebut el codi de votació.</p>
+
+        <h2 id="20">Pot ocórrer que un projecte seleccionat a la votació final no arribi a ser realitzat?</h2>
+        <p>Després de finalitzar el procés de Pressupostos participatius, els projectes s'inclouen al Projecte inicial del Pressupost general de l'Ajuntament de Palma perquè els aprovi el Ple. Això implica que els projectes plantejats per la ciutadania passen els mateixos controls i estudis addicionals que els projectes del mateix Ajuntament. Encara que se n'hagi fet un estudi abans de la votació dels Pressuposts participatius, en aquest tràmit final podrien aparèixer estudis addicionals que hi trobassin obstacles no detectats anteriorment. En aquest cas es convida el proposant a reformular la proposta per a incloure-la en el següent procés dels Pressuposts.</p>
       </div>
     forms:
       submit: "Respon"
@@ -415,8 +415,11 @@ ca:
       not_visible_yet: "Acció disponible a partir del dia "
       not_visible_anymore: "Acció finalitzada des del dia "
     budgets:
-      results:
+      documentation:
         2016_budget_title: "Pressuposts participatius 2016"
         2016_budget_url: /documentacio-2016
+      results:
+        2016_budget_title: "Pressuposts participatius 2016"
+        2016_budget_url: /resultats-pressuposts-participatius-2016
       execution:
         2016_budget_url: /execucio-pressupost-2016
