@@ -40,7 +40,7 @@
   background-color: $blue;
   border-top: 1px solid $soft-blue;
   border-bottom: 1px solid $soft-blue;
-  ul {
+  ul:not(.nested) {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -51,16 +51,20 @@
       justify-content: space-between;
       align-items: center;
       margin: 0;
-    }
-    li:after {
-      color: $soft-blue;
-      font-weight: 800;
-      font-size: rem-calc(20);
-      content: "\22EE";
-      margin: 0.5rem 1.5rem;
-    }
-    li:last-child:after {
-      content: none !important;
+      &:after {
+        color: $soft-blue;
+        font-weight: 800;
+        font-size: rem-calc(20);
+        content: "\22EE";
+        margin: 0.5rem 0.5rem;
+      }
+      &:last-child:after {
+        content: none !important;
+      }
+      a {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+      }
     }
   }
 }
@@ -114,31 +118,14 @@
   color: $white;
 
   label {
-    color: $white;
     font-size: $tiny-font-size;
     font-weight: normal;
   }
 
-  select {
-    -moz-appearance: none !important; /* Firefox */
-    -webkit-appearance: auto !important;
-    outline: none !important;
-    background: transparent !important;
-    color: $white !important;
-    width: 80px !important;
-    ::-ms-expand {
-      display: none;
-    }
-    option {
-      color: $white;
-      border: 0;
-      outline: none;
-    }
-  }
-
   .locale-switcher {
+    -moz-appearance: none;
+    background: transparent;
     color: $white !important;
-    background: $brand;
     border: 0;
     border-radius: rem-calc(4);
     font-size: $small-font-size;

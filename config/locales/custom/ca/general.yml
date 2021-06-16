@@ -250,7 +250,7 @@ ca:
       external_link_transparency_url: "/participació"
       root: "Inici"
       root_title: "Torna a la pàgina principal"
-      locale: 'Idioma:'
+      locale: "Idioma:"
       logo: Tu Fas Palma
       management: Gestió
       moderation: Moderar
@@ -262,7 +262,7 @@ ca:
       open: obert
       open_city_slogan_html: De trobada entre els veïns i veïnes de Palma i entre aquests i l'Ajuntament.<br>Per a intercanviar opinions, per a fer propostes i per a decidir com volem que sigui la ciutat en la qual vivim. Aprofita-ho i gaudeix.
       open_city_title: Aquest és un espai de trobada.
-      open_gov: Govern %{open}
+      open_gov: Govern obert
       proposals: Iniciatives ciutadanes
       poll_questions: Votacions
       budgets: Pressupostos Participatius
@@ -274,7 +274,7 @@ ca:
         notifications: "Notificacions"
         no_notifications: No tens notificacions noves
     admin:
-      watch_form_message: 'Has realitzat canvis que no han estat guardats. Segur que vols abandonar la pàgina?'
+      watch_form_message: "Has realitzat canvis que no han estat guardats. Segur que vols abandonar la pàgina?"
   legacy_legislation:
     help:
       title: Com puc comentar aquest document?
@@ -325,9 +325,9 @@ ca:
       sign_in: Entra amb Twitter
       sign_up: Registra't amb Twitter
       name: Twitter
-    info_sign_in: 'Entra amb:'
-    info_sign_up: 'Registra''t amb:'
-    or_fill: 'O emplena el següent formulari:'
+    info_sign_in: "Entra amb:"
+    info_sign_up: "Registra't amb:"
+    or_fill: "O emplena el següent formulari:"
   proposals:
     create:
       form:
@@ -462,7 +462,7 @@ ca:
       voting: propera votació
     show:
       author_deleted: Usuari eliminat
-      code: 'Codi de la proposta:'
+      code: "Codi de la proposta:"
       comments:
         one: 1 comentari
         other: "%{count} comentaris"
@@ -501,7 +501,7 @@ ca:
       participate_button_expired: Votació acabada
       no_geozone_restricted: Tota la ciutat
       geozone_restricted: Districtes
-      geozone_info: 'Hi poden participar les persones empadronades a: '
+      geozone_info: "Hi poden participar les persones empadronades a: "
       already_answer: Ja has participat en aquesta votació
       section_header:
         icon_alt: Icona de Votacions
@@ -550,10 +550,10 @@ ca:
         null_votes: "Nuls"
         results:
           title: "Preguntes"
-          most_voted_answer: 'Resposta més votada: '
+          most_voted_answer: "Resposta més votada: "
       results:
         title: "Preguntes"
-        most_voted_answer: 'Resposta més votada: '
+        most_voted_answer: "Resposta més votada: "
   poll_questions:
     create_question: Crear pregunta
     show:
@@ -574,8 +574,8 @@ ca:
     edit: Editar
     save: Guardar
     delete: Esborrar
-    'yes': Sí
-    'no': 'No'
+    "yes": Sí
+    "no": "No"
     search_results: "Resultats de la cerca"
     advanced_search:
       author_type: Per categoria d'autor
@@ -612,10 +612,10 @@ ca:
         destroy:
           notice_html: "Has deixat de seguir aquest projecte de inversió! </br> Ja no rebràs més notificacions relacionades amb aquest projecte."
       proposal:
-          create:
-            notice_html: "Ara estàs seguint aquesta proposta ciutadana! </br> Et notificarem els canvis a mesura que es produeixin perquè estiguis al dia."
-          destroy:
-            notice_html: "Has deixat de seguir aquesta proposta ciutadana! </br> Ja no rebràs més notificacions relacionades amb aquesta proposta."
+        create:
+          notice_html: "Ara estàs seguint aquesta proposta ciutadana! </br> Et notificarem els canvis a mesura que es produeixin perquè estiguis al dia."
+        destroy:
+          notice_html: "Has deixat de seguir aquesta proposta ciutadana! </br> Ja no rebràs més notificacions relacionades amb aquesta proposta."
     hide: Ocultar
     print:
       print_button: Imprimir aquesta informació
@@ -657,11 +657,11 @@ ca:
     orbit:
       previous_slide: Imatge anterior
       next_slide: Següent imatge
-    documentation: Documentació addicional 
-    more_info: Més informació 
-    view_mode: 
-      title: Manera de vista 
-      cards: Targetes 
+    documentation: Documentació addicional
+    more_info: Més informació
+    view_mode:
+      title: Manera de vista
+      cards: Targetes
       list: Llista
   social:
     blog: "Blog de %{org}"
@@ -685,7 +685,7 @@ ca:
     index:
       title: Pressupostos Participatius
       unfeasible: Propostes d'inversió no viables
-      by_geozone: 'Propostes d''inversió amb àmbit: %{geozone}'
+      by_geozone: "Propostes d'inversió amb àmbit: %{geozone}"
       search_form:
         button: Cercar
         placeholder: Propostes d'inversió...
@@ -707,7 +707,7 @@ ca:
       start_new: Crear una proposta de despesa
     show:
       author_deleted: Usuari eliminat
-      code: 'Codi de la proposta:'
+      code: "Codi de la proposta:"
       share: Compartir
     wrong_price_format: Solament pot incloure caràcters numèrics
     spending_proposal:
@@ -811,8 +811,8 @@ ca:
       unfeasible: No es poden votar propostes inviables.
       not_voting_allowed: El període de votació està tancat.
       user_already_voted: "Ja has donat suport a aquesta proposta."
-      different_heading_assigned: 
-        one: "Només pots donar suport projectes d'inversió de %{count} districte" 
+      different_heading_assigned:
+        one: "Només pots donar suport projectes d'inversió de %{count} districte"
         other: "Només pots donar suport projectes d'inversió de %{count} districtes"
   welcome:
     debates:
@@ -858,20 +858,20 @@ ca:
   invisible_captcha:
     sentence_for_humans: Si ets humà, per favor ignora aquest camp
     timestamp_error_message: Això ha estat massa ràpid. Per favor, reenvia el formulari.
-  related_content: 
-    title: "Contingut relacionat" 
-    add: "Afegir contingut relacionat" 
-    label: "Enllaç a contingut relacionat" 
-    placeholder: "%{url}" 
-    help: "Pots introduir qualsevol enllaç de %{models} que estigui dins de %{org}." 
-    submit: "Afegir" 
-    error: "Enllaç no vàlid. Recorda que ha de començar per %{url}." 
-    error_itself: "Enllaç no vàlid. No es pot relacionar un contingut am si mateix." 
-    success: "Has afegit un nou contingut relacionat" 
-    is_related: "És contingut relacionat?" 
-    score_positive: "Sí" 
-    score_negative: "No" 
-    content_title: 
+  related_content:
+    title: "Contingut relacionat"
+    add: "Afegir contingut relacionat"
+    label: "Enllaç a contingut relacionat"
+    placeholder: "%{url}"
+    help: "Pots introduir qualsevol enllaç de %{models} que estigui dins de %{org}."
+    submit: "Afegir"
+    error: "Enllaç no vàlid. Recorda que ha de començar per %{url}."
+    error_itself: "Enllaç no vàlid. No es pot relacionar un contingut am si mateix."
+    success: "Has afegit un nou contingut relacionat"
+    is_related: "És contingut relacionat?"
+    score_positive: "Sí"
+    score_negative: "No"
+    content_title:
       proposal: "Proposta"
       debate: "Debat"
       budget_investment: "Projecte d'inversió"
@@ -882,4 +882,3 @@ ca:
   admin/widget:
     header:
       title: Administració
-      
