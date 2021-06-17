@@ -230,7 +230,7 @@ ca:
       conditions: Condicions d'ús
       consul: aplicació Consul
       consul_url: https://github.com/consul/consul
-      contact_us: Per a assistència tècnica entra a
+      contact_us: Per a assistència tècnica entra a %{help}
       copyright: Tu Fas Palma, %{year}
       description: Aquest portal usa la %{consul} que és %{open_source}.
       faq: Assistència tècnica
