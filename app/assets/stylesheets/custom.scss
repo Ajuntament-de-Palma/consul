@@ -147,7 +147,7 @@
   @include breakpoint(medium) {
     display: flex;
 
-    .feed-proposals:not(:only-child) {
+    .feed-processes:not(:only-child) {
       width: 50% !important;
     }
 
@@ -155,7 +155,7 @@
       width: 50% !important;
     }
 
-    .feed-proposals,
+    .feed-processes,
     .feed-debates {
       display: flex;
       flex-direction: column;
@@ -171,7 +171,7 @@
   }
 
   .feed-debates,
-  .feed-proposals {
+  .feed-processes {
     @include grid-col;
     margin-top: $line-height;
   }
@@ -179,7 +179,7 @@
     font-size: rem-calc(30);
     line-height: rem-calc(15);
   }
-  .feed-proposals {
+  .feed-processes {
     width: none !important;
     .title {
       border: none;
@@ -197,21 +197,20 @@
   }
 
   .feed-debates,
-  .feed-proposals {
+  .feed-processes {
     @include grid-col;
     margin-top: $line-height;
   }
 }
 
 .feed-content {
-  .proposal {
-    .feed-description {
-      color: $black;
-      &::before {
-        font-size: 800;
-        margin-left: -13px;
-        content: "\276F";
-      }
+  .process {
+    color: $black;
+    padding: 0.75rem 0;
+    &::before {
+      font-size: 800;
+      margin-left: -13px;
+      content: "\276F";
     }
   }
 
@@ -279,8 +278,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    .feed-proposals {
-      width: fit-content;
+    .feed-processes {
+      width: 70%;
       margin-top: 0;
       margin-bottom: rem-calc(12);
     }
@@ -295,7 +294,7 @@
     align-items: center;
     justify-content: center;
     .feed-debates {
-      width: fit-content;
+      width: 70%;
       margin-top: 0;
       margin-bottom: rem-calc(12);
     }
@@ -308,17 +307,15 @@
     flex-direction: column;
     position: relative;
     .orange {
-      height: 500px;
       width: 100%;
       background-color: $soft-orange;
       border-top: 2px solid $orange;
       border-bottom: 2px solid $orange;
-      .feed-proposals {
+      .feed-processes {
         width: 70%;
       }
     }
     .pink {
-      height: 500px;
       width: 100%;
       background-color: $soft-pink;
       border-top: 2px solid $pink;

@@ -1,0 +1,4 @@
+<div class="process">
+  <strong><%= link_to process.title, url_for(process) %></strong>
+  <%= render SDG::TagListComponent.new(process, limit: 5) %>
+</div>

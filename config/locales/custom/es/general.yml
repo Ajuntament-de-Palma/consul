@@ -47,16 +47,21 @@ es:
       consul_url: https://github.com/consul/consul
       contact_us: Para asistencia técnica entra en %{help}
       description: Este portal usa la %{consul} que es %{open_source}.
-      help: Asistencia técnica
-      help_url: https://enreda.coop
+      help: FAQ
+      help_url: /help/faq
       open_source: software de código abierto
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
       participation_text: Decide cómo debe ser la ciudad que quieres.
       participation_title: Participación
+      transparency_text: Obtén cualquier información sobre la ciudad.
+      transparency_title: Transparencia
+      open_data_text: Todos los datos del Ayuntamiento son tuyos.
+      open_data_title: Datos Abiertos
       privacy: Política de privacidad
       copyright: Tu Fas Palma, %{year}
       contact: Contáctanos
-      contact_text: "Teléfono: <a href='tel:+34971225900'>971 22 59 00</a> <br> Correo: \n <a href='mailto:tufaspalma@palma.cat'>tufaspalma@palma.cat</a>"
+      contact_text: |-
+        Teléfono: <a href='tel:+34971225900'>971 22 59 00</a> <br> Correo: <a href='mailto:tufaspalma@palma.cat'>tufaspalma@palma.cat</a>
       open_data_url: "https://www.palma.cat/portal/PALMA/contenedor1.jsp?seccion=s_fdes_d4_v1.jsp&codbusqueda=1728&layout=&codAdirecto=1037&codMenuPN=1812&codMenu=1574&language=es"
     header:
       logo: Tu Fas Palma

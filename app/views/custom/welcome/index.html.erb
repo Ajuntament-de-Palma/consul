@@ -18,17 +18,11 @@
 
   <div class="row">
     <% if @cards.any? %>
-      <div class="news small-12 column <%= "large-8" if feed_processes_enabled? %>">
+      <div class="news small-12 column">
         <%= image_tag(image_path_for("logo-noticias.svg"), width:30) %>
         <h2 class="title"><%= t("welcome.cards.title") %></h2>
         <div class="dots">&ctdot;</div>
         <%= render "shared/cards", cards: @cards %>
-      </div>
-    <% end %>
-
-    <% if feed_processes_enabled? %>
-      <div class="small-12 large-4 column">
-        <%= render "processes" %>
       </div>
     <% end %>
   </div>

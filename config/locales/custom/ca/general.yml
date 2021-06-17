@@ -215,6 +215,16 @@ ca:
       firefox: Firefox
       ie: Hem detectat que estàs navegant des d'Internet Explorer. Per a una millor experiència et recomanam utilitzar %{chrome} o %{firefox}.
       ie_title: Aquest web no està optimitzat per al teu navegador
+    steps:
+      propose:
+        title: Proposes
+        description: Espai obert per a propostes ciutadanes sobre el tipus de ciutat en el qual volem viure.
+      decide:
+        title: Decideixes
+        description: La ciutadania decideix si accepta o rebutja les propostes amb més suport.
+      todo:
+        title: Es fa
+        description: Si la proposta és acceptada majoritàriament, l'Ajuntament l'assumeix com a pròpia i es fa.
     footer:
       accessibility: Accessibilitat
       conditions: Condicions d'ús
@@ -815,6 +825,15 @@ ca:
         one: "Només pots donar suport projectes d'inversió de %{count} districte"
         other: "Només pots donar suport projectes d'inversió de %{count} districtes"
   welcome:
+    feed:
+      most_active:
+        debates: "Debats més actius"
+        proposals: "Propostes més actives"
+        processes: "Processos actius"
+      see_all:
+        debates: Veure tots els debats
+        proposals: Veure totes les propostes
+        processes: Veure tots els processos
     debates:
       description: Trobar-nos, debatre i compartir el que ens sembla important a la nostra ciutat.
       title: Debats
