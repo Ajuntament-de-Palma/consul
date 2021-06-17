@@ -68,6 +68,7 @@ es:
       collaborative_legislation: Procesos normativos
       root: "Inicio"
       root_title: "Volver a la página principal"
+      inquiries: Consultas ciudadanas
   form:
     confirm_action: "¿Estás seguro?"
     other: "Otros/as"

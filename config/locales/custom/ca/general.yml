@@ -247,6 +247,8 @@ ca:
       transparency_url: "/participation"
       contact: Contacta'ns
       contact_text: "Telèfon: <a href='tel:+34971225900'>971 22 59 00</a> <br> Correu: \n <a href='mailto:tufaspalma@palma.cat'>tufaspalma@palma.cat</a>"
+      help: FAQ
+      help_url: /help/faq
     header:
       administration_menu: Admin
       administration: Administrar
@@ -277,6 +279,7 @@ ca:
       poll_questions: Votacions
       budgets: Pressupostos Participatius
       spending_proposals: Pressupostos d'inversió
+      inquiries: Consultes ciutadanes
       notification_item:
         new_notifications:
           one: Tens una nova notificació

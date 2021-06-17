@@ -94,6 +94,10 @@ ca:
           info_2020_url: "/Pla%20Normatiu%20Municipal%202020.pdf"
           update_2020_1_text: "Moficiació núm. 1 Pla Normatiu municipal 2020"
           update_2020_1_url: "/Modificaci%C3%B3%20num%20%201%20Pla%20Normatiu%20municipal%202020.pdf"
+          info_2021_text: Pla Normatiu Municipal 2021
+          info_2021_url: "/Pla Normatiu Municipal 2021.pdf"
+          update_2021_text: "Modificació 1 Pla Normatiu municipal 2021"
+          update_2021_url: "/Modificació 1 Pla Normatiu municipal 2021.pdf"
         section_footer:
           title: Ajuda sobre processos normatius
           description: Participa als debats i processos previs a l'aprovació d'una norma o d'una actuació municipal. La teva opinió serà tinguda en compte per l'Ajuntament.
@@ -103,7 +107,7 @@ ca:
       phase_not_open:
         not_open: Aquesta fase del procés encara no està oberta
       phase_empty:
-          empty: Encara no hi ha res publicat
+        empty: Encara no hi ha res publicat
       process:
         see_latest_comments: Veure últimes aportacions
         see_latest_comments_title: Aportar en aquest procés

@@ -115,7 +115,6 @@
 .locale-form {
   display: inline-block;
   position: relative;
-  color: $white;
 
   label {
     font-size: $tiny-font-size;
@@ -123,9 +122,7 @@
   }
 
   .locale-switcher {
-    -moz-appearance: none;
-    background: transparent;
-    color: $white !important;
+    background: transparent !important;
     border: 0;
     border-radius: rem-calc(4);
     font-size: $small-font-size;

@@ -57,12 +57,17 @@
                                 accesskey: "7" %>
       </li>
     <% end %>
+    <li>
+        <%= link_to t("layouts.header.inquiries"),
+                                "/inquiries",
+                                accesskey: "8" %>
+      </li>
     <% if feature?(:help_page) %>
       <li>
         <%= layout_menu_link_to t("layouts.header.help"),
                                 help_path,
                                 current_page?(help_path),
-                                accesskey: "8" %>
+                                accesskey: "9" %>
       </li>
     <% end %>
 
