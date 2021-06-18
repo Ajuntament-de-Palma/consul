@@ -15,7 +15,7 @@ ca:
     mailer:
       confirmation_instructions:
         confirm_link: Confirma el meu compte
-        text: 'Pots confirmar el teu compte de correu electrònic a l''enllaç següent:'
+        text: "Pots confirmar el teu compte de correu electrònic a l'enllaç següent:"
         title: Et donem la benvinguda al Portal de Govern Obert
         welcome: Benvingut/uda
       reset_password_instructions:
@@ -23,12 +23,12 @@ ca:
         hello: Hola
         ignore_text: Si tu no ho has sol·licitat, ignora aquest correu electrònic.
         info_text: La contrasenya no canviarà fins que no accedeixis a l'enllaç i la modifiquis.
-        text: 'S''ha demanat de canviar la contrasenya. Pots fer-ho a l''enllaç següent:'
+        text: "S'ha demanat de canviar la contrasenya. Pots fer-ho a l'enllaç següent:"
         title: Canvia la contrasenya
       unlock_instructions:
         hello: Hola
         info_text: El teu compte ha estat bloquejat a causa d'un nombre excessiu d'intents d'inici de sessió fallits.
-        instructions_text: 'Segueix l''enllaç següent per desbloquejar el teu compte:'
+        instructions_text: "Segueix l'enllaç següent per desbloquejar el teu compte:"
         title: El teu compte ha estat bloquejat
         unlock_link: Desbloqueja el meu compte
     menu:
@@ -103,7 +103,7 @@ ca:
           password_confirmation_label: Confirma la contrasenya nova
           password_label: Contrasenya nova
           update_submit: Actualitza
-          waiting_for: 'S''està esperant confirmació de:'
+          waiting_for: "S'està esperant confirmació de:"
         new:
           cancel: Cancel·lar login
           email_label: Adreça electrònica

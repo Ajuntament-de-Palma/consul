@@ -13,7 +13,7 @@ es:
     users:
       registrations:
         new:
-          organization_signup: '¿Representas a una asociación / colectivo? %{signup_link}'
+          organization_signup: "¿Representas a una asociación / colectivo? %{signup_link}"
           assistance: "Si tiene alguna dificultad en el proceso de registro, nos la puede comunicar al correo <a href='mailto:tufaspalma@palma.cat'>tufaspalma@palma.cat</a> para que podamos ayudarle."
           help_info: ¿Tienes problemas para acceder? Consulta la siguiente información
           terms: Al registrarte aceptas las %{terms} y la %{privacy}
