@@ -1,7 +1,6 @@
 module VerificationHelper
-  # CHANGE: DNI in census 1->4
   def document_types
-    [[t("verification.residence.new.document_type.spanish_id"), 4],
+    [[t("verification.residence.new.document_type.spanish_id"), 1],
      [t("verification.residence.new.document_type.passport"), 2],
      [t("verification.residence.new.document_type.residence_card"), 3]]
   end
