@@ -16,22 +16,24 @@
 
     <div class="sections">
       <div class="section">
-        <%= link_to t("layouts.footer.participation_title"), root_path, class: "title" %>
+        <%= link_to t("layouts.footer.participation_title"), "https://participacio.palma.cat/portal/PALMA/participacio/participacio_principal1.jsp?codResi=1", class: "title" %>
         <p><%= t("layouts.footer.participation_text") %></p>
       </div>
       <%= image_tag(image_path_for("divider-large.svg"), width: 5) %>
       <div class="section">
-        <%= link_to t("layouts.footer.transparency_title"), root_path, class: "title" %>
+        <%= link_to t("layouts.footer.transparency_title"), "https://www.palma.cat/portal/PALMA/contenedor1.jsp?seccion=s_fdes_d4_v4.jsp&codbusqueda=2700&language=ca&codResi=1&layout=contenedor1.jsp&codAdirecto=1341", class: "title" %>
         <p><%= t("layouts.footer.transparency_text") %></p>
       </div>
       <%= image_tag(image_path_for("divider-large.svg"), width: 5) %>
       <div class="section">
-        <%= link_to t("layouts.footer.open_data_title"), root_path, class: "title" %>
+        <%= link_to t("layouts.footer.open_data_title"), "https://www.palma.cat/portal/PALMA/contenedor1.jsp?seccion=s_fdes_d4_v1.jsp&codbusqueda=1728&language=ca&layout=&codAdirecto=1037&codMenuPN=1812&codMenu=1574", class: "title" %>
         <p><%= t("layouts.footer.open_data_text") %></p>
       </div>
       <%= image_tag(image_path_for("divider-large.svg"), width: 5) %>
       <div class="section">
-        <%= link_to t("layouts.footer.contact"), root_path, class: "title" %>
+      <span class="title">
+      <%= raw t("layouts.footer.contact") %>
+      </span>
         <p><%= raw t("layouts.footer.contact_text") %></p>
       </div>
     </div>
