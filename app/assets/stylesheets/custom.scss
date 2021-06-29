@@ -34,6 +34,19 @@
         content: none !important;
       }
     }
+    @include breakpoint(small down) {
+      li:not(.is-submenu-item) {
+        &:after {
+          color: $brand;
+        }
+        &:first-child {
+          display: none;
+        }
+        .locale {
+          margin-left: 0;
+        }
+      }
+    }
   }
 }
 .row-submenu {
@@ -91,6 +104,9 @@
 // Help
 .help {
   .menu-pages {
+    li {
+      margin-left: 0;
+    }
     a {
       background-color: $brand;
       color: $white;
