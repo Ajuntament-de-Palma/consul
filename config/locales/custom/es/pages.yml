@@ -26,6 +26,15 @@ es:
         feature_html: "Para crear una propuesta hay que registrarse en %{org}. Las propuestas que consiguen el apoyo en la web de la gente con derecho a voto (personas mayores de 16 años empadronadas) pasan a votación. Para apoyar propuestas es necesario verificar tu cuenta."
       other:
         title: "Otra información de interés"
+        how_to_use: "Utiliza CONSUL en tu municipio"
+        sdg: "Ayuda Objetivos de Desarrollo Sostenible"
+      how_to_use:
+        text: |-
+          Utilízalo en tu municipio libremente o ayúdanos a mejorarlo, es software libre.
+
+          Este Portal de Gobierno Abierto usa la [aplicación CONSUL](https://github.com/consul/consul 'github consul') que es software libre, con [licencia AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), esto significa en palabras sencillas, que cualquiera puede libremente usar el código, copiarlo, verlo en detalle, modificarlo, y redistribuirlo al mundo con las modificaciones que quiera (manteniendo el que otros puedan a su vez hacer lo mismo). Porque creemos que la cultura es mejor y más rica cuando se libera.
+
+          Si sabes programar, puedes ver el código y ayudarnos a mejorarlo en [aplicación CONSUL](https://github.com/consul/consul 'github consul').
       polls:
         description: "La sección de %{link} se activa cada vez que una propuesta alcanza los apoyos necesarios y pasa a votación o cuando el Ayuntamiento propone un tema para que la gente decida sobre él."
     titles:

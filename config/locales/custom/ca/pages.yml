@@ -68,7 +68,7 @@ ca:
           faq_1_title: "Pregunta 1"
           faq_1_description: "Això es un exemple per la descripció de la pregunta 1."
       other:
-        how_to_use: Utilitza %{org_name} al teu municipi
+        how_to_use: Utilitza CONSUL al teu municipi
         title: "Altra informació d'interès"
       how_to_use:
         text: |-
@@ -76,7 +76,7 @@ ca:
 
           Aquest Portal de Govern Obert usa [l'aplicació Consul](https://github.com/ayuntamientomadrid 'github consul') que és programari lliure, amb [llicència AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu'). Això significa, en paraules senzilles, que qualsevol pugues lliurement usar el codi, copiar-lo, veurel detalladament, modificar-lo, i redistribuir-ho al món amb les modificacions que vulgui (mantenint que altres puguin al seu torn fer el mateix). Perquè creim que la cultura és millor i més rica quan s'allibera.
 
-          Si ets programador, pots veure el codi i ajudar-nos a millorar-ho a [l'aplicació Consul](https://github.com/ayuntamientomadrid 'github consul').
+          Si saps programar, pots veure el codi i ajudar-nos a millorar-ho a [l'aplicació Consul](https://github.com/ayuntamientomadrid 'github consul').
       titles:
         how_to_use: Utilitza'l al teu municipi
     privacy: Política de privadesa
