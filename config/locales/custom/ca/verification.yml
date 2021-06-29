@@ -27,7 +27,7 @@ ca:
       errors:
         incorrect_code: Codi de verificació incorrecte
       new:
-        explanation: 'Per participar en les votacions finals pots:'
+        explanation: "Per participar en les votacions finals pots:"
         go_to_index: Mostra propostes
         office: Verificar-te presencialment a qualsevol %{office}
         offices: Oficina d'Atenció al Ciutadà
@@ -58,11 +58,11 @@ ca:
           passport: Passaport
           residence_card: Targeta de residència / NIE
           spanish_id: DNI
-          census_palma: "Codi padró Palma" 
+          census_palma: "Codi padró Palma"
         document_type_label: Tipus de document
         error_not_allowed_age: Has de tenir almenys 16 anys
         error_not_allowed_postal_code: Per verificar-te has d'estar empadronat al municipi.
-        error_verifying_census: No s'ha pogut verificar la teva informació del Padró. Confirma que les teves dades d'empadronament són correctes o visita qualsevol de les %{offices}.
+        error_verifying_census: El Cens no ha pogut verificar la informació. Confirmeu que les dades del vostre cens són correctes trucant a l'Ajuntament o visiteu una Oficina d'Atenció Ciutadana.
         error_verifying_census_offices: oficines d'atenció al ciutadà
         form_errors: " - No s'ha pogut verificar la teva residència"
         form_errors_document_number_taken: "Aquest número de document ja s'ha registrat prèviament amb un altre usuari."
@@ -85,7 +85,7 @@ ca:
         phone: Introdueix el teu telèfon mòbil per rebre el codi
         phone_format_html: "<strong><em>(Exemple: 612345678 ó +34612345678)</em></strong>"
         phone_note: Només farem servir el teu telèfon per enviar-te un codi, no et contactarem mai.
-        phone_placeholder: 'Exemple: 612345678 ó +34612345678'
+        phone_placeholder: "Exemple: 612345678 ó +34612345678"
         submit_button: Envia
         title: SMS de confirmació
       update:
