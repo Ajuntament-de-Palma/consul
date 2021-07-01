@@ -35,7 +35,7 @@
       </li>
     <% end %>
     <% if feature?(:budgets) %>
-      <li class="is-dropdown-submenu-parent">
+      <li class="is-dropdown-submenu-parent hide-for-small-only">
         <%= layout_menu_link_to t("layouts.header.budgets"),
                                   budgets_path,
                                   controller_name == "budgets" || controller_name == "investments",
@@ -47,6 +47,17 @@
             accesskey: "6" %>
           </li>
         </ul>
+      </li>
+      <li class="show-for-small-only">
+        <%= layout_menu_link_to t("layouts.header.budgets"),
+                                  budgets_path,
+                                  controller_name == "budgets" || controller_name == "investments",
+                                  accesskey: "5" %>
+      </li>
+      <li class="show-for-small-only">
+            <%= link_to t("pages.titles.documentation"),
+            page_path('documentation'),
+            accesskey: "6" %>
       </li>
     <% end %>
     <% if feature?(:sdg) %>

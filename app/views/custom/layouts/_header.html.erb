@@ -20,7 +20,7 @@
       <div id="responsive-menu">
         <div class="top-bar-right">
           <ul class="row-menu menu" data-responsive-menu="medium-dropdown">
-            <li>
+            <li class="hide-for-small-only">
               <%= image_tag(image_path_for("logo-ayuntamiento.svg"), width: 200,  class: "float-left", alt: setting["org_name"]) %>
             </li>
             <%= render "shared/admin_login_items" %>
