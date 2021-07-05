@@ -5,8 +5,8 @@ es:
         create:
           notice: "Vuestra aportación se ha enviado correctamente, gracias para participar"
       shared:
-        debate_dates: Aportaciones y propuestas
-        proposals_dates: Debates abiertos
+        debate_dates: Debates abiertos
+        proposals_dates: Aportaciones y propuestas
       proposals:
         start_proposal: "Crea un debate abierto"
         new:

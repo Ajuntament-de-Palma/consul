@@ -35,19 +35,19 @@ ca:
         image: Imatge
         post_started_at: Inici de publicació
         post_ended_at: Fi de publicació
-        uploaded_image: Pujar imatge 
-        text_align: Alineació del text 
-        text_color: Color del text 
-        uploaded_image_help: <p style="font-size:15px"><i>La mida per poder-hi incrustar una imatge ha de ser de 870px x 150px</i></p> 
-        help_text: <h3>Ajuda</h3> 
-          Els camps de títol, descripció i enllaç són opcionals.<br> 
-          Per crear un bàner d'un únic color, n'hi ha prou amb seleccionar-ne un en el camp "Color de fons".<br> 
-          Si el que es vol és un bàner amb una imatge fixa, n'hi ha prou amb pujar-ne una amb les mesures que corresponguin a l'apartat "Pujar Imatge".<br> 
-          En cas que un bàner tingui un color i una imatge seleccionats, es superposarà la imatge i, d'aquesta manera, depenent de la imatge, no es mostraria el color. 
-          En cas que els camps de títol i descripció estiguin presents, aquests es superposaran a la imatge o el color. 
-        valid_aligns: 
-          left: Esquerra 
-          center: Centre 
+        uploaded_image: Pujar imatge
+        text_align: Alineació del text
+        text_color: Color del text
+        uploaded_image_help: <p style="font-size:15px"><i>La mida per poder-hi incrustar una imatge ha de ser de 870px x 150px</i></p>
+        help_text: <h3>Ajuda</h3>
+          Els camps de títol, descripció i enllaç són opcionals.<br>
+          Per crear un bàner d'un únic color, n'hi ha prou amb seleccionar-ne un en el camp "Color de fons".<br>
+          Si el que es vol és un bàner amb una imatge fixa, n'hi ha prou amb pujar-ne una amb les mesures que corresponguin a l'apartat "Pujar Imatge".<br>
+          En cas que un bàner tingui un color i una imatge seleccionats, es superposarà la imatge i, d'aquesta manera, depenent de la imatge, no es mostraria el color.
+          En cas que els camps de títol i descripció estiguin presents, aquests es superposaran a la imatge o el color.
+        valid_aligns:
+          left: Esquerra
+          center: Centre
           right: Dreta
       edit:
         editing: Editar el bàner
@@ -104,14 +104,14 @@ ca:
       edit:
         title: Editar pressupostos participatius
         delete: Eliminar pressupost
-        phase: Fase 
-        dates: Dates 
-        enabled: Habilitada 
-        actions: Accions 
-        edit_phase: Editar fase 
-        active: Activa 
+        phase: Fase
+        dates: Dates
+        enabled: Habilitada
+        actions: Accions
+        edit_phase: Editar fase
+        active: Activa
         blank_dates: Sense dates
-      destroy: 
+      destroy:
         success_notice: Pressupost eliminat correctament
         unable_notice: No es pot eliminar un pressupost amb projectes associats
       new:
@@ -125,7 +125,7 @@ ca:
         no_groups: Encara no hi ha grups creats. Cada usuari podrà votar en una sola partida de cada grup.
         add_group: Afegir nou grup
         create_group: Crear grup
-        edit_group: Editar grup 
+        edit_group: Editar grup
         submit: Guardar grup
         heading: Nom de la partida
         add_heading: afegir partida
@@ -144,8 +144,8 @@ ca:
         calculate: Calcular propostes guanyadores
         calculated: Calculant guanyadores, pot trigar un minut.
         recalculate: Recalcular propostes guanyadores
-    budget_phases: 
-      edit: 
+    budget_phases:
+      edit:
         start_date: Data d'Inici
         end_date: Data de finalització
         summary: Resum
@@ -163,12 +163,12 @@ ca:
         administrator_filter_all: Tots els administradors
         valuator_filter_all: Tots els avaluadors
         tags_filter_all: Totes les etiquetes
-        advanced_filters: Filtres avançats 
-        placeholder: Buscar projectes 
-        sort_by: 
-          placeholder: Ordenar per 
-          id: ID 
-          title: Títol 
+        advanced_filters: Filtres avançats
+        placeholder: Buscar projectes
+        sort_by:
+          placeholder: Ordenar per
+          id: ID
+          title: Títol
           supports: Suports
         filters:
           all: Tots
@@ -179,15 +179,15 @@ ca:
           feasible: Viables
           selected: Seleccionades
           undecided: Sense decidir
-          unfeasible: Inviables 
+          unfeasible: Inviables
           max_per_heading: Límit per partida
           winners: Guanyadores
-          one_filter_html: "Filtres en ús: <b><em>%{filter}</em></b>" 
+          one_filter_html: "Filtres en ús: <b><em>%{filter}</em></b>"
           two_filters_html: "Filtres en ús: <b><em>%{filter}, %{advanced_filters}</em></b>"
-        buttons: 
-          search: Buscar 
-          filter: Filtrar 
-        download_current_selection: "Descarregar selecció actual" 
+        buttons:
+          search: Buscar
+          filter: Filtrar
+        download_current_selection: "Descarregar selecció actual"
         no_budget_investments: "No hi ha projectes d'inversió"
         title: Propostes d'inversió
         assigned_admin: Administrador assignat
@@ -200,7 +200,7 @@ ca:
           undecided: "Sense decidir"
         selected: "Seleccionada"
         select: "Seleccionar"
-        winner: Guanyador 
+        winner: Guanyador
         win: Aprovar
         table_id: "ID"
         table_title: "Títol"
@@ -212,7 +212,7 @@ ca:
         table_geozone: "Àmbit d'actuació"
         table_feasibility: "Viabilitat"
         table_valuation_finished: "Ev. Fi."
-        table_selection: "Seleccionat" 
+        table_selection: "Seleccionat"
         table_evaluation: "Mostrar a avaluadors"
         table_incompatible: "Incompatible"
         cannot_calculate_winners: El pressupost ha d'estar en les fases "Votació final", "Votació finalitzada" o "Resultats" per poder calcular les propostes guanyadores
@@ -250,12 +250,12 @@ ca:
           title: Guanyadora
           "true": "Sí"
           "false": "No"
-        image: "Imatge" 
-        see_image: "Veure imatge" 
-        no_image: "Sense imatge" 
-        documents: "Documents" 
-        see_documents: "Veure documents (%{count})" 
-        no_documents: "Sense documents" 
+        image: "Imatge"
+        see_image: "Veure imatge"
+        no_image: "Sense imatge"
+        documents: "Documents"
+        see_documents: "Veure documents (%{count})"
+        no_documents: "Sense documents"
         valuator_groups: "Grup d'avaluadors"
       edit:
         execution_status_1: "Estudi i projecte"
@@ -371,8 +371,8 @@ ca:
         form:
           enabled: Habilitat
           process: Procés
-          debate_phase: Aportacions i propostes
-          proposals_phase: Fase de debats oberts
+          debate_phase: Fase de debats oberts
+          proposals_phase: Aportacions i propostes
           allegations_phase: Fase d'al·legacions
           start: Inici
           end: Fi
@@ -405,11 +405,11 @@ ca:
         subnav:
           info: Informació
           draft_texts: Text
-          questions: Aportacions i propostes
-          proposals: Debats oberts
+          questions: Debats oberts
+          proposals: Aportacions i propostes
       proposals:
         index:
-          title: Debats oberts
+          title: Aportacions i propostes
           back: Tornar
         form:
           header_information: Encapçalat d'informació
@@ -531,7 +531,7 @@ ca:
       managers: Gestors
       moderators: Moderadors
       emails: Enviament d'emails
-      newsletters: Newsletters 
+      newsletters: Newsletters
       emails_download: "Descàrrega d'emails"
       valuators: Avaluadors
       poll_officers: Presidents de taula
@@ -547,9 +547,9 @@ ca:
       signature_sheets: Fulles de signatures
       site_customization:
         homepage: Homepage
-        pages: Personalitzar pàgines 
-        images: Personalitzar imatges 
-        content_blocks: Personalitzar blocs 
+        pages: Personalitzar pàgines
+        images: Personalitzar imatges
+        content_blocks: Personalitzar blocs
         forms: Formularis
       title_categories: Categories
       title_moderated_content: Contingut moderat
@@ -583,9 +583,9 @@ ca:
         delete: Esborrar
       search:
         title: "Moderadors: Cerca d'usuaris"
-    segment_recipient: 
+    segment_recipient:
       all_users: Tots els usuaris
-      administrators: Administradors 
+      administrators: Administradors
       proposal_authors: Usuaris autors de propostes
       investment_authors: Usuaris autors de projectes de despesa als actuals pressupostos
       feasible_and_undecided_investment_authors: "Usuaris autors d'algun projecte d'inversió als actuals pressupostos que no compleixi: [avaluació finalitzada inviable]"
@@ -595,40 +595,40 @@ ca:
       invalid_recipients_segment: "El segment de destinataris és invàlid"
     newsletters:
       locale: Idioma
-      create_success: Newsletter creada correctament 
-      update_success: Newsletter actualitzada correctament 
-      send_success: Newsletter enviada correctament 
+      create_success: Newsletter creada correctament
+      update_success: Newsletter actualitzada correctament
+      send_success: Newsletter enviada correctament
       delete_success: Newsletter esborrada correctament
       index:
         title: Enviament de newsletters
-        new_newsletter: Crear newsletter 
-        subject: Assumpte 
+        new_newsletter: Crear newsletter
+        subject: Assumpte
         segment_recipient: Destinataris
-        sent: Enviat 
-        actions: Accions 
+        sent: Enviat
+        actions: Accions
         draft: Esborrany
-        edit: Editar 
-        delete: Esborrar 
-        preview: Previsualitzar 
+        edit: Editar
+        delete: Esborrar
+        preview: Previsualitzar
         empty_newsletters: No hi ha newsletters per mostrar
-      new: 
-        title: Nova newsletter 
+      new:
+        title: Nova newsletter
         from: Direcció de correu electrònic que apareixerà como a remitent de la newsletter.
       edit:
-        title: Editar newsletter 
-      show: 
+        title: Editar newsletter
+      show:
         title: Vista prèvia de newsletter
-        send: Enviar 
-        affected_users: (%{n} usuaris afectats) 
+        send: Enviar
+        affected_users: (%{n} usuaris afectats)
         sent_at: Enviat
         subject: Assumpte
         segment_recipient: Destinataris
         from: Direcció de correu electrònic que apareixerà como a remitent de la newsletter.
         body: Contingut de l'email
-        body_help_text: Així és com veuran l'email els usuaris 
+        body_help_text: Així és com veuran l'email els usuaris
         send_alert: "Estàs segur/a que vols enviar aquesta newsletter a %{n} usuaris?"
-    emails_download: 
-      index: 
+    emails_download:
+      index:
         title: "Descàrrega d'emails"
         download_segment: "Descarregar adreces de correu electrònic"
         download_segment_help_text: "Descàrrega en format CSV"
@@ -641,8 +641,8 @@ ca:
         description: Descripció
         no_description: Sense descripció
         no_valuators: No hi ha avaluadors.
-        valuator_groups: "Grup d'avaluadors" 
-        group: "Grup" 
+        valuator_groups: "Grup d'avaluadors"
+        group: "Grup"
         no_group: "Sense grup"
       valuator:
         add: Afegir com a avaluador
@@ -658,23 +658,23 @@ ca:
         in_evaluation_count: En avaluació
         total_count: Total
         cost: Cost total
-      form: 
-        edit_title: "Avaluadors: Editar avaluador" 
-        update: "Actualitzar avaluador" 
-        updated: "Avaluador actualitzat correctament" 
-      show: 
-        description: "Descripció" 
-        email: "Email" 
-        group: "Grup" 
-        no_description: "Sense descripció" 
-        no_group: "Sense grup" 
-    valuator_groups: 
-      index: 
-        title: "Grups d'avaluadors" 
-        new: "Crear grup d'avaluadors" 
-        name: "Nom" 
-        members: "Membres" 
-        no_groups: "No hi ha grups d'avaluadors" 
+      form:
+        edit_title: "Avaluadors: Editar avaluador"
+        update: "Actualitzar avaluador"
+        updated: "Avaluador actualitzat correctament"
+      show:
+        description: "Descripció"
+        email: "Email"
+        group: "Grup"
+        no_description: "Sense descripció"
+        no_group: "Sense grup"
+    valuator_groups:
+      index:
+        title: "Grups d'avaluadors"
+        new: "Crear grup d'avaluadors"
+        name: "Nom"
+        members: "Membres"
+        no_groups: "No hi ha grups d'avaluadors"
       show:
         title: "Grup d'avaluadors: %{group}"
         no_valuators: "No hi ha avaluadors assignats a aquest grup"
@@ -968,9 +968,9 @@ ca:
       flash:
         updated: Valor actualitzat
       index:
-        banners: Estil del banner 
-        banner_imgs: Imatges del banner 
-        no_banners_images: No hi ha imatges de banner 
+        banners: Estil del banner
+        banner_imgs: Imatges del banner
+        no_banners_images: No hi ha imatges de banner
         no_banners_styles: No hi ha estils de banner
         title: Configuració global
         update_setting: Actualitzar
@@ -1260,11 +1260,11 @@ ca:
             error: Error
         form:
           options: Opcions
-          social_media_widgets_header: Informació sobre les xarxes socials 
-          social_media_widgets_info: "Per inserir els elements de les xarxes socials, s'ha d'utilitzar la següent estructura de codi HTML: " 
-          social_media_widgets_howto: "Afegir la següent estructura de codi a l'apartat superior (en mode 'codi font'), després de tot el contingut de la pàgina" 
-        forms: 
-          form_info_tab: "Detalls" 
+          social_media_widgets_header: Informació sobre les xarxes socials
+          social_media_widgets_info: "Per inserir els elements de les xarxes socials, s'ha d'utilitzar la següent estructura de codi HTML: "
+          social_media_widgets_howto: "Afegir la següent estructura de codi a l'apartat superior (en mode 'codi font'), després de tot el contingut de la pàgina"
+        forms:
+          form_info_tab: "Detalls"
           form_inputs_tab: "Camps del formulari"
         index:
           create: Crear nova pàgina
@@ -1282,7 +1282,7 @@ ca:
           status_published: Publicada
           locale: Idioma
       forms:
-        new: 
+        new:
           title: Formulari
           button_add_question: Afegir pregunta
           button_add_answer: Afegir resposta
@@ -1320,7 +1320,7 @@ ca:
           available_answers: "S'han d'incloure les possibles respostes"
           input_type: "El nou tipus de camp especificat no és compatible amb l'anterior (a causa que hi ha informació associada)"
       form:
-        destroy: 
+        destroy:
           notice: "Formulari eliminat correctament"
           error: "No s'ha pogut eliminar el formulari perquè té respostes associades"
     homepage:

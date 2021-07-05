@@ -113,11 +113,11 @@ ca:
         see_latest_comments_title: Aportar en aquest procés
       shared:
         key_dates: Dates clau
-        debate_dates: Aportacions i propostes
+        debate_dates: Debats oberts
         draft_publication_date: Publicació esborrany
         allegations_dates: Al·legacions
         result_publication_date: Publicació resultats
-        proposals_dates: Debats oberts
+        proposals_dates: Aportacions i propostes
     questions:
       comments:
         anonymous_user: "Usuari anònim"
