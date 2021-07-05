@@ -100,7 +100,9 @@ ca:
           update_2021_url: "/Modificació 1 Pla Normatiu municipal 2021.pdf"
         section_footer:
           title: Ajuda sobre processos normatius
-          description: Participa als debats i processos previs a l'aprovació d'una norma o d'una actuació municipal. La teva opinió serà tinguda en compte per l'Ajuntament.
+          description: |
+            Participa als debats i processos previs a l'aprovació d'una norma o d'una actuació municipal. La teva opinió serà tinguda en compte per l'Ajuntament.
+            Pots fer les teves aportacions creant una proposta al web o, si ho vols fer de forma confidencial, enviant un correu a tufaspalma@palma.cat.
           help_text_1: "En els processos participatius, l'Ajuntament ofereix a la ciutadania l'oportunitat de participar en l'elaboració i modificació de normativa que afecta a la ciutat i de donar la seva opinió sobre certes actuacions que té previst dur a terme."
           help_text_2: "Les persones registrades en %{org} poden participar amb aportacions en la consulta pública de noves ordenances, reglaments i directrius, entre uns altres. Els seus comentaris són analitzats per l'àrea corresponent i tinguts en compte de cara a la redacció final de les normes."
           help_text_3: "L'Ajuntament també obre processos per rebre aportacions i opinions sobre actuacions municipals."
