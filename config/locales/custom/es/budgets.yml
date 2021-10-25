@@ -60,10 +60,10 @@ es:
           other: "%{count} votos"
           zero: Sin votos
       show:
-        code: "Código"
+        code: "Código: %{code}"
         price_explanation: Observaciones
         unfeasibility_explanation: Informe de inviabilidad
-        organization_name_html: 'Proponente: <strong>%{name}</strong>'
+        organization_name_html: "Proponente: <strong>%{name}</strong>"
       form:
         add_button: Añadir
         heading_id: "Asignación territorial"
