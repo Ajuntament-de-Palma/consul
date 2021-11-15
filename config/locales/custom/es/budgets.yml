@@ -21,9 +21,9 @@ es:
         organization: Las asociaciones no pueden votar.
     index:
       documentation: "Documentación"
-      documentation_2017_url: /documentacion-2017
-      documentation_2018_url: /documentacion-2018
-      documentation_2019_url: /documentacion-2019
+      documentation_2017_url: /documentacio-2017?locale=es
+      documentation_2018_url: /documentacio-2018?locale=es
+      documentation_2019_url: /documentacio-2019?locale=es
       section_footer:
         description: Con los presupuestos participativos la ciudadanía decide de forma directa a que proyectos presentados por los vecinos y vecinas va destinada una parte del presupuesto municipal.
         help_text_1: "Cualquier persona mayor de 16 años puede proponer un proyecto de gasto que se pre-selecciona en una fase de apoyos ciudadanos."
