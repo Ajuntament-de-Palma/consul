@@ -9,7 +9,7 @@
             <h3><%= budget.name %></h3>
 
             <div id="budget_<%= budget.id %>_results">
-              <%= link_to t("budgets.index.documentation"), "/documentacion-#{ budget.slug.split('-',-1).last() }", class: "button" %>
+              <%= link_to t("budgets.index.documentation"), "/documentacio-#{ budget.slug.split('-',-1).last() }?locale=#{I18n.locale}", class: "button" %>
               <% if can?(:read_results, budget) %>
                 <%= link_to t("budgets.index.see_results"), budget_results_path(budget), class: "button" %>
               <% end %>
