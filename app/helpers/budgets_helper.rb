@@ -75,11 +75,12 @@ module BudgetsHelper
   end
 
   # CHANGE: execution -> execution_status
+  # CHANGE: remove stats
   def budget_subnav_items_for(budget)
     {
       results:    t("budgets.results.link"),
-      stats:      t("stats.budgets.link"),
-      execution_status: t("budgets.results.execution_status")
+      execution_status: t("budgets.results.execution_status"),
+      all_budgets: t("budgets.results.all_budgets"),
       # executions: t("budgets.executions.link")
     }.select { |section, _| can?(:"read_#{section}", budget) }.map do |section, text|
       {

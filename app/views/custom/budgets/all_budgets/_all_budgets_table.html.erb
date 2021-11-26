@@ -1,0 +1,73 @@
+<div class="<%= results_type == :compatible ? 'success' : 'js-discarded' %>"
+     style="<%= results_type != :compatible ? 'display: none' : '' %>"
+     id="<%= results_type %>-container">
+
+  <h4><%= title %></h4>
+
+  <table id="budget-investments-<%= results_type %>" class="table-for-mobile">
+    <thead>
+      <tr>
+        <th scope="col">
+          <%= t("budgets.results.investment_id") %>
+        </th>
+        <th scope="col">
+          <%= t("budgets.results.investment_title") %>
+        </th>
+        <th scope="col" class="text-center">
+          <%= t("budgets.results.ballot_lines_count") %>
+        </th>
+        <th scope="col" class="text-center">
+          <%= t("budgets.results.execution_status") %>
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% amount_available = heading_price %>
+      <% investments.each do |investment| %>
+          <tr id="<%= dom_id(investment) %>"
+              class="budget-investments <%= investment.winner? ? 'success' : 'js-discarded' %>">
+            <td>
+                <span>
+                  <%= investment.id %>
+                </span>
+            </td>
+            <td>
+              <% if investment.winner? %>
+                <span class="icon-check">
+                  <span class="show-for-sr">
+                    <%= t("budgets.results.accepted") %>
+                  </span>
+                </span>
+              <% else %>
+                <span class="icon-x delete">
+                  <span class="show-for-sr">
+                    <%= t("budgets.results.discarded") %>
+                  </span>
+                </span>
+              <% end %>
+              <%= link_to investment.title, budget_investment_path(@budget, investment) %>
+            </td>
+            <td class="text-center">
+              <%= investment.ballot_lines_count %>
+            </td>
+
+            <td class="text-center">
+              <% case investment.execution_status %>
+              <% when "20" %>
+                <span><%= t('admin.budget_investments.edit.execution_status_1') %></span>
+              <% when "40" %>
+                <span><%= t('admin.budget_investments.edit.execution_status_2') %></span>
+              <% when "50" %>
+                <span><%= t('admin.budget_investments.edit.execution_status_3') %></span>
+              <% when "70" %>
+                <span><%= t('admin.budget_investments.edit.execution_status_4') %></span>
+              <% when "100" %>
+                <span><%= t('admin.budget_investments.edit.execution_status_5') %></span>
+              <% end %>
+            </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

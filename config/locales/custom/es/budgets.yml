@@ -12,6 +12,8 @@ es:
       admin_reviewing_ballots: Votación finalizada
       admin_finished: Resultados
     results:
+      investment_id: Código
+      all_budgets: Todas las propuestas
       execution_status: "Estado de ejecución"
       execution_percentage: Porcentaje de ejecución
     ballots:

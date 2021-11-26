@@ -18,6 +18,7 @@ module Abilities
       can :read_results, Budget, id: Budget.finished.results_enabled.ids
       can :read_stats, Budget, id: Budget.valuating_or_later.stats_enabled.ids
       can :read_execution_status, Budget
+      can :read_all_budgets, Budget
       can :new, DirectMessage
       can [:read, :debate, :draft_publication, :allegations, :result_publication,
            :proposals, :milestones], Legislation::Process, published: true

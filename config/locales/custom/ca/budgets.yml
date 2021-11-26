@@ -202,6 +202,8 @@ ca:
       vote: Vota
       support: Dóna suport
     results:
+      investment_id: Codi
+      all_budgets: Totes les propostes
       execution_status: Estat d'execució
       execution_percentage: Percentatge d'execució
       link: Resultats
