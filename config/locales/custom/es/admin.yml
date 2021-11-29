@@ -100,9 +100,10 @@ es:
           button_add_geozone: Añadir barrio
           button_add_district: Añadir distrito
       edit:
-        execution_status_1: "Estudio y proyecto"
-        execution_status_2: "En licitación pública"
-        execution_status_3: "Adjudicado"
+        execution_status_0: "No iniciado o inviable"
+        execution_status_1: "Estudio"
+        execution_status_2: "Projecto redactado"
+        execution_status_3: "En licitación"
         execution_status_4: "En ejecución"
         execution_status_5: "Finalizado"
       index:

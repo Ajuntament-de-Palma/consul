@@ -19,10 +19,11 @@
       <div class="small-12 column">
         <%= f.select(:execution_status, options_for_select(
           [
-            ["#{t('admin.budget_investments.edit.execution_status_1')} - 20%", 20],
-            ["#{t('admin.budget_investments.edit.execution_status_2')} - 40%", 40],
+            ["#{t('admin.budget_investments.edit.execution_status_0')} - 0%", 0],
+            ["#{t('admin.budget_investments.edit.execution_status_1')} - 10%", 10],
+            ["#{t('admin.budget_investments.edit.execution_status_2')} - 25%", 25],
             ["#{t('admin.budget_investments.edit.execution_status_3')} - 50%", 50],
-            ["#{t('admin.budget_investments.edit.execution_status_4')} - 70%", 70],
+            ["#{t('admin.budget_investments.edit.execution_status_4')} - 75%", 75],
             ["#{t('admin.budget_investments.edit.execution_status_5')} - 100%", 100]
           ], @investment.execution_status.to_i
         )) %>

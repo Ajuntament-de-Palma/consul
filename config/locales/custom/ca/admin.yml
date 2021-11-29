@@ -258,9 +258,10 @@ ca:
         no_documents: "Sense documents"
         valuator_groups: "Grup d'avaluadors"
       edit:
-        execution_status_1: "Estudi i projecte"
-        execution_status_2: "En licitació pública"
-        execution_status_3: "Adjudicat"
+        execution_status_0: "No iniciat o inviable"
+        execution_status_1: "Estudi"
+        execution_status_2: "Projecte redactat"
+        execution_status_3: "En licitació"
         execution_status_4: "En execució"
         execution_status_5: "Finalitzat"
         classification: Classificació

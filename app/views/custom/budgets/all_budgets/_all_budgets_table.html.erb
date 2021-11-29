@@ -54,13 +54,15 @@
 
             <td class="text-center">
               <% case investment.execution_status %>
-              <% when "20" %>
+              <% when "0" %>
+                <span><%= t('admin.budget_investments.edit.execution_status_0') %></span>
+              <% when "10" %>
                 <span><%= t('admin.budget_investments.edit.execution_status_1') %></span>
-              <% when "40" %>
+              <% when "25" %>
                 <span><%= t('admin.budget_investments.edit.execution_status_2') %></span>
               <% when "50" %>
                 <span><%= t('admin.budget_investments.edit.execution_status_3') %></span>
-              <% when "70" %>
+              <% when "75" %>
                 <span><%= t('admin.budget_investments.edit.execution_status_4') %></span>
               <% when "100" %>
                 <span><%= t('admin.budget_investments.edit.execution_status_5') %></span>
