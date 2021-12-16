@@ -13,12 +13,6 @@
         <th scope="col">
           <%= t("budgets.results.investment_title") %>
         </th>
-        <th scope="col" class="text-center">
-          <%= t("budgets.results.ballot_lines_count") %>
-        </th>
-        <th scope="col" class="text-center">
-          <%= t("budgets.results.execution_status") %>
-        </th>
       </tr>
     </thead>
 
@@ -47,26 +41,6 @@
                 </span>
               <% end %>
               <%= link_to investment.title, budget_investment_path(@budget, investment) %>
-            </td>
-            <td class="text-center">
-              <%= investment.ballot_lines_count %>
-            </td>
-
-            <td class="text-center">
-              <% case investment.execution_status %>
-              <% when "0" %>
-                <span><%= t('admin.budget_investments.edit.execution_status_0') %></span>
-              <% when "10" %>
-                <span><%= t('admin.budget_investments.edit.execution_status_1') %></span>
-              <% when "25" %>
-                <span><%= t('admin.budget_investments.edit.execution_status_2') %></span>
-              <% when "50" %>
-                <span><%= t('admin.budget_investments.edit.execution_status_3') %></span>
-              <% when "75" %>
-                <span><%= t('admin.budget_investments.edit.execution_status_4') %></span>
-              <% when "100" %>
-                <span><%= t('admin.budget_investments.edit.execution_status_5') %></span>
-              <% end %>
             </td>
         </tr>
       <% end %>
