@@ -82,6 +82,14 @@ es:
         summary: Resumen
       organization:
         name: "Nombre de la asociación"
+      poll:
+        name: "Nombre"
+        title: "Nombre"
+        starts_at: "Fecha de apertura"
+        ends_at: "Fecha de cierre"
+        geozone_restricted: "Restringida por zonas"
+        summary: "Resumen"
+        description: "Descripción"
     errors:
       models:
         budget/ballot/line:

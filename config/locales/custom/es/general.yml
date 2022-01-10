@@ -91,6 +91,15 @@ es:
         help_text_1: ""
         help_text_2: "Para participar en la próxima votación tienes que registrarte en %{org} y verificar tu cuenta. Pueden votar todas las personas empadronadas en la ciudad mayores de 16 años."
       no_polls: "No hay votaciones abiertas. Si lo que desea es votar las propuestas de presupuestos participativos, tiene que acceder al apartado de 'Presupuestos Participativos'"
+    new:
+      method:
+        title: "Método de votación"
+        options:
+          simple: "Simple"
+          score: "Sistema de puntuación"
+          multiple: "Respuesta múltiple"
+      max_score: "Puntuación Máxima"
+      max_answers: "Respuestas Permitidas"
   locale: Castellano
   debates:
     show:

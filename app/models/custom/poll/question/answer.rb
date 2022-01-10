@@ -27,8 +27,11 @@ class Poll::Question::Answer < ApplicationRecord
   def total_votes
     result = 0
     for locale in I18n.available_locales do
-      I18n.with_locale(locale) do
-        result += Poll::Answer.where(question_id: question, answer: title).count + ::Poll::PartialResult.where(question: question).where(answer: title).sum(:amount)
+      translated = self.translated_locales.include?(locale)
+      if translated
+        I18n.with_locale(locale) do
+          result += Poll::Answer.where(question_id: question, answer: title).count + ::Poll::PartialResult.where(question: question).where(answer: title).sum(:amount)
+        end
       end
     end
     result

@@ -567,6 +567,15 @@ ca:
       results:
         title: "Preguntes"
         most_voted_answer: "Resposta més votada: "
+    new:
+      method:
+        title: "Mètode de votació"
+        options:
+          simple: "Simple"
+          score: "Sistema de puntuació"
+          multiple: "Resposta múltiple"
+      max_score: "Puntuació Màxima"
+      max_answers: "Respostes Permeses"
   poll_questions:
     create_question: Crear pregunta
     show:
