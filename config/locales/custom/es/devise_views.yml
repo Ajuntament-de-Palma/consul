@@ -13,6 +13,7 @@ es:
     users:
       registrations:
         new:
+          help: Si en este proceso tiene alguna dificultad que impida su registro como usuario, nos lo puede comunicar en el correo <a href='mailto:tufaspalma@palma.cat'>tufaspalma@palma.cat</a> Si el problema consiste en que no recibe el correo de confirmación, revise la bandeja de correo spam o no deseado.
           organization_signup: "¿Representas a una asociación / colectivo? %{signup_link}"
           assistance: "Si tiene alguna dificultad en el proceso de registro, nos la puede comunicar al correo <a href='mailto:tufaspalma@palma.cat'>tufaspalma@palma.cat</a> para que podamos ayudarle."
           help_info: ¿Tienes problemas para acceder? Consulta la siguiente información

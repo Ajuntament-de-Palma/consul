@@ -124,6 +124,7 @@ ca:
           username_is_not_available: Nom d'usuari ja existent
           username_label: Nom d'usuari
           username_note: Nom que apareixerà en les teves publicacions
+          help: Si en aquest procés teniu alguna dificultat que impedeixi el vostre registre com a usuari, ens ho podeu comunicar al correu <a href='mailto:tufaspalma@palma.cat'>tufaspalma@palma.cat</a> Si el problema consisteix en que no rebeu el correu de confirmació, revisau la palangana de correu spam o no desitjat.
         success:
           back_to_index: Entès, tornar a la pàgina principal
           instructions_1_html: "<b>Revisa el correu electrònic</b>. T'hi hem enviat un <b>enllaç per confirmar-ne el compte</b>"
