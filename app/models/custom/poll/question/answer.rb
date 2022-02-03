@@ -27,7 +27,7 @@ class Poll::Question::Answer < ApplicationRecord
   def total_votes
     result = 0
     locales = available_locales
-    titles = locales.map { |lang| question_answer.send("title_#{lang}") }
+    titles = locales.map { |lang| self.send("title_#{lang}") }
     result = Poll::Answer.where(question_id: question, answer: titles).count + ::Poll::PartialResult.where(question: question).where(answer: titles).sum(:amount)
     result
   end
