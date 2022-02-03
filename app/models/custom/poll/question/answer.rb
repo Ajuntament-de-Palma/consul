@@ -26,12 +26,9 @@ class Poll::Question::Answer < ApplicationRecord
 
   def total_votes
     result = 0
-    Globalize.fallbacks = {:ca => [:ca], :es => [:es]}
-    for locale in I18n.available_locales do
-      if title_translations[locale]
-        result += Poll::Answer.where(question_id: question, answer: title_translations[locale]).count + ::Poll::PartialResult.where(question: question).where(answer: title_translations[locale]).sum(:amount)
-      end
-    end
+    locales = available_locales
+    titles = locales.map { |lang| question_answer.send("title_#{lang}") }
+    result = Poll::Answer.where(question_id: question, answer: titles).count + ::Poll::PartialResult.where(question: question).where(answer: titles).sum(:amount)
     result
   end
 
