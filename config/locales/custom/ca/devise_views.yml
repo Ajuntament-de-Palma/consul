@@ -105,6 +105,7 @@ ca:
           update_submit: Actualitza
           waiting_for: "S'està esperant confirmació de:"
         new:
+          reminder: Recordau que, per poder votar, heu d'estar empadronats a Palma.
           cancel: Cancel·lar login
           email_label: Adreça electrònica
           organization_signup: Representes una associació o col·lectiu? %{signup_link}

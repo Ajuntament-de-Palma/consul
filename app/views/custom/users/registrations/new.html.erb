@@ -3,6 +3,8 @@
 
 <p><%= sanitize(t("devise_views.users.registrations.new.help")) %></p>
 
+<p><%= sanitize(t("devise_views.users.registrations.new.reminder")) %></p>
+
 <%= render "devise/omniauth_form", action: "sign_up" %>
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
