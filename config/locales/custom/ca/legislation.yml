@@ -86,23 +86,30 @@ ca:
           icon_alt: Icona de Processos normatius
           title: Processos normatius
           help: Ajuda sobre processos normatius
-          info_2018_text: "Pla Normatiu de l’Ajuntament de Palma 2018"
+          info_2018_text: "Pla Normatiu de l'Ajuntament de Palma 2018"
           info_2018_url: "/BOIB%20Anunci%20acord%20d'aprovacio%20del%20Pla%20Normatiu%20Aj.%20Pama.pdf"
           info_pla_normatiu_text: "Modificació del Pla Normatiu 2018"
           info_pla_normatiu_url: "/Acord%20modificacio%20num%201%20Pla%20Normatiu.pdf"
-          info_2020_text: "Pla Normatiu de l’Ajuntament de Palma 2020"
+          info_2020_text: "Pla Normatiu de l'Ajuntament de Palma 2020"
+          info_2020_date: ", publicat al portal Tufaspalma el 7 de juliol de 2020."
           info_2020_url: "/Pla%20Normatiu%20Municipal%202020.pdf"
           update_2020_1_text: "Moficiació núm. 1 Pla Normatiu municipal 2020"
+          update_2020_1_date: ", publicat al portal Tufaspalma el 16 de juliol de 2020."
           update_2020_1_url: "/Modificaci%C3%B3%20num%20%201%20Pla%20Normatiu%20municipal%202020.pdf"
           info_2021_text: Pla Normatiu Municipal 2021
+          info_2021_date: ", publicat al portal Tufaspalma el 16 de juny de 2021."
           info_2021_url: "/Pla Normatiu Municipal 2021.pdf"
           update_2021_text: "Modificació 1 Pla Normatiu municipal 2021"
+          update_2021_date: ", publicat al portal Tufaspalma el 16 de juny de 2021."
           update_2021_url: "/Modificació 1 Pla Normatiu municipal 2021.pdf"
           update_2021_2_text: "Modificació 2 Pla Normatiu municipal 2021"
+          update_2021_2_date: ", publicat al portal Tufaspalma el 13 de setembre de 2021."
           update_2021_2_url: "/Modificacio núm. 2 Pla Normatiu Municipal 2021.pdf"
           update_2021_3_text: "Modificació 3 Pla Normatiu municipal 2021"
+          update_2021_3_date: ", publicat al portal Tufaspalma el 16 de novembre de 2022."
           update_2021_3_url: "/Modificacio núm. 3 Pla Normatiu Municipal 2021.pdf"
           info_plan_2022_text: "Pla Normatiu de l'Ajuntament de Palma 2022"
+          info_plan_2022_date: ", publicat al portal Tufaspalma el 19 de abril de 2022."
           info_plan_2022_url: "/Pla Normatiu de l'Ajuntament de Palma 2022.pdf"
         section_footer:
           title: Ajuda sobre processos normatius
