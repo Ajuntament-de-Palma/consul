@@ -264,6 +264,7 @@ ca:
         execution_status_3: "En licitació"
         execution_status_4: "En execució"
         execution_status_5: "Finalitzat"
+        execution_status_-1: "Actuació cancel·lada per procediment judicial"
         classification: Classificació
         user_tags: Etiquetes assignades per l'usuari
         compatibility: Compatibilitat

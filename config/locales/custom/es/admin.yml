@@ -106,6 +106,7 @@ es:
         execution_status_3: "En licitación"
         execution_status_4: "En ejecución"
         execution_status_5: "Finalizado"
+        execution_status_-1: "Actuación cancelada por procedimiento judicial"
       index:
         total_supports: "Número total de apoyos: "
         total_supporters: "Número de usuarios que han dado apoyo: "

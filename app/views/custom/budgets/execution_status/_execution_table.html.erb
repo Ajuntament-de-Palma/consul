@@ -48,17 +48,28 @@
                 <span><%= t('admin.budget_investments.edit.execution_status_4') %></span>
               <% when "100" %>
                 <span><%= t('admin.budget_investments.edit.execution_status_5') %></span>
+              <% when "-1" %>
+                <span><%= t('admin.budget_investments.edit.execution_status_-1') %></span>
               <% end %>
             </td>
             <td style="width: 17%;">
 
               <div style="width: 100%;  text-align: center; position: relative;">
+              <% if investment.execution_status == "-1" %>
+                  <div style="width: 100%; position: absolute;">
+                    <span>0%</span>
+                  </div>
+                  <div style="width: 0%; background-color: #2dd00b;">
+                    &nbsp;
+                  </div>
+                <% else %>
                 <div style="width: 100%; position: absolute;">
-                  <span><%= investment.execution_status %>%</span>
-                </div>
+                    <span><%= investment.execution_status %>%</span>
+                  </div>
                 <div style="width: <%= investment.execution_status %>%; background-color: #2dd00b;">
                   &nbsp;
                 </div>
+                <% end %>
               </div>
             </td>
         </tr>
