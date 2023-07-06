@@ -234,17 +234,18 @@ ca:
       copyright: Tu Fas Palma, %{year}
       description: Aquest portal usa la %{consul} que és %{open_source}.
       faq: Assistència tècnica
-      open_data_text: Totes les dades de l'Ajuntament són teves.
-      open_data_title: Dades obertes
-      open_data_url: "https://www.palma.cat/portal/PALMA/contenedor1.jsp?seccion=s_fdes_d4_v1.jsp&codbusqueda=1728&layout=&codAdirecto=1037&codMenuPN=1812&codMenu=1574&language=ca"
       open_source: programari lliure
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
-      participation_text: Decideix com ha de ser la ciutat que vols.
-      participation_title: Participació
       privacy: Política de privadesa
-      transparency_text: Obtingues qualsevol informació sobre la ciutat.
+      participation_title: Participació
+      participation_link: https://participacio.palma.cat/
+      participation_text: Decideix com ha de ser la ciutat que vols.
       transparency_title: Transparència
-      transparency_url: "/participation"
+      transparency_link: https://www.palma.cat/portal-de-transparencia
+      transparency_text: Obtingues qualsevol informació sobre la ciutat.
+      open_data_title: Dades obertes
+      open_data_link: https://www.palma.cat/informacio-comptable-i-pressupostaria
+      open_data_text: Totes les dades de l'Ajuntament són teves.
       contact: Contacta'ns
       contact_text: "Telèfon: <a href='tel:+34971225900'>971 22 59 00</a> <br> Correu: \n <a href='mailto:tufaspalma@palma.cat'>tufaspalma@palma.cat</a>"
       help: FAQ

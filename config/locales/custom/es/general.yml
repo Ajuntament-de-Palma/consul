@@ -51,12 +51,15 @@ es:
       help_url: /help/faq
       open_source: software de código abierto
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
-      participation_text: Decide cómo debe ser la ciudad que quieres.
       participation_title: Participación
-      transparency_text: Obtén cualquier información sobre la ciudad.
+      participation_link: https://participacio.palma.cat/es
+      participation_text: Decide cómo debe ser la ciudad que quieres.
       transparency_title: Transparencia
-      open_data_text: Todos los datos del Ayuntamiento son tuyos.
+      transparency_link: https://www.palma.cat/es/portal-de-transparencia
+      transparency_text: Obtén cualquier información sobre la ciudad.
       open_data_title: Datos Abiertos
+      open_data_link: https://www.palma.cat/es/web/ayto/informacion-contable-y-presupuestaria
+      open_data_text: Todos los datos del Ayuntamiento son tuyos.
       privacy: Política de privacidad
       copyright: Tu Fas Palma, %{year}
       contact: Contáctanos
